@@ -1,7 +1,17 @@
-# Notice
+MYRIAD
+Copyright 2026 Srihari Muralikrishnan and Kalaris Labs
 
-MYRIAD is a computational task taxonomy and agent-routing resource. References to scientific methods, assays, standards, guidance, or regulatory frameworks are contextual and must be verified against current primary sources and locally controlled procedures before use.
+MYRIAD is a 10,000-node biotechnology agent skill graph created by
+Srihari Muralikrishnan for Kalaris Labs, with AI systems architecture,
+synthesis, normalization, validation tooling, documentation, and release
+engineering support from ChatGPT by OpenAI.
 
-No node constitutes medical advice, a validated laboratory protocol, a manufacturing authorization, a lot-release decision, a regulatory opinion, or a biosafety approval.
+Project repository:
+https://github.com/KalarisLabs/myriad
 
-ChatGPT and OpenAI are trademarks of their respective owner. Their mention identifies the credited AI system used during development and does not imply endorsement of Kalaris Labs or MYRIAD by OpenAI.
+Software portions are licensed under the Apache License, Version 2.0.
+Task-graph, data, and documentation portions are licensed under the Creative
+Commons Attribution 4.0 International license.
+
+Redistributions must preserve the applicable copyright, license, attribution,
+and NOTICE information as required by those licenses.

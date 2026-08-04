@@ -2,8 +2,8 @@ cff-version: 1.2.0
 title: "MYRIAD: 10,000-Node Biotech Agent Skill Graph"
 message: "Please cite this software and data release if it supports your work."
 type: software
-version: "1.0.0"
-date-released: "2026-08-04"
+version: 1.0.2
+date-released: '2026-08-04'
 authors:
   - family-names: "Muralikrishnan"
     given-names: "Srihari"

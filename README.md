@@ -11,7 +11,7 @@
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D18-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
 [![CI](https://github.com/KalarisLabs/myriad/actions/workflows/ci.yml/badge.svg)](https://github.com/KalarisLabs/myriad/actions/workflows/ci.yml)
 [![GitHub](https://img.shields.io/badge/GitHub-KalarisLabs%2Fmyriad-181717?logo=github)](https://github.com/KalarisLabs/myriad)
-[![License](https://img.shields.io/badge/license-UNLICENSED-6B7280)](#license)
+[![License](https://img.shields.io/badge/license-Apache--2.0%20%2B%20CC%20BY%204.0-2563EB)](#license)
 
 **Built by Srihari Muralikrishnan with ChatGPT for Kalaris Labs**
 
@@ -26,7 +26,7 @@ npx kalaris-myriad stats
 ```
 
 ```text
-MYRIAD 1.0.1
+MYRIAD 1.0.2
 100 domains / 1,000 workstreams / 10,000 tasks / 10 batches
 Maturity: taxonomy-defined; full seed skills: 3
 ```
@@ -374,7 +374,7 @@ Citation metadata is available in [`CITATION.cff`](CITATION.cff).
 
 Suggested acknowledgement:
 
-> Srihari Muralikrishnan and Kalaris Labs. MYRIAD: A 10,000-Node Biotech Agent Skill Graph. Version 1.0.1, 2026. AI systems architecture and release engineering supported by ChatGPT, OpenAI.
+> Srihari Muralikrishnan and Kalaris Labs. MYRIAD: A 10,000-Node Biotech Agent Skill Graph. Version 1.0.2, 2026. AI systems architecture and release engineering supported by ChatGPT, OpenAI.
 
 ---
 
@@ -390,10 +390,19 @@ See [`AUTHORS.md`](AUTHORS.md) and [`CREDITS.md`](CREDITS.md).
 
 ## License
 
-This release is currently **UNLICENSED**.
+MYRIAD uses a split, attribution-preserving license:
 
-No permission to use, copy, modify, publish, or redistribute the repository is granted except through a separate written license from Kalaris Labs. Choose an explicit open-source or source-available license before inviting unrestricted public reuse.
+- **Software and executable tooling:** [Apache License 2.0](LICENSE-APACHE-2.0.txt)
+- **Task graph, datasets, and documentation:** [CC BY 4.0](LICENSE-CC-BY-4.0.txt)
 
+Public use, modification, redistribution, and commercial use are allowed under
+the applicable license. Preserve the required notices and credit:
+
+> MYRIAD by Srihari Muralikrishnan and Kalaris Labs.  
+> https://github.com/KalarisLabs/myriad
+
+See [`LICENSE.md`](LICENSE.md) for the file-by-file scope and attribution
+requirements.
 ---
 
 <div align="center">
