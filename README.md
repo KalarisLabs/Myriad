@@ -1,68 +1,163 @@
-﻿<div align="center">
+<div align="center">
 
 # MYRIAD
 
-### 10,000-Node Biotech Agent Skill Graph
+### A 10,000-node biotech agent skill graph
 
-**100 biotech domains Â· 1,000 workstreams Â· 10,000 atomic task nodes**
+**100 domains / 1,000 workstreams / 10,000 atomic task nodes**
 
-Built by **Srihari Muralikrishnan** with **ChatGPT** for **Kalaris Labs**
+[![npm version](https://img.shields.io/npm/v/kalaris-myriad?label=npm&color=CB3837)](https://www.npmjs.com/package/kalaris-myriad)
+[![npm downloads](https://img.shields.io/npm/dm/kalaris-myriad?label=downloads&color=0B63F6)](https://www.npmjs.com/package/kalaris-myriad)
+[![Node.js](https://img.shields.io/badge/Node.js-%3E%3D18-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![CI](https://github.com/KalarisLabs/myriad/actions/workflows/ci.yml/badge.svg)](https://github.com/KalarisLabs/myriad/actions/workflows/ci.yml)
+[![GitHub](https://img.shields.io/badge/GitHub-KalarisLabs%2Fmyriad-181717?logo=github)](https://github.com/KalarisLabs/myriad)
+[![License](https://img.shields.io/badge/license-UNLICENSED-6B7280)](#license)
 
-[![Version](https://img.shields.io/badge/version-1.0.0-19c6b3)](https://github.com/KalarisLabs/myriad/releases)
-[![Nodes](https://img.shields.io/badge/agent%20nodes-10%2C000-19c6b3)](#repository-coverage)
-[![Domains](https://img.shields.io/badge/biotech%20domains-100-19c6b3)](#repository-coverage)
-[![Node.js](https://img.shields.io/badge/node-%3E%3D18-43853d)](https://nodejs.org/)
-[![License](https://img.shields.io/badge/license-UNLICENSED-lightgrey)](#license)
+**Built by Srihari Muralikrishnan with ChatGPT for Kalaris Labs**
 
 </div>
 
 ---
 
-## What is MYRIAD?
-
-MYRIAD is a release-engineered, machine-readable taxonomy of **10,000 atomic biotechnology and pharmaceutical agent tasks** across **100 domains**.
-
-It is designed for:
-
-- agent routing and task discovery;
-- retrieval-augmented planning;
-- scientific workflow decomposition;
-- agent evaluation and benchmarking;
-- conversion of validated task nodes into production `SKILL.md` implementations.
-
-> **Scientific status:** MYRIAD contains 10,000 machine-validated taxonomy records and three complete seed `SKILL.md` examples. It does **not** claim that all 10,000 nodes are experimentally, clinically, or regulatorily validated procedures. Operational use requires current primary-source resolution, context-specific validation, and qualified human review.
-
-## Repository coverage
-
-MYRIAD spans the biotechnology lifecycle from foundational research to regulated delivery:
-
-- genomics, pangenomics, variant interpretation, and population genetics;
-- transcriptomics, single-cell, spatial, epigenomic, proteomic, and metabolomic analysis;
-- structural biology, molecular simulation, and protein engineering;
-- target discovery, virtual screening, medicinal chemistry, DMPK, PKâ€“PD, and toxicology;
-- CRISPR, gene therapy, RNA therapeutics, antibodies, vaccines, and cell therapies;
-- upstream and downstream bioprocessing, PAT, QbD, formulation, and comparability;
-- microbial, synthetic, agricultural, and environmental biotechnology;
-- clinical trials, real-world evidence, pharmacovigilance, GxP, FAIR data, knowledge graphs, and AI governance.
-
-| Metric | Count |
-|---|---:|
-| Domains | 100 |
-| Batches | 10 |
-| Workstreams | 1,000 |
-| Atomic task nodes | 10,000 |
-| Individual node Markdown files | 10,000 |
-| Complete seed skills | 3 |
-
-## Quick start
-
-### Run directly with NPX
+## Try it in 10 seconds
 
 ```bash
 npx kalaris-myriad stats
-npx kalaris-myriad list domains
-npx kalaris-myriad search "variant-aware off-target" --limit 10
-npx kalaris-myriad show MYR-D051-T001
+```
+
+```text
+MYRIAD 1.0.1
+100 domains / 1,000 workstreams / 10,000 tasks / 10 batches
+Maturity: taxonomy-defined; full seed skills: 3
+```
+
+Search the graph:
+
+```bash
+npx kalaris-myriad search "variant-aware off-target" --limit 5
+```
+
+Inspect a node:
+
+```bash
+npx kalaris-myriad show MYR-D051-T041
+```
+
+Export a domain:
+
+```bash
+npx kalaris-myriad export \
+  --domain 21 \
+  --format md \
+  --output protein-structure-prediction.md
+```
+
+---
+
+## What MYRIAD is
+
+MYRIAD is a release-engineered, machine-readable map of work across biotechnology and pharmaceutical development.
+
+It turns broad fields such as genome assembly, protein engineering, drug discovery, bioprocessing, clinical development, and regulatory science into bounded, searchable agent tasks.
+
+Each task node provides a stable routing surface for:
+
+- agent discovery and delegation;
+- retrieval-augmented planning;
+- workflow decomposition;
+- evaluation and benchmarking;
+- conversion into complete production `SKILL.md` implementations.
+
+### What MYRIAD is not
+
+MYRIAD is not a collection of 10,000 experimentally validated wet-lab protocols.
+
+The graph currently contains:
+
+| Maturity level | Count | Meaning |
+|---|---:|---|
+| Taxonomy-defined nodes | 10,000 | Bounded tasks with routing metadata, objectives, provenance expectations, review boundaries, and completion evidence |
+| Implemented seed skills | 3 | Complete procedural `SKILL.md` examples with schemas, tool contracts, validation logic, and examples |
+
+Operational use still requires current primary sources, validated local procedures, appropriate authorization, and qualified human review.
+
+---
+
+## The graph at a glance
+
+```text
+100 domains
+  x 10 workstreams per domain
+  x 10 atomic tasks per workstream
+  = 10,000 task nodes
+```
+
+| Layer | Count |
+|---|---:|
+| Biotech and pharmaceutical domains | 100 |
+| Standardized batches | 10 |
+| Workstreams | 1,000 |
+| Atomic task nodes | 10,000 |
+| Individual node Markdown files | 10,000 |
+| Complete seed `SKILL.md` implementations | 3 |
+
+---
+
+## Coverage
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Molecular and omics
+
+- Genome assembly and pangenomics
+- Germline, somatic, and structural variation
+- Population and rare-disease genomics
+- Bulk, single-cell, and spatial transcriptomics
+- Epigenomics and multi-omics
+- Proteomics, PTM analysis, and metabolomics
+
+### Structure and discovery
+
+- Protein structure prediction
+- Cryo-EM, crystallography, and NMR
+- Molecular dynamics and QM/MM
+- Protein and antibody engineering
+- Target identification and validation
+- Virtual screening, docking, QSAR, and free energy
+
+</td>
+<td width="50%" valign="top">
+
+### Therapeutics and development
+
+- Medicinal chemistry, ADME, DMPK, and PK-PD
+- Predictive toxicology and biomarkers
+- CRISPR, base editing, and prime editing
+- Gene therapy, RNA therapeutics, and delivery
+- Antibodies, ADCs, degraders, vaccines, and cell therapy
+
+### Manufacturing and translation
+
+- Cell-line and upstream process development
+- Bioreactor control, PAT, QbD, and purification
+- Formulation, stability, and comparability
+- Microbial, synthetic, agricultural, and environmental biotech
+- Clinical trials, RWE, pharmacovigilance, GxP, FAIR data, and AI governance
+
+</td>
+</tr>
+</table>
+
+---
+
+## Use MYRIAD
+
+### Run without installing
+
+```bash
+npx kalaris-myriad <command>
 ```
 
 ### Install globally
@@ -72,194 +167,243 @@ npm install --global kalaris-myriad
 kalaris-myriad stats
 ```
 
-### Use the repository locally
+### Clone for local development
 
 ```bash
 git clone https://github.com/KalarisLabs/myriad.git
 cd myriad
-npm install
+npm ci
 npm test
-node bin/kalaris-myriad.js stats
+npm run validate
 ```
 
-## CLI
+---
 
-```text
-kalaris-myriad stats [--json]
-kalaris-myriad list domains [--json]
-kalaris-myriad list tasks [--domain <1-100>] [--limit <n>] [--json]
-kalaris-myriad search <query> [--domain <1-100>] [--limit <n>] [--json]
-kalaris-myriad show <task-id-or-routing-name> [--json]
-kalaris-myriad export --format <jsonl|json|md> --output <path> [--domain <1-100>]
-kalaris-myriad validate [--json]
-kalaris-myriad init [directory] [--domain <1-100>]
-```
+## CLI reference
 
-## Examples
+| Command | Purpose |
+|---|---|
+| `kalaris-myriad stats [--json]` | Show release counts and maturity |
+| `kalaris-myriad list domains [--json]` | List all 100 domains |
+| `kalaris-myriad list tasks [--domain N] [--limit N]` | Browse task nodes |
+| `kalaris-myriad search <query> [--domain N] [--limit N]` | Search titles, objectives, and routing names |
+| `kalaris-myriad show <id-or-name> [--json]` | Inspect one task node |
+| `kalaris-myriad export --format <jsonl\|json\|md> --output <path>` | Export all or part of the graph |
+| `kalaris-myriad validate [--json]` | Validate the installed release |
+| `kalaris-myriad init [directory] [--domain N]` | Initialize a working subset |
 
-Search within one domain:
+<details>
+<summary><strong>More command examples</strong></summary>
+
+Search only the bioreactor domain:
 
 ```bash
 npx kalaris-myriad search "residence-time distribution" --domain 78
 ```
 
-Inspect a node as JSON:
+Return machine-readable output:
 
 ```bash
 npx kalaris-myriad show MYR-D078-T001 --json
 ```
 
-Export a complete domain:
+Export one domain to JSONL:
 
 ```bash
 npx kalaris-myriad export \
-  --domain 21 \
-  --format md \
-  --output protein-structure-prediction.md
+  --domain 51 \
+  --format jsonl \
+  --output crispr-guide-design.jsonl
 ```
 
-Validate the installed release:
+Validate a globally installed release:
 
 ```bash
-npx kalaris-myriad validate
+kalaris-myriad validate --json
 ```
 
-## Repository structure
+</details>
+
+---
+
+## One graph, three representations
+
+MYRIAD preserves three layers deliberately:
+
+| Layer | Purpose |
+|---|---|
+| `data/raw/` | Original source records from the ten taxonomy batches |
+| `data/canonical/` | Homogenized records with consistent routing, provenance, uncertainty, safety, and review contracts |
+| `dist/sanitized/` | Public-facing distribution without internal build history or legacy release artifacts |
+
+Earlier nodes were not padded with invented scientific detail merely to make every batch look equally verbose. Source meaning is preserved, while the canonical layer normalizes operational boundaries.
+
+---
+
+## Repository map
 
 ```text
 .
-â”œâ”€â”€ bin/                         # Dependency-free CLI
-â”œâ”€â”€ data/
-â”‚   â”œâ”€â”€ raw/                     # Preserved source records
-â”‚   â””â”€â”€ canonical/               # Homogenized canonical graph
-â”œâ”€â”€ dist/sanitized/              # Public-facing sanitized dataset
-â”œâ”€â”€ docs/                        # Architecture, safety and publishing docs
-â”œâ”€â”€ marketing/                   # Posters and launch copy
-â”œâ”€â”€ myriad/
-â”‚   â”œâ”€â”€ batches/                 # Ten standardized batches
-â”‚   â””â”€â”€ domains/                 # 100 domains and 10,000 node MD files
-â”œâ”€â”€ schemas/                     # JSON Schema contracts
-â”œâ”€â”€ scripts/                     # Release validators
-â”œâ”€â”€ skills/                      # Three complete seed SKILL.md files
-â”œâ”€â”€ tests/                       # Deterministic test suite
-â”œâ”€â”€ AUTHORS.md
-â”œâ”€â”€ CITATION.cff
-â”œâ”€â”€ CREDITS.md
-â”œâ”€â”€ LICENSE.md
-â”œâ”€â”€ NOTICE.md
-â”œâ”€â”€ SECURITY.md
-â””â”€â”€ package.json
+|-- bin/                 Dependency-free command-line interface
+|-- data/
+|   |-- raw/             Preserved source records
+|   `-- canonical/       Homogenized 10,000-node graph
+|-- dist/sanitized/      Public-facing distribution
+|-- docs/                Architecture, QA, safety, and release documentation
+|-- lib/                 CLI and data-access implementation
+|-- myriad/
+|   |-- batches/         Ten standardized batches
+|   `-- domains/         100 domains and 10,000 node Markdown files
+|-- references/          Controlled reference documentation
+|-- schemas/             JSON Schema contracts
+|-- scripts/             Release and scientific-structure validators
+|-- skills/              Complete seed SKILL.md implementations
+|-- tests/               Deterministic Node.js tests
+|-- CITATION.cff
+|-- CREDITS.md
+|-- LICENSE.md
+|-- NOTICE.md
+|-- SECURITY.md
+`-- package.json
 ```
 
-## Data layers
+---
 
-MYRIAD intentionally preserves three representations:
+## Seed skills
 
-1. **Raw** â€” the original 10,000 task records.
-2. **Canonical** â€” a homogeneous schema adding routing, provenance, uncertainty, evidence, safety, and review contracts.
-3. **Sanitized** â€” a public distribution without internal build history or legacy release artifacts.
+Three nodes have been expanded into complete reference implementations:
 
-No scientific detail is silently invented to make earlier records look more complete. The canonical layer preserves source meaning while making operational boundaries consistent.
+1. **Diploid PacBio HiFi assembly optimization**
+2. **Variant-aware CRISPR off-target scoring**
+3. **HTS normalization, plate QC, and hit calling**
 
-## Agent-skill maturity
+These demonstrate the target shape for Phase 3: strict frontmatter, input schemas, procedural stages, decision gates, provenance, failure handling, outputs, and human-review boundaries.
 
-Each task node has one of two practical maturity levels:
+---
 
-- **Taxonomy-defined:** a bounded task with routing metadata, objective, execution boundary, provenance expectations, completion evidence, and `no-call` behavior.
-- **Implemented skill:** a task with a complete production `SKILL.md`, schemas, procedural logic, tool contracts, validation, and examples.
+## Design principles
 
-The repository currently includes three complete seed skills:
+### Precise routing
 
-- diploid PacBio HiFi assembly optimization;
-- variant-aware CRISPR off-target scoring;
-- HTS normalization, plate QC, and hit calling.
+Task names communicate when a node should activate and what decision artifact it produces.
 
-Phase 3 will progressively convert additional taxonomy nodes into complete skills.
+### Progressive disclosure
 
-## Safety and limitations
+Agents can begin with the global index, narrow to a domain or workstream, and load a full node only when needed.
 
-MYRIAD is computational-advisory infrastructure. It must not autonomously:
+### Evidence before confidence
 
-- execute wet-lab procedures;
-- operate or alter bioreactor control systems;
-- prescribe treatment or determine patient care;
-- release clinical or diagnostic results;
-- disposition GMP lots;
-- make final regulatory-compliance determinations;
-- bypass institutional biosafety, biosecurity, ethics, or authorization controls.
+A score, prediction, or model output is never treated as experimental, clinical, manufacturing, or regulatory proof.
 
-A task node is not a substitute for validated procedures, current primary literature, approved protocols, local SOPs, or qualified professional judgment.
+### Fail closed
 
-See [`docs/SAFETY_AND_LIMITATIONS.md`](docs/SAFETY_AND_LIMITATIONS.md).
+Nodes support explicit `pass`, `warning`, `fail`, and `no-call` outcomes rather than forcing unsupported conclusions.
+
+### Human authority remains explicit
+
+The graph does not authorize autonomous wet-lab execution, clinical decisions, GMP disposition, regulatory determinations, or safety overrides.
+
+---
 
 ## Validation
 
-The v1.0.0 release was checked for:
+The release validator checks:
 
-- exact 100-domain and 10,000-node counts;
-- unique IDs, routing names, titles, and objectives;
-- valid JSONL and Markdown frontmatter;
-- exact per-domain and per-workstream structure;
+- exactly 100 domains and 10,000 task nodes;
+- exactly 100 tasks per domain;
+- globally unique IDs, routing names, titles, and objectives;
+- valid JSONL and node Markdown frontmatter;
+- required execution boundaries and completion evidence;
 - placeholder and near-duplicate detection;
 - schema compliance;
 - deterministic CLI behavior;
-- npm tarball installation;
-- ZIP and checksum integrity.
+- npm package contents.
 
-Run validation locally:
+Run everything locally:
 
 ```bash
+npm ci
 npm test
 npm run validate
 npm run pack:check
 ```
 
-## Contributing
+See [`docs/QUALITY_ASSURANCE_REPORT.md`](docs/QUALITY_ASSURANCE_REPORT.md) for the readable release summary.
 
-Contributions are welcome in the form of:
+---
 
-- task-specific `SKILL.md` implementations;
-- stronger primary-source mappings;
-- reproducible validators and evaluation fixtures;
-- corrections to scientific scope or terminology;
-- improvements to agent routing and progressive disclosure.
+## Safety boundary
 
-Read [`CONTRIBUTING.md`](CONTRIBUTING.md) before opening a pull request.
+MYRIAD is computational-advisory infrastructure.
 
-Do not submit operational wet-lab instructions, unsupported clinical recommendations, proprietary data, credentials, or regulated information you are not authorized to share.
+It must not autonomously:
+
+- execute wet-lab procedures;
+- operate or alter bioreactor controls;
+- prescribe treatment or determine patient care;
+- release clinical or diagnostic results;
+- disposition GMP lots;
+- issue final regulatory-compliance determinations;
+- bypass institutional biosafety, biosecurity, ethics, privacy, or authorization controls.
+
+A node is not a substitute for current primary literature, validated protocols, local SOPs, approved lab systems, or qualified professional judgment.
+
+Read [`docs/SAFETY_AND_LIMITATIONS.md`](docs/SAFETY_AND_LIMITATIONS.md).
+
+---
+
+## Build with MYRIAD
+
+Good contributions include:
+
+- implementing a taxonomy node as a complete `SKILL.md`;
+- improving source mappings and version resolution;
+- adding reproducible evaluation fixtures;
+- correcting scientific scope or terminology;
+- improving routing, schemas, validators, or documentation.
+
+Please read [`CONTRIBUTING.md`](CONTRIBUTING.md) before opening a pull request.
+
+Do not submit credentials, proprietary datasets, controlled information, unsupported clinical recommendations, or operational procedures you are not authorized to disclose.
+
+---
 
 ## Citation
 
-Citation metadata is provided in [`CITATION.cff`](CITATION.cff).
+Citation metadata is available in [`CITATION.cff`](CITATION.cff).
 
 Suggested acknowledgement:
 
-> Srihari Muralikrishnan and Kalaris Labs, *MYRIAD: 10,000-Node Biotech Agent Skill Graph*, version 1.0.0, 2026. AI systems architecture and release engineering supported by ChatGPT, OpenAI.
+> Srihari Muralikrishnan and Kalaris Labs. MYRIAD: A 10,000-Node Biotech Agent Skill Graph. Version 1.0.1, 2026. AI systems architecture and release engineering supported by ChatGPT, OpenAI.
+
+---
 
 ## Credits
 
-- **Srihari Muralikrishnan** â€” creator, project lead, systems architect, and co-founder of Kalaris Labs.
-- **ChatGPT â€” GPT-5.6 Thinking by OpenAI** â€” AI systems architecture, synthesis, normalization, validation tooling, documentation, and release engineering.
-- **Kalaris Labs** â€” project home, organizational direction, and release stewardship.
+- **Srihari Muralikrishnan** - creator, project lead, systems architect, and co-founder of Kalaris Labs.
+- **ChatGPT - GPT-5.6 Thinking by OpenAI** - AI systems architecture, synthesis, normalization, validation tooling, documentation, and release engineering.
+- **Kalaris Labs** - project home, organizational direction, and release stewardship.
 
-See [`CREDITS.md`](CREDITS.md) and [`AUTHORS.md`](AUTHORS.md).
+See [`AUTHORS.md`](AUTHORS.md) and [`CREDITS.md`](CREDITS.md).
 
-## Security
-
-Please report security, biosecurity, privacy, or integrity concerns according to [`SECURITY.md`](SECURITY.md). Do not disclose sensitive vulnerabilities or controlled biological information in public issues.
+---
 
 ## License
 
-This v1.0.0 release is currently marked **UNLICENSED**. No permission to use, copy, modify, publish, or redistribute the repository is granted except through a separate written license from Kalaris Labs.
+This release is currently **UNLICENSED**.
 
-Choose and apply an explicit open-source or source-available license before inviting unrestricted public reuse.
+No permission to use, copy, modify, publish, or redistribute the repository is granted except through a separate written license from Kalaris Labs. Choose an explicit open-source or source-available license before inviting unrestricted public reuse.
 
 ---
 
 <div align="center">
 
-**MYRIAD â€” structured biotech work for agentic systems**
+### Search the graph. Inspect the node. Build the skill.
 
-Kalaris Labs Â· Srihari Muralikrishnan Â· ChatGPT
+```bash
+npx kalaris-myriad search "your biotech problem"
+```
+
+**Kalaris Labs / Srihari Muralikrishnan / ChatGPT**
 
 </div>
