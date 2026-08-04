@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kalaris.example/schemas/skill-frontmatter.schema.json",
+  "title": "Kalaris SKILL.md Frontmatter",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["name", "version", "description", "parameters"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)$"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 80
+    },
+    "parameters": {
+      "type": "object",
+      "required": ["type", "additionalProperties", "required", "properties"],
+      "properties": {
+        "type": {"const": "object"},
+        "additionalProperties": {"const": false},
+        "required": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "properties": {"type": "object"}
+      }
+    }
+  }
+}

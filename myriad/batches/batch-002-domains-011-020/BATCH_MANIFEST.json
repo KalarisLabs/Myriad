@@ -1,0 +1,822 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 2,
+  "domain_start": 11,
+  "domain_end": 20,
+  "domain_count": 10,
+  "task_count": 1000,
+  "domains": [
+    {
+      "domain_id": 11,
+      "domain_code": "D011",
+      "name": "Bulk RNA Sequencing and Differential Expression",
+      "slug": "bulk-rna-sequencing-and-differential-expression",
+      "batch_id": 2,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Study intake and statistical design",
+          "task_count": 10,
+          "first_task_id": "MYR-D011-T001",
+          "last_task_id": "MYR-D011-T010"
+        },
+        {
+          "index": 2,
+          "name": "Raw-read quality and identity control",
+          "task_count": 10,
+          "first_task_id": "MYR-D011-T011",
+          "last_task_id": "MYR-D011-T020"
+        },
+        {
+          "index": 3,
+          "name": "Read preprocessing and contamination control",
+          "task_count": 10,
+          "first_task_id": "MYR-D011-T021",
+          "last_task_id": "MYR-D011-T030"
+        },
+        {
+          "index": 4,
+          "name": "Alignment and transcript quantification",
+          "task_count": 10,
+          "first_task_id": "MYR-D011-T031",
+          "last_task_id": "MYR-D011-T040"
+        },
+        {
+          "index": 5,
+          "name": "Expression matrix quality control",
+          "task_count": 10,
+          "first_task_id": "MYR-D011-T041",
+          "last_task_id": "MYR-D011-T050"
+        },
+        {
+          "index": 6,
+          "name": "Normalization and model construction",
+          "task_count": 10,
+          "first_task_id": "MYR-D011-T051",
+          "last_task_id": "MYR-D011-T060"
+        },
+        {
+          "index": 7,
+          "name": "Differential-expression testing",
+          "task_count": 10,
+          "first_task_id": "MYR-D011-T061",
+          "last_task_id": "MYR-D011-T070"
+        },
+        {
+          "index": 8,
+          "name": "Effect-size estimation and robustness analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D011-T071",
+          "last_task_id": "MYR-D011-T080"
+        },
+        {
+          "index": 9,
+          "name": "Biological interpretation and enrichment",
+          "task_count": 10,
+          "first_task_id": "MYR-D011-T081",
+          "last_task_id": "MYR-D011-T090"
+        },
+        {
+          "index": 10,
+          "name": "Reporting, release, and review gates",
+          "task_count": 10,
+          "first_task_id": "MYR-D011-T091",
+          "last_task_id": "MYR-D011-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 12,
+      "domain_code": "D012",
+      "name": "Alternative Splicing and Isoform Analysis",
+      "slug": "alternative-splicing-and-isoform-analysis",
+      "batch_id": 2,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Study design and isoform analysis contract",
+          "task_count": 10,
+          "first_task_id": "MYR-D012-T001",
+          "last_task_id": "MYR-D012-T010"
+        },
+        {
+          "index": 2,
+          "name": "RNA-seq input and splice-signal quality control",
+          "task_count": 10,
+          "first_task_id": "MYR-D012-T011",
+          "last_task_id": "MYR-D012-T020"
+        },
+        {
+          "index": 3,
+          "name": "Splice-aware alignment and junction catalogue construction",
+          "task_count": 10,
+          "first_task_id": "MYR-D012-T021",
+          "last_task_id": "MYR-D012-T030"
+        },
+        {
+          "index": 4,
+          "name": "Transcript assembly and isoform catalogue curation",
+          "task_count": 10,
+          "first_task_id": "MYR-D012-T031",
+          "last_task_id": "MYR-D012-T040"
+        },
+        {
+          "index": 5,
+          "name": "Isoform abundance and usage quantification",
+          "task_count": 10,
+          "first_task_id": "MYR-D012-T041",
+          "last_task_id": "MYR-D012-T050"
+        },
+        {
+          "index": 6,
+          "name": "Splicing event definition and quantification",
+          "task_count": 10,
+          "first_task_id": "MYR-D012-T051",
+          "last_task_id": "MYR-D012-T060"
+        },
+        {
+          "index": 7,
+          "name": "Differential splicing and transcript-usage testing",
+          "task_count": 10,
+          "first_task_id": "MYR-D012-T061",
+          "last_task_id": "MYR-D012-T070"
+        },
+        {
+          "index": 8,
+          "name": "Long-read and complex transcript characterization",
+          "task_count": 10,
+          "first_task_id": "MYR-D012-T071",
+          "last_task_id": "MYR-D012-T080"
+        },
+        {
+          "index": 9,
+          "name": "Validation, visualization, and robustness assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D012-T081",
+          "last_task_id": "MYR-D012-T090"
+        },
+        {
+          "index": 10,
+          "name": "Release, provenance, and review gates",
+          "task_count": 10,
+          "first_task_id": "MYR-D012-T091",
+          "last_task_id": "MYR-D012-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 13,
+      "domain_code": "D013",
+      "name": "Single-Cell Transcriptomics",
+      "slug": "single-cell-transcriptomics",
+      "batch_id": 2,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Experiment intake and assay configuration",
+          "task_count": 10,
+          "first_task_id": "MYR-D013-T001",
+          "last_task_id": "MYR-D013-T010"
+        },
+        {
+          "index": 2,
+          "name": "Demultiplexing, alignment, and molecule counting",
+          "task_count": 10,
+          "first_task_id": "MYR-D013-T011",
+          "last_task_id": "MYR-D013-T020"
+        },
+        {
+          "index": 3,
+          "name": "Cell calling, background correction, and cell quality control",
+          "task_count": 10,
+          "first_task_id": "MYR-D013-T021",
+          "last_task_id": "MYR-D013-T030"
+        },
+        {
+          "index": 4,
+          "name": "Normalization, feature selection, and latent representation",
+          "task_count": 10,
+          "first_task_id": "MYR-D013-T031",
+          "last_task_id": "MYR-D013-T040"
+        },
+        {
+          "index": 5,
+          "name": "Neighbour graphs, clustering, and cluster stability",
+          "task_count": 10,
+          "first_task_id": "MYR-D013-T041",
+          "last_task_id": "MYR-D013-T050"
+        },
+        {
+          "index": 6,
+          "name": "Cell-type and cell-state annotation",
+          "task_count": 10,
+          "first_task_id": "MYR-D013-T051",
+          "last_task_id": "MYR-D013-T060"
+        },
+        {
+          "index": 7,
+          "name": "Differential expression and population composition",
+          "task_count": 10,
+          "first_task_id": "MYR-D013-T061",
+          "last_task_id": "MYR-D013-T070"
+        },
+        {
+          "index": 8,
+          "name": "Trajectories, dynamics, and cell-cell communication",
+          "task_count": 10,
+          "first_task_id": "MYR-D013-T071",
+          "last_task_id": "MYR-D013-T080"
+        },
+        {
+          "index": 9,
+          "name": "Batch integration and multimodal reconciliation",
+          "task_count": 10,
+          "first_task_id": "MYR-D013-T081",
+          "last_task_id": "MYR-D013-T090"
+        },
+        {
+          "index": 10,
+          "name": "Release, reproducibility, and review gates",
+          "task_count": 10,
+          "first_task_id": "MYR-D013-T091",
+          "last_task_id": "MYR-D013-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 14,
+      "domain_code": "D014",
+      "name": "Spatial Transcriptomics",
+      "slug": "spatial-transcriptomics",
+      "batch_id": 2,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Study intake and spatial coordinate contract",
+          "task_count": 10,
+          "first_task_id": "MYR-D014-T001",
+          "last_task_id": "MYR-D014-T010"
+        },
+        {
+          "index": 2,
+          "name": "Image integrity, registration, and tissue detection",
+          "task_count": 10,
+          "first_task_id": "MYR-D014-T011",
+          "last_task_id": "MYR-D014-T020"
+        },
+        {
+          "index": 3,
+          "name": "Read processing and spatial feature quantification",
+          "task_count": 10,
+          "first_task_id": "MYR-D014-T021",
+          "last_task_id": "MYR-D014-T030"
+        },
+        {
+          "index": 4,
+          "name": "Spatial background and location-level quality control",
+          "task_count": 10,
+          "first_task_id": "MYR-D014-T031",
+          "last_task_id": "MYR-D014-T040"
+        },
+        {
+          "index": 5,
+          "name": "Cell and nucleus segmentation for high-resolution assays",
+          "task_count": 10,
+          "first_task_id": "MYR-D014-T041",
+          "last_task_id": "MYR-D014-T050"
+        },
+        {
+          "index": 6,
+          "name": "Normalization, embeddings, and spatial domain discovery",
+          "task_count": 10,
+          "first_task_id": "MYR-D014-T051",
+          "last_task_id": "MYR-D014-T060"
+        },
+        {
+          "index": 7,
+          "name": "Cell-type mapping and spatial deconvolution",
+          "task_count": 10,
+          "first_task_id": "MYR-D014-T061",
+          "last_task_id": "MYR-D014-T070"
+        },
+        {
+          "index": 8,
+          "name": "Spatial statistics, gradients, and differential expression",
+          "task_count": 10,
+          "first_task_id": "MYR-D014-T071",
+          "last_task_id": "MYR-D014-T080"
+        },
+        {
+          "index": 9,
+          "name": "Neighbourhoods, interactions, and tissue architecture",
+          "task_count": 10,
+          "first_task_id": "MYR-D014-T081",
+          "last_task_id": "MYR-D014-T090"
+        },
+        {
+          "index": 10,
+          "name": "Release, provenance, and review gates",
+          "task_count": 10,
+          "first_task_id": "MYR-D014-T091",
+          "last_task_id": "MYR-D014-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 15,
+      "domain_code": "D015",
+      "name": "Epigenomic Profiling",
+      "slug": "epigenomic-profiling",
+      "batch_id": 2,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Assay intake and epigenomic design",
+          "task_count": 10,
+          "first_task_id": "MYR-D015-T001",
+          "last_task_id": "MYR-D015-T010"
+        },
+        {
+          "index": 2,
+          "name": "Raw-read and library quality control",
+          "task_count": 10,
+          "first_task_id": "MYR-D015-T011",
+          "last_task_id": "MYR-D015-T020"
+        },
+        {
+          "index": 3,
+          "name": "Alignment, filtering, and fragment processing",
+          "task_count": 10,
+          "first_task_id": "MYR-D015-T021",
+          "last_task_id": "MYR-D015-T030"
+        },
+        {
+          "index": 4,
+          "name": "Accessibility and chromatin-enrichment quality assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D015-T031",
+          "last_task_id": "MYR-D015-T040"
+        },
+        {
+          "index": 5,
+          "name": "DNA methylation data processing and quality control",
+          "task_count": 10,
+          "first_task_id": "MYR-D015-T041",
+          "last_task_id": "MYR-D015-T050"
+        },
+        {
+          "index": 6,
+          "name": "Peak, domain, and region definition",
+          "task_count": 10,
+          "first_task_id": "MYR-D015-T051",
+          "last_task_id": "MYR-D015-T060"
+        },
+        {
+          "index": 7,
+          "name": "Differential chromatin and methylation analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D015-T061",
+          "last_task_id": "MYR-D015-T070"
+        },
+        {
+          "index": 8,
+          "name": "Regulatory interpretation and motif analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D015-T071",
+          "last_task_id": "MYR-D015-T080"
+        },
+        {
+          "index": 9,
+          "name": "Cross-assay integration and robustness",
+          "task_count": 10,
+          "first_task_id": "MYR-D015-T081",
+          "last_task_id": "MYR-D015-T090"
+        },
+        {
+          "index": 10,
+          "name": "Release, provenance, and review gates",
+          "task_count": 10,
+          "first_task_id": "MYR-D015-T091",
+          "last_task_id": "MYR-D015-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 16,
+      "domain_code": "D016",
+      "name": "Single-Cell and Spatial Epigenomics",
+      "slug": "single-cell-and-spatial-epigenomics",
+      "batch_id": 2,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Assay intake and multimodal contract",
+          "task_count": 10,
+          "first_task_id": "MYR-D016-T001",
+          "last_task_id": "MYR-D016-T010"
+        },
+        {
+          "index": 2,
+          "name": "Barcode processing and fragment construction",
+          "task_count": 10,
+          "first_task_id": "MYR-D016-T011",
+          "last_task_id": "MYR-D016-T020"
+        },
+        {
+          "index": 3,
+          "name": "Cell calling, quality control, and multiplet detection",
+          "task_count": 10,
+          "first_task_id": "MYR-D016-T021",
+          "last_task_id": "MYR-D016-T030"
+        },
+        {
+          "index": 4,
+          "name": "Feature matrices and latent representations",
+          "task_count": 10,
+          "first_task_id": "MYR-D016-T031",
+          "last_task_id": "MYR-D016-T040"
+        },
+        {
+          "index": 5,
+          "name": "Neighbour graphs, clustering, and annotation",
+          "task_count": 10,
+          "first_task_id": "MYR-D016-T041",
+          "last_task_id": "MYR-D016-T050"
+        },
+        {
+          "index": 6,
+          "name": "Peak calling, motifs, and regulatory programmes",
+          "task_count": 10,
+          "first_task_id": "MYR-D016-T051",
+          "last_task_id": "MYR-D016-T060"
+        },
+        {
+          "index": 7,
+          "name": "Differential epigenomic testing",
+          "task_count": 10,
+          "first_task_id": "MYR-D016-T061",
+          "last_task_id": "MYR-D016-T070"
+        },
+        {
+          "index": 8,
+          "name": "Multiome and cross-modal integration",
+          "task_count": 10,
+          "first_task_id": "MYR-D016-T071",
+          "last_task_id": "MYR-D016-T080"
+        },
+        {
+          "index": 9,
+          "name": "Lineage dynamics and spatial epigenomics",
+          "task_count": 10,
+          "first_task_id": "MYR-D016-T081",
+          "last_task_id": "MYR-D016-T090"
+        },
+        {
+          "index": 10,
+          "name": "Release, provenance, and review gates",
+          "task_count": 10,
+          "first_task_id": "MYR-D016-T091",
+          "last_task_id": "MYR-D016-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 17,
+      "domain_code": "D017",
+      "name": "Proteomics and Protein Quantification",
+      "slug": "proteomics-and-protein-quantification",
+      "batch_id": 2,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Study design and proteomics metadata",
+          "task_count": 10,
+          "first_task_id": "MYR-D017-T001",
+          "last_task_id": "MYR-D017-T010"
+        },
+        {
+          "index": 2,
+          "name": "Raw data and instrument performance quality control",
+          "task_count": 10,
+          "first_task_id": "MYR-D017-T011",
+          "last_task_id": "MYR-D017-T020"
+        },
+        {
+          "index": 3,
+          "name": "Spectrum preprocessing and search database construction",
+          "task_count": 10,
+          "first_task_id": "MYR-D017-T021",
+          "last_task_id": "MYR-D017-T030"
+        },
+        {
+          "index": 4,
+          "name": "Peptide-spectrum matching and identification control",
+          "task_count": 10,
+          "first_task_id": "MYR-D017-T031",
+          "last_task_id": "MYR-D017-T040"
+        },
+        {
+          "index": 5,
+          "name": "Protein inference and identification reporting",
+          "task_count": 10,
+          "first_task_id": "MYR-D017-T041",
+          "last_task_id": "MYR-D017-T050"
+        },
+        {
+          "index": 6,
+          "name": "Label-free quantification",
+          "task_count": 10,
+          "first_task_id": "MYR-D017-T051",
+          "last_task_id": "MYR-D017-T060"
+        },
+        {
+          "index": 7,
+          "name": "Isobaric and metabolic-label quantification",
+          "task_count": 10,
+          "first_task_id": "MYR-D017-T061",
+          "last_task_id": "MYR-D017-T070"
+        },
+        {
+          "index": 8,
+          "name": "DIA and targeted proteomics analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D017-T071",
+          "last_task_id": "MYR-D017-T080"
+        },
+        {
+          "index": 9,
+          "name": "Differential abundance and biological interpretation",
+          "task_count": 10,
+          "first_task_id": "MYR-D017-T081",
+          "last_task_id": "MYR-D017-T090"
+        },
+        {
+          "index": 10,
+          "name": "Release, standards, and review gates",
+          "task_count": 10,
+          "first_task_id": "MYR-D017-T091",
+          "last_task_id": "MYR-D017-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 18,
+      "domain_code": "D018",
+      "name": "Post-Translational Modification Proteomics",
+      "slug": "post-translational-modification-proteomics",
+      "batch_id": 2,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "PTM study design and modification contract",
+          "task_count": 10,
+          "first_task_id": "MYR-D018-T001",
+          "last_task_id": "MYR-D018-T010"
+        },
+        {
+          "index": 2,
+          "name": "Enrichment and acquisition quality control",
+          "task_count": 10,
+          "first_task_id": "MYR-D018-T011",
+          "last_task_id": "MYR-D018-T020"
+        },
+        {
+          "index": 3,
+          "name": "Modification-aware search-space construction",
+          "task_count": 10,
+          "first_task_id": "MYR-D018-T021",
+          "last_task_id": "MYR-D018-T030"
+        },
+        {
+          "index": 4,
+          "name": "Modified peptide identification and localization",
+          "task_count": 10,
+          "first_task_id": "MYR-D018-T031",
+          "last_task_id": "MYR-D018-T040"
+        },
+        {
+          "index": 5,
+          "name": "Phosphoproteomics analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D018-T041",
+          "last_task_id": "MYR-D018-T050"
+        },
+        {
+          "index": 6,
+          "name": "Glycoproteomics and glycan characterization",
+          "task_count": 10,
+          "first_task_id": "MYR-D018-T051",
+          "last_task_id": "MYR-D018-T060"
+        },
+        {
+          "index": 7,
+          "name": "Ubiquitin, acetylation, and other PTM workflows",
+          "task_count": 10,
+          "first_task_id": "MYR-D018-T061",
+          "last_task_id": "MYR-D018-T070"
+        },
+        {
+          "index": 8,
+          "name": "PTM quantification and differential testing",
+          "task_count": 10,
+          "first_task_id": "MYR-D018-T071",
+          "last_task_id": "MYR-D018-T080"
+        },
+        {
+          "index": 9,
+          "name": "Pathway, enzyme, and regulatory interpretation",
+          "task_count": 10,
+          "first_task_id": "MYR-D018-T081",
+          "last_task_id": "MYR-D018-T090"
+        },
+        {
+          "index": 10,
+          "name": "Robustness, release, standards, and review gates",
+          "task_count": 10,
+          "first_task_id": "MYR-D018-T091",
+          "last_task_id": "MYR-D018-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 19,
+      "domain_code": "D019",
+      "name": "Metabolomics and Lipidomics",
+      "slug": "metabolomics-and-lipidomics",
+      "batch_id": 2,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Study design and analytical metadata",
+          "task_count": 10,
+          "first_task_id": "MYR-D019-T001",
+          "last_task_id": "MYR-D019-T010"
+        },
+        {
+          "index": 2,
+          "name": "Raw data and instrument quality control",
+          "task_count": 10,
+          "first_task_id": "MYR-D019-T011",
+          "last_task_id": "MYR-D019-T020"
+        },
+        {
+          "index": 3,
+          "name": "Peak detection, deconvolution, and alignment",
+          "task_count": 10,
+          "first_task_id": "MYR-D019-T021",
+          "last_task_id": "MYR-D019-T030"
+        },
+        {
+          "index": 4,
+          "name": "Blank filtering, QC correction, and feature quality",
+          "task_count": 10,
+          "first_task_id": "MYR-D019-T031",
+          "last_task_id": "MYR-D019-T040"
+        },
+        {
+          "index": 5,
+          "name": "Metabolite annotation and identification confidence",
+          "task_count": 10,
+          "first_task_id": "MYR-D019-T041",
+          "last_task_id": "MYR-D019-T050"
+        },
+        {
+          "index": 6,
+          "name": "Targeted quantification and assay validation",
+          "task_count": 10,
+          "first_task_id": "MYR-D019-T051",
+          "last_task_id": "MYR-D019-T060"
+        },
+        {
+          "index": 7,
+          "name": "Untargeted statistical analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D019-T061",
+          "last_task_id": "MYR-D019-T070"
+        },
+        {
+          "index": 8,
+          "name": "Lipidomics-specific structure and quantification",
+          "task_count": 10,
+          "first_task_id": "MYR-D019-T071",
+          "last_task_id": "MYR-D019-T080"
+        },
+        {
+          "index": 9,
+          "name": "Isotope tracing, pathways, and systems interpretation",
+          "task_count": 10,
+          "first_task_id": "MYR-D019-T081",
+          "last_task_id": "MYR-D019-T090"
+        },
+        {
+          "index": 10,
+          "name": "Release, standards, and review gates",
+          "task_count": 10,
+          "first_task_id": "MYR-D019-T091",
+          "last_task_id": "MYR-D019-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 20,
+      "domain_code": "D020",
+      "name": "Multi-Omics Integration and Systems Biology",
+      "slug": "multi-omics-integration-and-systems-biology",
+      "batch_id": 2,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Study design and cross-modality sample contract",
+          "task_count": 10,
+          "first_task_id": "MYR-D020-T001",
+          "last_task_id": "MYR-D020-T010"
+        },
+        {
+          "index": 2,
+          "name": "Modality-specific quality and eligibility",
+          "task_count": 10,
+          "first_task_id": "MYR-D020-T011",
+          "last_task_id": "MYR-D020-T020"
+        },
+        {
+          "index": 3,
+          "name": "Identifier harmonization and feature mapping",
+          "task_count": 10,
+          "first_task_id": "MYR-D020-T021",
+          "last_task_id": "MYR-D020-T030"
+        },
+        {
+          "index": 4,
+          "name": "Preprocessing, scaling, and missing data",
+          "task_count": 10,
+          "first_task_id": "MYR-D020-T031",
+          "last_task_id": "MYR-D020-T040"
+        },
+        {
+          "index": 5,
+          "name": "Unsupervised latent-factor integration",
+          "task_count": 10,
+          "first_task_id": "MYR-D020-T041",
+          "last_task_id": "MYR-D020-T050"
+        },
+        {
+          "index": 6,
+          "name": "Supervised integration and predictive modelling",
+          "task_count": 10,
+          "first_task_id": "MYR-D020-T051",
+          "last_task_id": "MYR-D020-T060"
+        },
+        {
+          "index": 7,
+          "name": "Pathway and network integration",
+          "task_count": 10,
+          "first_task_id": "MYR-D020-T061",
+          "last_task_id": "MYR-D020-T070"
+        },
+        {
+          "index": 8,
+          "name": "Causal, mediation, and temporal modelling",
+          "task_count": 10,
+          "first_task_id": "MYR-D020-T071",
+          "last_task_id": "MYR-D020-T080"
+        },
+        {
+          "index": 9,
+          "name": "Cross-cohort validation and robustness",
+          "task_count": 10,
+          "first_task_id": "MYR-D020-T081",
+          "last_task_id": "MYR-D020-T090"
+        },
+        {
+          "index": 10,
+          "name": "Interpretability, release, and governance gates",
+          "task_count": 10,
+          "first_task_id": "MYR-D020-T091",
+          "last_task_id": "MYR-D020-T100"
+        }
+      ]
+    }
+  ],
+  "release_version": "1.0.0",
+  "release_date": "2026-08-04"
+}

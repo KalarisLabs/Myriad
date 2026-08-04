@@ -1,0 +1,134 @@
+{
+  "initiative": "MYRIAD",
+  "phase": 2,
+  "batch": 1,
+  "domain_range": [
+    1,
+    10
+  ],
+  "domain_count": 10,
+  "tasks_per_domain": 100,
+  "task_count": 1000,
+  "generated_at_utc": "2026-08-03T18:23:55.359988+00:00",
+  "domains": [
+    {
+      "id": 1,
+      "code": "D001",
+      "name": "De Novo Genome Assembly and Polishing",
+      "slug": "de-novo-genome-assembly-and-polishing",
+      "scope": "Construct, polish, phase, validate, and release reference-quality genome assemblies from heterogeneous sequencing inputs.",
+      "task_file": "001-de-novo-genome-assembly-and-polishing/TASKS.md",
+      "json_file": "001-de-novo-genome-assembly-and-polishing/tasks.json"
+    },
+    {
+      "id": 2,
+      "code": "D002",
+      "name": "Pangenome Construction and Graph Genomics",
+      "slug": "pangenome-construction-and-graph-genomics",
+      "scope": "Build, validate, annotate, query, and release population-scale sequence graphs representing diverse haplotypes.",
+      "task_file": "002-pangenome-construction-and-graph-genomics/TASKS.md",
+      "json_file": "002-pangenome-construction-and-graph-genomics/tasks.json"
+    },
+    {
+      "id": 3,
+      "code": "D003",
+      "name": "Germline Small-Variant Discovery",
+      "slug": "germline-small-variant-discovery",
+      "scope": "Detect, genotype, normalize, filter, annotate, and release inherited SNVs and small indels from sequencing cohorts.",
+      "task_file": "003-germline-small-variant-discovery/TASKS.md",
+      "json_file": "003-germline-small-variant-discovery/tasks.json"
+    },
+    {
+      "id": 4,
+      "code": "D004",
+      "name": "Somatic Variant and Tumour Evolution Analysis",
+      "slug": "somatic-variant-and-tumour-evolution-analysis",
+      "scope": "Detect tumour-specific variation, control artefacts, estimate clonality, and reconstruct spatial or longitudinal tumour evolution.",
+      "task_file": "004-somatic-variant-and-tumour-evolution-analysis/TASKS.md",
+      "json_file": "004-somatic-variant-and-tumour-evolution-analysis/tasks.json"
+    },
+    {
+      "id": 5,
+      "code": "D005",
+      "name": "Structural Variant and Copy-Number Analysis",
+      "slug": "structural-variant-and-copy-number-analysis",
+      "scope": "Detect, reconcile, genotype, annotate, and report structural variants and copy-number alterations across assays and cohorts.",
+      "task_file": "005-structural-variant-and-copy-number-analysis/TASKS.md",
+      "json_file": "005-structural-variant-and-copy-number-analysis/tasks.json"
+    },
+    {
+      "id": 6,
+      "code": "D006",
+      "name": "Repeat Expansion and Mobile-Element Genomics",
+      "slug": "repeat-expansion-and-mobile-element-genomics",
+      "scope": "Detect tandem-repeat expansions, repeat instability, mobile-element insertions, and transposable-element activity from genomic data.",
+      "task_file": "006-repeat-expansion-and-mobile-element-genomics/TASKS.md",
+      "json_file": "006-repeat-expansion-and-mobile-element-genomics/tasks.json"
+    },
+    {
+      "id": 7,
+      "code": "D007",
+      "name": "Genome Annotation and Functional Element Mapping",
+      "slug": "genome-annotation-and-functional-element-mapping",
+      "scope": "Annotate genes, transcripts, non-coding RNAs, repeats, and regulatory elements on new or revised genome assemblies.",
+      "task_file": "007-genome-annotation-and-functional-element-mapping/TASKS.md",
+      "json_file": "007-genome-annotation-and-functional-element-mapping/tasks.json"
+    },
+    {
+      "id": 8,
+      "code": "D008",
+      "name": "Population Genomics and Genome-Wide Association Studies",
+      "slug": "population-genomics-and-genome-wide-association-studies",
+      "scope": "Perform cohort QC, population-structure analysis, association testing, fine-mapping, heritability estimation, and polygenic modelling.",
+      "task_file": "008-population-genomics-and-genome-wide-association-studies/TASKS.md",
+      "json_file": "008-population-genomics-and-genome-wide-association-studies/tasks.json"
+    },
+    {
+      "id": 9,
+      "code": "D009",
+      "name": "Rare-Disease Genomic Diagnosis",
+      "slug": "rare-disease-genomic-diagnosis",
+      "scope": "Prioritize candidate genomic causes of rare disease using phenotype, pedigree, inheritance, variant, and gene-disease evidence.",
+      "task_file": "009-rare-disease-genomic-diagnosis/TASKS.md",
+      "json_file": "009-rare-disease-genomic-diagnosis/tasks.json"
+    },
+    {
+      "id": 10,
+      "code": "D010",
+      "name": "Clinical Variant Interpretation and Reporting",
+      "slug": "clinical-variant-interpretation-and-reporting",
+      "scope": "Evaluate variant pathogenicity with transparent evidence, standardized nomenclature, controlled classification logic, and qualified review.",
+      "task_file": "010-clinical-variant-interpretation-and-reporting/TASKS.md",
+      "json_file": "010-clinical-variant-interpretation-and-reporting/tasks.json"
+    }
+  ],
+  "safety_boundary": "This phase defines computational and evidence-management task nodes only. It does not authorize autonomous wet-lab operations or unreviewed clinical decisions.",
+  "next_state": {
+    "phase_2_completed_domains": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "next_unmapped_domain": 11,
+    "phase_3_ready_domains": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "phase_3_batch_size": 10
+  }
+}

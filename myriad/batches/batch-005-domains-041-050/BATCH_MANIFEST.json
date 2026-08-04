@@ -1,0 +1,822 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 5,
+  "domain_start": 41,
+  "domain_end": 50,
+  "domain_count": 10,
+  "task_count": 1000,
+  "domains": [
+    {
+      "domain_id": 41,
+      "domain_code": "D041",
+      "name": "Multi-Parameter Medicinal Chemistry Optimization",
+      "slug": "multi-parameter-medicinal-chemistry-optimization",
+      "batch_id": 5,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Optimization objective and series definition",
+          "task_count": 10,
+          "first_task_id": "MYR-D041-T001",
+          "last_task_id": "MYR-D041-T010"
+        },
+        {
+          "index": 2,
+          "name": "Potency, efficacy, and mechanism-resolved SAR",
+          "task_count": 10,
+          "first_task_id": "MYR-D041-T011",
+          "last_task_id": "MYR-D041-T020"
+        },
+        {
+          "index": 3,
+          "name": "Selectivity and off-target risk optimization",
+          "task_count": 10,
+          "first_task_id": "MYR-D041-T021",
+          "last_task_id": "MYR-D041-T030"
+        },
+        {
+          "index": 4,
+          "name": "Ionization, lipophilicity, solubility, and solid-state behaviour",
+          "task_count": 10,
+          "first_task_id": "MYR-D041-T031",
+          "last_task_id": "MYR-D041-T040"
+        },
+        {
+          "index": 5,
+          "name": "Permeability, efflux, and intracellular exposure",
+          "task_count": 10,
+          "first_task_id": "MYR-D041-T041",
+          "last_task_id": "MYR-D041-T050"
+        },
+        {
+          "index": 6,
+          "name": "Metabolic stability, clearance, and metabolite liability",
+          "task_count": 10,
+          "first_task_id": "MYR-D041-T051",
+          "last_task_id": "MYR-D041-T060"
+        },
+        {
+          "index": 7,
+          "name": "Safety-related chemical liabilities and developability alerts",
+          "task_count": 10,
+          "first_task_id": "MYR-D041-T061",
+          "last_task_id": "MYR-D041-T070"
+        },
+        {
+          "index": 8,
+          "name": "Synthetic feasibility, chemical stability, and intellectual differentiation",
+          "task_count": 10,
+          "first_task_id": "MYR-D041-T071",
+          "last_task_id": "MYR-D041-T080"
+        },
+        {
+          "index": 9,
+          "name": "Multi-objective modelling, uncertainty, and design selection",
+          "task_count": 10,
+          "first_task_id": "MYR-D041-T081",
+          "last_task_id": "MYR-D041-T090"
+        },
+        {
+          "index": 10,
+          "name": "Decision governance, portfolio progression, and release",
+          "task_count": 10,
+          "first_task_id": "MYR-D041-T091",
+          "last_task_id": "MYR-D041-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 42,
+      "domain_code": "D042",
+      "name": "Absorption, Distribution, Metabolism, and Excretion Prediction",
+      "slug": "absorption-distribution-metabolism-and-excretion-prediction",
+      "batch_id": 5,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Prediction question, endpoint ontology, and data readiness",
+          "task_count": 10,
+          "first_task_id": "MYR-D042-T001",
+          "last_task_id": "MYR-D042-T010"
+        },
+        {
+          "index": 2,
+          "name": "Ionization, lipophilicity, and solubility prediction",
+          "task_count": 10,
+          "first_task_id": "MYR-D042-T011",
+          "last_task_id": "MYR-D042-T020"
+        },
+        {
+          "index": 3,
+          "name": "Intestinal absorption and permeability prediction",
+          "task_count": 10,
+          "first_task_id": "MYR-D042-T021",
+          "last_task_id": "MYR-D042-T030"
+        },
+        {
+          "index": 4,
+          "name": "Distribution, binding, and tissue exposure prediction",
+          "task_count": 10,
+          "first_task_id": "MYR-D042-T031",
+          "last_task_id": "MYR-D042-T040"
+        },
+        {
+          "index": 5,
+          "name": "Metabolic pathway and enzyme contribution prediction",
+          "task_count": 10,
+          "first_task_id": "MYR-D042-T041",
+          "last_task_id": "MYR-D042-T050"
+        },
+        {
+          "index": 6,
+          "name": "Clearance and excretion prediction",
+          "task_count": 10,
+          "first_task_id": "MYR-D042-T051",
+          "last_task_id": "MYR-D042-T060"
+        },
+        {
+          "index": 7,
+          "name": "Drug-interaction victim and perpetrator prediction",
+          "task_count": 10,
+          "first_task_id": "MYR-D042-T061",
+          "last_task_id": "MYR-D042-T070"
+        },
+        {
+          "index": 8,
+          "name": "Special populations and mechanistic extrapolation",
+          "task_count": 10,
+          "first_task_id": "MYR-D042-T071",
+          "last_task_id": "MYR-D042-T080"
+        },
+        {
+          "index": 9,
+          "name": "Model construction, validation, and applicability assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D042-T081",
+          "last_task_id": "MYR-D042-T090"
+        },
+        {
+          "index": 10,
+          "name": "Integrated ADME reporting and decision governance",
+          "task_count": 10,
+          "first_task_id": "MYR-D042-T091",
+          "last_task_id": "MYR-D042-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 43,
+      "domain_code": "D043",
+      "name": "Drug Metabolism and Pharmacokinetics Analysis",
+      "slug": "drug-metabolism-and-pharmacokinetics-analysis",
+      "batch_id": 5,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Study design, metadata, and sample accountability",
+          "task_count": 10,
+          "first_task_id": "MYR-D043-T001",
+          "last_task_id": "MYR-D043-T010"
+        },
+        {
+          "index": 2,
+          "name": "Bioanalytical result validation and M10 compliance checks",
+          "task_count": 10,
+          "first_task_id": "MYR-D043-T011",
+          "last_task_id": "MYR-D043-T020"
+        },
+        {
+          "index": 3,
+          "name": "Concentration-time data quality and exploratory analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D043-T021",
+          "last_task_id": "MYR-D043-T030"
+        },
+        {
+          "index": 4,
+          "name": "Noncompartmental pharmacokinetic analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D043-T031",
+          "last_task_id": "MYR-D043-T040"
+        },
+        {
+          "index": 5,
+          "name": "Compartmental and population pharmacokinetic modelling",
+          "task_count": 10,
+          "first_task_id": "MYR-D043-T041",
+          "last_task_id": "MYR-D043-T050"
+        },
+        {
+          "index": 6,
+          "name": "In vitro clearance, binding, and translational scaling",
+          "task_count": 10,
+          "first_task_id": "MYR-D043-T051",
+          "last_task_id": "MYR-D043-T060"
+        },
+        {
+          "index": 7,
+          "name": "Bioavailability, mass balance, and metabolite disposition",
+          "task_count": 10,
+          "first_task_id": "MYR-D043-T061",
+          "last_task_id": "MYR-D043-T070"
+        },
+        {
+          "index": 8,
+          "name": "Drug interactions and intrinsic-factor effects",
+          "task_count": 10,
+          "first_task_id": "MYR-D043-T071",
+          "last_task_id": "MYR-D043-T080"
+        },
+        {
+          "index": 9,
+          "name": "Exposure projection, translational dose selection, and uncertainty",
+          "task_count": 10,
+          "first_task_id": "MYR-D043-T081",
+          "last_task_id": "MYR-D043-T090"
+        },
+        {
+          "index": 10,
+          "name": "Reporting, reproducibility, and release governance",
+          "task_count": 10,
+          "first_task_id": "MYR-D043-T091",
+          "last_task_id": "MYR-D043-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 44,
+      "domain_code": "D044",
+      "name": "Pharmacokinetic–Pharmacodynamic Modelling",
+      "slug": "pharmacokinetic-pharmacodynamic-modelling",
+      "batch_id": 5,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Decision question, estimand, and integrated dataset definition",
+          "task_count": 10,
+          "first_task_id": "MYR-D044-T001",
+          "last_task_id": "MYR-D044-T010"
+        },
+        {
+          "index": 2,
+          "name": "Pharmacokinetic driver construction",
+          "task_count": 10,
+          "first_task_id": "MYR-D044-T011",
+          "last_task_id": "MYR-D044-T020"
+        },
+        {
+          "index": 3,
+          "name": "Direct response and receptor-occupancy models",
+          "task_count": 10,
+          "first_task_id": "MYR-D044-T021",
+          "last_task_id": "MYR-D044-T030"
+        },
+        {
+          "index": 4,
+          "name": "Delayed, indirect, and turnover response models",
+          "task_count": 10,
+          "first_task_id": "MYR-D044-T031",
+          "last_task_id": "MYR-D044-T040"
+        },
+        {
+          "index": 5,
+          "name": "Disease progression, placebo, tolerance, and resistance",
+          "task_count": 10,
+          "first_task_id": "MYR-D044-T041",
+          "last_task_id": "MYR-D044-T050"
+        },
+        {
+          "index": 6,
+          "name": "Safety exposure-response and time-to-event modelling",
+          "task_count": 10,
+          "first_task_id": "MYR-D044-T051",
+          "last_task_id": "MYR-D044-T060"
+        },
+        {
+          "index": 7,
+          "name": "Covariates, subgroups, and heterogeneous treatment response",
+          "task_count": 10,
+          "first_task_id": "MYR-D044-T061",
+          "last_task_id": "MYR-D044-T070"
+        },
+        {
+          "index": 8,
+          "name": "Dose, schedule, and regimen optimization simulations",
+          "task_count": 10,
+          "first_task_id": "MYR-D044-T071",
+          "last_task_id": "MYR-D044-T080"
+        },
+        {
+          "index": 9,
+          "name": "Model evaluation, external validation, and decision credibility",
+          "task_count": 10,
+          "first_task_id": "MYR-D044-T081",
+          "last_task_id": "MYR-D044-T090"
+        },
+        {
+          "index": 10,
+          "name": "Reproducibility, reporting, and governance",
+          "task_count": 10,
+          "first_task_id": "MYR-D044-T091",
+          "last_task_id": "MYR-D044-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 45,
+      "domain_code": "D045",
+      "name": "Quantitative Systems Pharmacology",
+      "slug": "quantitative-systems-pharmacology",
+      "batch_id": 5,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Decision context, system boundary, and credibility plan",
+          "task_count": 10,
+          "first_task_id": "MYR-D045-T001",
+          "last_task_id": "MYR-D045-T010"
+        },
+        {
+          "index": 2,
+          "name": "Biological knowledge assembly and causal map construction",
+          "task_count": 10,
+          "first_task_id": "MYR-D045-T011",
+          "last_task_id": "MYR-D045-T020"
+        },
+        {
+          "index": 3,
+          "name": "Mathematical formalization and model architecture",
+          "task_count": 10,
+          "first_task_id": "MYR-D045-T021",
+          "last_task_id": "MYR-D045-T030"
+        },
+        {
+          "index": 4,
+          "name": "Parameter sourcing, identifiability, and prior construction",
+          "task_count": 10,
+          "first_task_id": "MYR-D045-T031",
+          "last_task_id": "MYR-D045-T040"
+        },
+        {
+          "index": 5,
+          "name": "Calibration and multi-source data integration",
+          "task_count": 10,
+          "first_task_id": "MYR-D045-T041",
+          "last_task_id": "MYR-D045-T050"
+        },
+        {
+          "index": 6,
+          "name": "Sensitivity, uncertainty, and model-reduction analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D045-T051",
+          "last_task_id": "MYR-D045-T060"
+        },
+        {
+          "index": 7,
+          "name": "Virtual populations and biological heterogeneity",
+          "task_count": 10,
+          "first_task_id": "MYR-D045-T061",
+          "last_task_id": "MYR-D045-T070"
+        },
+        {
+          "index": 8,
+          "name": "Intervention, combination, and regimen simulations",
+          "task_count": 10,
+          "first_task_id": "MYR-D045-T071",
+          "last_task_id": "MYR-D045-T080"
+        },
+        {
+          "index": 9,
+          "name": "External evaluation and context-of-use credibility",
+          "task_count": 10,
+          "first_task_id": "MYR-D045-T081",
+          "last_task_id": "MYR-D045-T090"
+        },
+        {
+          "index": 10,
+          "name": "Reproducibility, lifecycle governance, and release",
+          "task_count": 10,
+          "first_task_id": "MYR-D045-T091",
+          "last_task_id": "MYR-D045-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 46,
+      "domain_code": "D046",
+      "name": "Preclinical Safety and Predictive Toxicology",
+      "slug": "preclinical-safety-and-predictive-toxicology",
+      "batch_id": 5,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Safety strategy, product profile, and study inventory",
+          "task_count": 10,
+          "first_task_id": "MYR-D046-T001",
+          "last_task_id": "MYR-D046-T010"
+        },
+        {
+          "index": 2,
+          "name": "Study conduct, GLP metadata, and data integrity assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D046-T011",
+          "last_task_id": "MYR-D046-T020"
+        },
+        {
+          "index": 3,
+          "name": "Cardiovascular, respiratory, and central nervous system safety pharmacology",
+          "task_count": 10,
+          "first_task_id": "MYR-D046-T021",
+          "last_task_id": "MYR-D046-T030"
+        },
+        {
+          "index": 4,
+          "name": "Repeat-dose toxicity and target-organ assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D046-T031",
+          "last_task_id": "MYR-D046-T040"
+        },
+        {
+          "index": 5,
+          "name": "Genotoxicity, carcinogenicity, and mutagenic-risk assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D046-T041",
+          "last_task_id": "MYR-D046-T050"
+        },
+        {
+          "index": 6,
+          "name": "Reproductive, developmental, juvenile, and fertility toxicology",
+          "task_count": 10,
+          "first_task_id": "MYR-D046-T051",
+          "last_task_id": "MYR-D046-T060"
+        },
+        {
+          "index": 7,
+          "name": "Immunotoxicity, hypersensitivity, local tolerance, and modality-specific risk",
+          "task_count": 10,
+          "first_task_id": "MYR-D046-T061",
+          "last_task_id": "MYR-D046-T070"
+        },
+        {
+          "index": 8,
+          "name": "Toxicokinetics, exposure margins, and species translation",
+          "task_count": 10,
+          "first_task_id": "MYR-D046-T071",
+          "last_task_id": "MYR-D046-T080"
+        },
+        {
+          "index": 9,
+          "name": "Predictive toxicology and new-approach methodologies",
+          "task_count": 10,
+          "first_task_id": "MYR-D046-T081",
+          "last_task_id": "MYR-D046-T090"
+        },
+        {
+          "index": 10,
+          "name": "Integrated risk assessment, clinical translation, and governance",
+          "task_count": 10,
+          "first_task_id": "MYR-D046-T091",
+          "last_task_id": "MYR-D046-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 47,
+      "domain_code": "D047",
+      "name": "Biomarker Discovery and Qualification",
+      "slug": "biomarker-discovery-and-qualification",
+      "batch_id": 5,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Context of use, biomarker class, and decision specification",
+          "task_count": 10,
+          "first_task_id": "MYR-D047-T001",
+          "last_task_id": "MYR-D047-T010"
+        },
+        {
+          "index": 2,
+          "name": "Cohort, sampling, and specimen design",
+          "task_count": 10,
+          "first_task_id": "MYR-D047-T011",
+          "last_task_id": "MYR-D047-T020"
+        },
+        {
+          "index": 3,
+          "name": "Assay and feature quality control",
+          "task_count": 10,
+          "first_task_id": "MYR-D047-T021",
+          "last_task_id": "MYR-D047-T030"
+        },
+        {
+          "index": 4,
+          "name": "Discovery statistics and candidate prioritization",
+          "task_count": 10,
+          "first_task_id": "MYR-D047-T031",
+          "last_task_id": "MYR-D047-T040"
+        },
+        {
+          "index": 5,
+          "name": "Independent verification and biological replication",
+          "task_count": 10,
+          "first_task_id": "MYR-D047-T041",
+          "last_task_id": "MYR-D047-T050"
+        },
+        {
+          "index": 6,
+          "name": "Analytical validation and assay transfer readiness",
+          "task_count": 10,
+          "first_task_id": "MYR-D047-T051",
+          "last_task_id": "MYR-D047-T060"
+        },
+        {
+          "index": 7,
+          "name": "Clinical performance, thresholds, and decision impact",
+          "task_count": 10,
+          "first_task_id": "MYR-D047-T061",
+          "last_task_id": "MYR-D047-T070"
+        },
+        {
+          "index": 8,
+          "name": "Longitudinal, pharmacodynamic, monitoring, and surrogate evaluation",
+          "task_count": 10,
+          "first_task_id": "MYR-D047-T071",
+          "last_task_id": "MYR-D047-T080"
+        },
+        {
+          "index": 9,
+          "name": "Qualification evidence package and regulatory interaction",
+          "task_count": 10,
+          "first_task_id": "MYR-D047-T081",
+          "last_task_id": "MYR-D047-T090"
+        },
+        {
+          "index": 10,
+          "name": "Data standards, lifecycle monitoring, and release governance",
+          "task_count": 10,
+          "first_task_id": "MYR-D047-T091",
+          "last_task_id": "MYR-D047-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 48,
+      "domain_code": "D048",
+      "name": "Molecular Diagnostics and Assay Interpretation",
+      "slug": "molecular-diagnostics-and-assay-interpretation",
+      "batch_id": 5,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Intended use, assay scope, and result contract",
+          "task_count": 10,
+          "first_task_id": "MYR-D048-T001",
+          "last_task_id": "MYR-D048-T010"
+        },
+        {
+          "index": 2,
+          "name": "Preanalytical specimen and accession controls",
+          "task_count": 10,
+          "first_task_id": "MYR-D048-T011",
+          "last_task_id": "MYR-D048-T020"
+        },
+        {
+          "index": 3,
+          "name": "Assay design, target coverage, and control architecture",
+          "task_count": 10,
+          "first_task_id": "MYR-D048-T021",
+          "last_task_id": "MYR-D048-T030"
+        },
+        {
+          "index": 4,
+          "name": "Analytical validation and performance characterization",
+          "task_count": 10,
+          "first_task_id": "MYR-D048-T031",
+          "last_task_id": "MYR-D048-T040"
+        },
+        {
+          "index": 5,
+          "name": "Bioinformatics pipeline validation and computational controls",
+          "task_count": 10,
+          "first_task_id": "MYR-D048-T041",
+          "last_task_id": "MYR-D048-T050"
+        },
+        {
+          "index": 6,
+          "name": "Variant, analyte, and organism interpretation",
+          "task_count": 10,
+          "first_task_id": "MYR-D048-T051",
+          "last_task_id": "MYR-D048-T060"
+        },
+        {
+          "index": 7,
+          "name": "Clinical validation and diagnostic-performance analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D048-T061",
+          "last_task_id": "MYR-D048-T070"
+        },
+        {
+          "index": 8,
+          "name": "Routine quality control, proficiency, and drift monitoring",
+          "task_count": 10,
+          "first_task_id": "MYR-D048-T071",
+          "last_task_id": "MYR-D048-T080"
+        },
+        {
+          "index": 9,
+          "name": "Result reporting, interoperability, and clinician communication",
+          "task_count": 10,
+          "first_task_id": "MYR-D048-T081",
+          "last_task_id": "MYR-D048-T090"
+        },
+        {
+          "index": 10,
+          "name": "Lifecycle governance, change control, and release safety",
+          "task_count": 10,
+          "first_task_id": "MYR-D048-T091",
+          "last_task_id": "MYR-D048-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 49,
+      "domain_code": "D049",
+      "name": "Companion Diagnostic Co-Development",
+      "slug": "companion-diagnostic-co-development",
+      "batch_id": 5,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Therapeutic–diagnostic strategy and joint governance",
+          "task_count": 10,
+          "first_task_id": "MYR-D049-T001",
+          "last_task_id": "MYR-D049-T010"
+        },
+        {
+          "index": 2,
+          "name": "Biomarker hypothesis and intended-use definition",
+          "task_count": 10,
+          "first_task_id": "MYR-D049-T011",
+          "last_task_id": "MYR-D049-T020"
+        },
+        {
+          "index": 3,
+          "name": "Assay platform selection and development",
+          "task_count": 10,
+          "first_task_id": "MYR-D049-T021",
+          "last_task_id": "MYR-D049-T030"
+        },
+        {
+          "index": 4,
+          "name": "Analytical validation and locked assay performance",
+          "task_count": 10,
+          "first_task_id": "MYR-D049-T031",
+          "last_task_id": "MYR-D049-T040"
+        },
+        {
+          "index": 5,
+          "name": "Clinical trial assay integration and sample operations",
+          "task_count": 10,
+          "first_task_id": "MYR-D049-T041",
+          "last_task_id": "MYR-D049-T050"
+        },
+        {
+          "index": 6,
+          "name": "Cutoff, algorithm, and clinical classifier development",
+          "task_count": 10,
+          "first_task_id": "MYR-D049-T051",
+          "last_task_id": "MYR-D049-T060"
+        },
+        {
+          "index": 7,
+          "name": "Clinical validation and therapeutic-effect linkage",
+          "task_count": 10,
+          "first_task_id": "MYR-D049-T061",
+          "last_task_id": "MYR-D049-T070"
+        },
+        {
+          "index": 8,
+          "name": "Assay bridging, concordance, and migration",
+          "task_count": 10,
+          "first_task_id": "MYR-D049-T071",
+          "last_task_id": "MYR-D049-T080"
+        },
+        {
+          "index": 9,
+          "name": "Regulatory submission, labelling, and contemporaneous review",
+          "task_count": 10,
+          "first_task_id": "MYR-D049-T081",
+          "last_task_id": "MYR-D049-T090"
+        },
+        {
+          "index": 10,
+          "name": "Postapproval lifecycle, access, and change governance",
+          "task_count": 10,
+          "first_task_id": "MYR-D049-T091",
+          "last_task_id": "MYR-D049-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 50,
+      "domain_code": "D050",
+      "name": "Pharmacogenomics and Precision Dosing",
+      "slug": "pharmacogenomics-and-precision-dosing",
+      "batch_id": 5,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Gene–drug scope, clinical question, and evidence contract",
+          "task_count": 10,
+          "first_task_id": "MYR-D050-T001",
+          "last_task_id": "MYR-D050-T010"
+        },
+        {
+          "index": 2,
+          "name": "Allele nomenclature, genomic data quality, and assay coverage",
+          "task_count": 10,
+          "first_task_id": "MYR-D050-T011",
+          "last_task_id": "MYR-D050-T020"
+        },
+        {
+          "index": 3,
+          "name": "Diplotype, phenotype, and activity-score assignment",
+          "task_count": 10,
+          "first_task_id": "MYR-D050-T021",
+          "last_task_id": "MYR-D050-T030"
+        },
+        {
+          "index": 4,
+          "name": "Guideline and regulatory recommendation reconciliation",
+          "task_count": 10,
+          "first_task_id": "MYR-D050-T031",
+          "last_task_id": "MYR-D050-T040"
+        },
+        {
+          "index": 5,
+          "name": "Genotype effects on pharmacokinetics and exposure",
+          "task_count": 10,
+          "first_task_id": "MYR-D050-T041",
+          "last_task_id": "MYR-D050-T050"
+        },
+        {
+          "index": 6,
+          "name": "Genotype effects on efficacy, toxicity, and treatment response",
+          "task_count": 10,
+          "first_task_id": "MYR-D050-T051",
+          "last_task_id": "MYR-D050-T060"
+        },
+        {
+          "index": 7,
+          "name": "Precision dosing algorithm and regimen construction",
+          "task_count": 10,
+          "first_task_id": "MYR-D050-T061",
+          "last_task_id": "MYR-D050-T070"
+        },
+        {
+          "index": 8,
+          "name": "Clinical decision support and workflow implementation",
+          "task_count": 10,
+          "first_task_id": "MYR-D050-T071",
+          "last_task_id": "MYR-D050-T080"
+        },
+        {
+          "index": 9,
+          "name": "Clinical validation, utility, equity, and implementation evaluation",
+          "task_count": 10,
+          "first_task_id": "MYR-D050-T081",
+          "last_task_id": "MYR-D050-T090"
+        },
+        {
+          "index": 10,
+          "name": "Lifecycle governance, reinterpretation, and safe release",
+          "task_count": 10,
+          "first_task_id": "MYR-D050-T091",
+          "last_task_id": "MYR-D050-T100"
+        }
+      ]
+    }
+  ],
+  "release_version": "1.0.0",
+  "release_date": "2026-08-04"
+}

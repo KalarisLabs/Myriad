@@ -1,0 +1,96 @@
+{
+  "initiative": "MYRIAD",
+  "phase": 2,
+  "batch": "007",
+  "domain_range": [
+    61,
+    70
+  ],
+  "domain_count": 10,
+  "tasks_per_domain": 100,
+  "task_count": 1000,
+  "domains": [
+    {
+      "domain_id": 61,
+      "domain_code": "D061",
+      "domain": "Monoclonal Antibody Discovery",
+      "slug": "monoclonal-antibody-discovery",
+      "task_count": 100,
+      "path": "061-monoclonal-antibody-discovery"
+    },
+    {
+      "domain_id": 62,
+      "domain_code": "D062",
+      "domain": "Bispecific and Multispecific Antibody Engineering",
+      "slug": "bispecific-and-multispecific-antibody-engineering",
+      "task_count": 100,
+      "path": "062-bispecific-and-multispecific-antibody-engineering"
+    },
+    {
+      "domain_id": 63,
+      "domain_code": "D063",
+      "domain": "Antibody\u2013Drug Conjugate Design",
+      "slug": "antibodydrug-conjugate-design",
+      "task_count": 100,
+      "path": "063-antibodydrug-conjugate-design"
+    },
+    {
+      "domain_id": 64,
+      "domain_code": "D064",
+      "domain": "Therapeutic Protein and Enzyme Engineering",
+      "slug": "therapeutic-protein-and-enzyme-engineering",
+      "task_count": 100,
+      "path": "064-therapeutic-protein-and-enzyme-engineering"
+    },
+    {
+      "domain_id": 65,
+      "domain_code": "D065",
+      "domain": "Targeted Protein Degradation",
+      "slug": "targeted-protein-degradation",
+      "task_count": 100,
+      "path": "065-targeted-protein-degradation"
+    },
+    {
+      "domain_id": 66,
+      "domain_code": "D066",
+      "domain": "Vaccine Antigen and Immunogen Design",
+      "slug": "vaccine-antigen-and-immunogen-design",
+      "task_count": 100,
+      "path": "066-vaccine-antigen-and-immunogen-design"
+    },
+    {
+      "domain_id": 67,
+      "domain_code": "D067",
+      "domain": "Immunoinformatics and Epitope Prediction",
+      "slug": "immunoinformatics-and-epitope-prediction",
+      "task_count": 100,
+      "path": "067-immunoinformatics-and-epitope-prediction"
+    },
+    {
+      "domain_id": 68,
+      "domain_code": "D068",
+      "domain": "Biologic Immunogenicity Risk Assessment",
+      "slug": "biologic-immunogenicity-risk-assessment",
+      "task_count": 100,
+      "path": "068-biologic-immunogenicity-risk-assessment"
+    },
+    {
+      "domain_id": 69,
+      "domain_code": "D069",
+      "domain": "Engineered Immune-Cell Therapy",
+      "slug": "engineered-immune-cell-therapy",
+      "task_count": 100,
+      "path": "069-engineered-immune-cell-therapy"
+    },
+    {
+      "domain_id": 70,
+      "domain_code": "D070",
+      "domain": "Organoid, Organ-on-Chip, and Advanced Disease Models",
+      "slug": "organoid-organ-on-chip-and-advanced-disease-models",
+      "task_count": 100,
+      "path": "070-organoid-organ-on-chip-and-advanced-disease-models"
+    }
+  ],
+  "previous_batch": "batch-006-domains-051-060",
+  "next_domain": 71
+}

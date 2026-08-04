@@ -1,0 +1,822 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 6,
+  "domain_start": 51,
+  "domain_end": 60,
+  "domain_count": 10,
+  "task_count": 1000,
+  "domains": [
+    {
+      "domain_id": 51,
+      "domain_code": "D051",
+      "name": "CRISPR Guide Design and Off-Target Assessment",
+      "slug": "crispr-guide-design-and-off-target-assessment",
+      "batch_id": 6,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Intervention specification and reference control",
+          "task_count": 10,
+          "first_task_id": "MYR-D051-T001",
+          "last_task_id": "MYR-D051-T010"
+        },
+        {
+          "index": 2,
+          "name": "Target sequence and transcript-aware locus modelling",
+          "task_count": 10,
+          "first_task_id": "MYR-D051-T011",
+          "last_task_id": "MYR-D051-T020"
+        },
+        {
+          "index": 3,
+          "name": "Nuclease, PAM, and cleavage-geometry compatibility",
+          "task_count": 10,
+          "first_task_id": "MYR-D051-T021",
+          "last_task_id": "MYR-D051-T030"
+        },
+        {
+          "index": 4,
+          "name": "Guide enumeration and on-target performance assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D051-T031",
+          "last_task_id": "MYR-D051-T040"
+        },
+        {
+          "index": 5,
+          "name": "Allele-selective and variant-aware guide design",
+          "task_count": 10,
+          "first_task_id": "MYR-D051-T041",
+          "last_task_id": "MYR-D051-T050"
+        },
+        {
+          "index": 6,
+          "name": "Genome-wide off-target candidate enumeration",
+          "task_count": 10,
+          "first_task_id": "MYR-D051-T051",
+          "last_task_id": "MYR-D051-T060"
+        },
+        {
+          "index": 7,
+          "name": "Off-target scoring and genomic consequence prioritization",
+          "task_count": 10,
+          "first_task_id": "MYR-D051-T061",
+          "last_task_id": "MYR-D051-T070"
+        },
+        {
+          "index": 8,
+          "name": "Empirical specificity evidence and assay planning",
+          "task_count": 10,
+          "first_task_id": "MYR-D051-T071",
+          "last_task_id": "MYR-D051-T080"
+        },
+        {
+          "index": 9,
+          "name": "Multiplex, library, and delivery-aware guide selection",
+          "task_count": 10,
+          "first_task_id": "MYR-D051-T081",
+          "last_task_id": "MYR-D051-T090"
+        },
+        {
+          "index": 10,
+          "name": "Decision governance, release, and lifecycle monitoring",
+          "task_count": 10,
+          "first_task_id": "MYR-D051-T091",
+          "last_task_id": "MYR-D051-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 52,
+      "domain_code": "D052",
+      "name": "Base-Editing System Design",
+      "slug": "base-editing-system-design",
+      "batch_id": 6,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Edit specification and editor-class eligibility",
+          "task_count": 10,
+          "first_task_id": "MYR-D052-T001",
+          "last_task_id": "MYR-D052-T010"
+        },
+        {
+          "index": 2,
+          "name": "PAM, spacer, and editing-window enumeration",
+          "task_count": 10,
+          "first_task_id": "MYR-D052-T011",
+          "last_task_id": "MYR-D052-T020"
+        },
+        {
+          "index": 3,
+          "name": "Bystander editing and consequence resolution",
+          "task_count": 10,
+          "first_task_id": "MYR-D052-T021",
+          "last_task_id": "MYR-D052-T030"
+        },
+        {
+          "index": 4,
+          "name": "Sequence-context and editor-variant matching",
+          "task_count": 10,
+          "first_task_id": "MYR-D052-T031",
+          "last_task_id": "MYR-D052-T040"
+        },
+        {
+          "index": 5,
+          "name": "Desired-product purity and indel-spectrum assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D052-T041",
+          "last_task_id": "MYR-D052-T050"
+        },
+        {
+          "index": 6,
+          "name": "DNA off-target editing and deaminase-independent risk",
+          "task_count": 10,
+          "first_task_id": "MYR-D052-T051",
+          "last_task_id": "MYR-D052-T060"
+        },
+        {
+          "index": 7,
+          "name": "RNA off-target editing and transcriptome context",
+          "task_count": 10,
+          "first_task_id": "MYR-D052-T061",
+          "last_task_id": "MYR-D052-T070"
+        },
+        {
+          "index": 8,
+          "name": "Cell context, delivery, and exposure-aware performance",
+          "task_count": 10,
+          "first_task_id": "MYR-D052-T071",
+          "last_task_id": "MYR-D052-T080"
+        },
+        {
+          "index": 9,
+          "name": "Model calibration and experimental evidence integration",
+          "task_count": 10,
+          "first_task_id": "MYR-D052-T081",
+          "last_task_id": "MYR-D052-T090"
+        },
+        {
+          "index": 10,
+          "name": "Decision governance, release, and lifecycle control",
+          "task_count": 10,
+          "first_task_id": "MYR-D052-T091",
+          "last_task_id": "MYR-D052-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 53,
+      "domain_code": "D053",
+      "name": "Prime-Editing System Design",
+      "slug": "prime-editing-system-design",
+      "batch_id": 6,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Edit definition and prime-editing feasibility",
+          "task_count": 10,
+          "first_task_id": "MYR-D053-T001",
+          "last_task_id": "MYR-D053-T010"
+        },
+        {
+          "index": 2,
+          "name": "Protospacer and PAM candidate enumeration",
+          "task_count": 10,
+          "first_task_id": "MYR-D053-T011",
+          "last_task_id": "MYR-D053-T020"
+        },
+        {
+          "index": 3,
+          "name": "Primer-binding-site design and initiation control",
+          "task_count": 10,
+          "first_task_id": "MYR-D053-T021",
+          "last_task_id": "MYR-D053-T030"
+        },
+        {
+          "index": 4,
+          "name": "Reverse-transcription-template architecture",
+          "task_count": 10,
+          "first_task_id": "MYR-D053-T031",
+          "last_task_id": "MYR-D053-T040"
+        },
+        {
+          "index": 5,
+          "name": "Editor architecture and secondary-nick strategy",
+          "task_count": 10,
+          "first_task_id": "MYR-D053-T041",
+          "last_task_id": "MYR-D053-T050"
+        },
+        {
+          "index": 6,
+          "name": "pegRNA stability and engineered scaffold extensions",
+          "task_count": 10,
+          "first_task_id": "MYR-D053-T051",
+          "last_task_id": "MYR-D053-T060"
+        },
+        {
+          "index": 7,
+          "name": "Product spectrum and repair-outcome modelling",
+          "task_count": 10,
+          "first_task_id": "MYR-D053-T061",
+          "last_task_id": "MYR-D053-T070"
+        },
+        {
+          "index": 8,
+          "name": "Off-target, structural, and genotoxicity assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D053-T071",
+          "last_task_id": "MYR-D053-T080"
+        },
+        {
+          "index": 9,
+          "name": "Prediction calibration and empirical design-of-experiments",
+          "task_count": 10,
+          "first_task_id": "MYR-D053-T081",
+          "last_task_id": "MYR-D053-T090"
+        },
+        {
+          "index": 10,
+          "name": "Decision governance, release, and lifecycle monitoring",
+          "task_count": 10,
+          "first_task_id": "MYR-D053-T091",
+          "last_task_id": "MYR-D053-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 54,
+      "domain_code": "D054",
+      "name": "Gene-Therapy Vector and Payload Engineering",
+      "slug": "gene-therapy-vector-and-payload-engineering",
+      "batch_id": 6,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Therapeutic objective and target-product architecture",
+          "task_count": 10,
+          "first_task_id": "MYR-D054-T001",
+          "last_task_id": "MYR-D054-T010"
+        },
+        {
+          "index": 2,
+          "name": "Vector-modality selection and platform fit",
+          "task_count": 10,
+          "first_task_id": "MYR-D054-T011",
+          "last_task_id": "MYR-D054-T020"
+        },
+        {
+          "index": 3,
+          "name": "Payload coding sequence and therapeutic isoform design",
+          "task_count": 10,
+          "first_task_id": "MYR-D054-T021",
+          "last_task_id": "MYR-D054-T030"
+        },
+        {
+          "index": 4,
+          "name": "Promoter, enhancer, UTR, and expression-control design",
+          "task_count": 10,
+          "first_task_id": "MYR-D054-T031",
+          "last_task_id": "MYR-D054-T040"
+        },
+        {
+          "index": 5,
+          "name": "Vector-genome architecture and packaging constraints",
+          "task_count": 10,
+          "first_task_id": "MYR-D054-T041",
+          "last_task_id": "MYR-D054-T050"
+        },
+        {
+          "index": 6,
+          "name": "Tropism, biodistribution, dose, and target-cell coverage",
+          "task_count": 10,
+          "first_task_id": "MYR-D054-T051",
+          "last_task_id": "MYR-D054-T060"
+        },
+        {
+          "index": 7,
+          "name": "Immunogenicity, genotoxicity, and biological safety",
+          "task_count": 10,
+          "first_task_id": "MYR-D054-T061",
+          "last_task_id": "MYR-D054-T070"
+        },
+        {
+          "index": 8,
+          "name": "Manufacturing, process compatibility, and analytical control",
+          "task_count": 10,
+          "first_task_id": "MYR-D054-T071",
+          "last_task_id": "MYR-D054-T080"
+        },
+        {
+          "index": 9,
+          "name": "Nonclinical translation and clinical-development alignment",
+          "task_count": 10,
+          "first_task_id": "MYR-D054-T081",
+          "last_task_id": "MYR-D054-T090"
+        },
+        {
+          "index": 10,
+          "name": "Decision governance, release, and lifecycle management",
+          "task_count": 10,
+          "first_task_id": "MYR-D054-T091",
+          "last_task_id": "MYR-D054-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 55,
+      "domain_code": "D055",
+      "name": "Adeno-Associated Virus Capsid Informatics",
+      "slug": "adeno-associated-virus-capsid-informatics",
+      "batch_id": 6,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Capsid dataset intake and provenance normalization",
+          "task_count": 10,
+          "first_task_id": "MYR-D055-T001",
+          "last_task_id": "MYR-D055-T010"
+        },
+        {
+          "index": 2,
+          "name": "Sequence diversity, phylogeny, and feature representation",
+          "task_count": 10,
+          "first_task_id": "MYR-D055-T011",
+          "last_task_id": "MYR-D055-T020"
+        },
+        {
+          "index": 3,
+          "name": "Library design and sequence-space coverage",
+          "task_count": 10,
+          "first_task_id": "MYR-D055-T021",
+          "last_task_id": "MYR-D055-T030"
+        },
+        {
+          "index": 4,
+          "name": "Selection, enrichment, and fitness-assay analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D055-T031",
+          "last_task_id": "MYR-D055-T040"
+        },
+        {
+          "index": 5,
+          "name": "Tissue tropism and cell-type targeting",
+          "task_count": 10,
+          "first_task_id": "MYR-D055-T041",
+          "last_task_id": "MYR-D055-T050"
+        },
+        {
+          "index": 6,
+          "name": "Receptor biology and structure-guided interpretation",
+          "task_count": 10,
+          "first_task_id": "MYR-D055-T051",
+          "last_task_id": "MYR-D055-T060"
+        },
+        {
+          "index": 7,
+          "name": "Immune recognition and pre-existing immunity",
+          "task_count": 10,
+          "first_task_id": "MYR-D055-T061",
+          "last_task_id": "MYR-D055-T070"
+        },
+        {
+          "index": 8,
+          "name": "Manufacturability and product-quality prediction",
+          "task_count": 10,
+          "first_task_id": "MYR-D055-T071",
+          "last_task_id": "MYR-D055-T080"
+        },
+        {
+          "index": 9,
+          "name": "Machine-learning model development and validation",
+          "task_count": 10,
+          "first_task_id": "MYR-D055-T081",
+          "last_task_id": "MYR-D055-T090"
+        },
+        {
+          "index": 10,
+          "name": "Candidate nomination, governance, and lifecycle control",
+          "task_count": 10,
+          "first_task_id": "MYR-D055-T091",
+          "last_task_id": "MYR-D055-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 56,
+      "domain_code": "D056",
+      "name": "Messenger RNA Therapeutic Design",
+      "slug": "messenger-rna-therapeutic-design",
+      "batch_id": 6,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Therapeutic objective and molecular product definition",
+          "task_count": 10,
+          "first_task_id": "MYR-D056-T001",
+          "last_task_id": "MYR-D056-T010"
+        },
+        {
+          "index": 2,
+          "name": "Encoded protein and open-reading-frame architecture",
+          "task_count": 10,
+          "first_task_id": "MYR-D056-T011",
+          "last_task_id": "MYR-D056-T020"
+        },
+        {
+          "index": 3,
+          "name": "Coding-sequence optimization and nucleotide composition",
+          "task_count": 10,
+          "first_task_id": "MYR-D056-T021",
+          "last_task_id": "MYR-D056-T030"
+        },
+        {
+          "index": 4,
+          "name": "Five-prime and three-prime UTR engineering",
+          "task_count": 10,
+          "first_task_id": "MYR-D056-T031",
+          "last_task_id": "MYR-D056-T040"
+        },
+        {
+          "index": 5,
+          "name": "Cap, polyadenylation, termini, and transcript architecture",
+          "task_count": 10,
+          "first_task_id": "MYR-D056-T041",
+          "last_task_id": "MYR-D056-T050"
+        },
+        {
+          "index": 6,
+          "name": "Nucleoside chemistry and innate-immune modulation",
+          "task_count": 10,
+          "first_task_id": "MYR-D056-T051",
+          "last_task_id": "MYR-D056-T060"
+        },
+        {
+          "index": 7,
+          "name": "RNA structure, stability, and degradation control",
+          "task_count": 10,
+          "first_task_id": "MYR-D056-T061",
+          "last_task_id": "MYR-D056-T070"
+        },
+        {
+          "index": 8,
+          "name": "Translation, protein quality, and functional potency",
+          "task_count": 10,
+          "first_task_id": "MYR-D056-T071",
+          "last_task_id": "MYR-D056-T080"
+        },
+        {
+          "index": 9,
+          "name": "Delivery and formulation compatibility",
+          "task_count": 10,
+          "first_task_id": "MYR-D056-T081",
+          "last_task_id": "MYR-D056-T090"
+        },
+        {
+          "index": 10,
+          "name": "Analytical control, governance, and release",
+          "task_count": 10,
+          "first_task_id": "MYR-D056-T091",
+          "last_task_id": "MYR-D056-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 57,
+      "domain_code": "D057",
+      "name": "Small-Interfering RNA Therapeutic Design",
+      "slug": "small-interfering-rna-therapeutic-design",
+      "batch_id": 6,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Therapeutic target and transcript definition",
+          "task_count": 10,
+          "first_task_id": "MYR-D057-T001",
+          "last_task_id": "MYR-D057-T010"
+        },
+        {
+          "index": 2,
+          "name": "Duplex candidate enumeration and strand architecture",
+          "task_count": 10,
+          "first_task_id": "MYR-D057-T011",
+          "last_task_id": "MYR-D057-T020"
+        },
+        {
+          "index": 3,
+          "name": "RISC loading and intrinsic efficacy prediction",
+          "task_count": 10,
+          "first_task_id": "MYR-D057-T021",
+          "last_task_id": "MYR-D057-T030"
+        },
+        {
+          "index": 4,
+          "name": "Seed-mediated and transcriptome-wide off-target assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D057-T031",
+          "last_task_id": "MYR-D057-T040"
+        },
+        {
+          "index": 5,
+          "name": "Chemical modification and duplex-stability engineering",
+          "task_count": 10,
+          "first_task_id": "MYR-D057-T041",
+          "last_task_id": "MYR-D057-T050"
+        },
+        {
+          "index": 6,
+          "name": "Conjugate and tissue-delivery compatibility",
+          "task_count": 10,
+          "first_task_id": "MYR-D057-T051",
+          "last_task_id": "MYR-D057-T060"
+        },
+        {
+          "index": 7,
+          "name": "Stability, pharmacokinetics, and pharmacodynamics",
+          "task_count": 10,
+          "first_task_id": "MYR-D057-T061",
+          "last_task_id": "MYR-D057-T070"
+        },
+        {
+          "index": 8,
+          "name": "Innate immunity, class effects, and sequence-dependent safety",
+          "task_count": 10,
+          "first_task_id": "MYR-D057-T071",
+          "last_task_id": "MYR-D057-T080"
+        },
+        {
+          "index": 9,
+          "name": "Resistance variants and empirical validation strategy",
+          "task_count": 10,
+          "first_task_id": "MYR-D057-T081",
+          "last_task_id": "MYR-D057-T090"
+        },
+        {
+          "index": 10,
+          "name": "Decision governance, release, and lifecycle monitoring",
+          "task_count": 10,
+          "first_task_id": "MYR-D057-T091",
+          "last_task_id": "MYR-D057-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 58,
+      "domain_code": "D058",
+      "name": "Antisense Oligonucleotide Design",
+      "slug": "antisense-oligonucleotide-design",
+      "batch_id": 6,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Mechanism, target transcript, and intervention definition",
+          "task_count": 10,
+          "first_task_id": "MYR-D058-T001",
+          "last_task_id": "MYR-D058-T010"
+        },
+        {
+          "index": 2,
+          "name": "Target-site enumeration and RNA-accessibility assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D058-T011",
+          "last_task_id": "MYR-D058-T020"
+        },
+        {
+          "index": 3,
+          "name": "Splice-modulating oligonucleotide design",
+          "task_count": 10,
+          "first_task_id": "MYR-D058-T021",
+          "last_task_id": "MYR-D058-T030"
+        },
+        {
+          "index": 4,
+          "name": "RNase-H gapmer design and cleavage control",
+          "task_count": 10,
+          "first_task_id": "MYR-D058-T031",
+          "last_task_id": "MYR-D058-T040"
+        },
+        {
+          "index": 5,
+          "name": "Steric blocking, translation control, and RNA restoration",
+          "task_count": 10,
+          "first_task_id": "MYR-D058-T041",
+          "last_task_id": "MYR-D058-T050"
+        },
+        {
+          "index": 6,
+          "name": "Oligonucleotide chemistry and backbone architecture",
+          "task_count": 10,
+          "first_task_id": "MYR-D058-T051",
+          "last_task_id": "MYR-D058-T060"
+        },
+        {
+          "index": 7,
+          "name": "Hybridization specificity and transcriptome off-targets",
+          "task_count": 10,
+          "first_task_id": "MYR-D058-T061",
+          "last_task_id": "MYR-D058-T070"
+        },
+        {
+          "index": 8,
+          "name": "Delivery, biodistribution, and intracellular trafficking",
+          "task_count": 10,
+          "first_task_id": "MYR-D058-T071",
+          "last_task_id": "MYR-D058-T080"
+        },
+        {
+          "index": 9,
+          "name": "Nonclinical safety, class effects, and translational interpretation",
+          "task_count": 10,
+          "first_task_id": "MYR-D058-T081",
+          "last_task_id": "MYR-D058-T090"
+        },
+        {
+          "index": 10,
+          "name": "Decision governance, release, and lifecycle monitoring",
+          "task_count": 10,
+          "first_task_id": "MYR-D058-T091",
+          "last_task_id": "MYR-D058-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 59,
+      "domain_code": "D059",
+      "name": "RNA Editing and Programmable RNA Therapeutics",
+      "slug": "rna-editing-and-programmable-rna-therapeutics",
+      "batch_id": 6,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Therapeutic mechanism and modality selection",
+          "task_count": 10,
+          "first_task_id": "MYR-D059-T001",
+          "last_task_id": "MYR-D059-T010"
+        },
+        {
+          "index": 2,
+          "name": "Transcript, isoform, allele, and structure modelling",
+          "task_count": 10,
+          "first_task_id": "MYR-D059-T011",
+          "last_task_id": "MYR-D059-T020"
+        },
+        {
+          "index": 3,
+          "name": "ADAR-recruiting guide design",
+          "task_count": 10,
+          "first_task_id": "MYR-D059-T021",
+          "last_task_id": "MYR-D059-T030"
+        },
+        {
+          "index": 4,
+          "name": "Cas13 guide design and programmable RNA cleavage",
+          "task_count": 10,
+          "first_task_id": "MYR-D059-T031",
+          "last_task_id": "MYR-D059-T040"
+        },
+        {
+          "index": 5,
+          "name": "RNA base editing, recoding, and byproduct control",
+          "task_count": 10,
+          "first_task_id": "MYR-D059-T041",
+          "last_task_id": "MYR-D059-T050"
+        },
+        {
+          "index": 6,
+          "name": "Programmable splicing, translation, localization, and RNA fate",
+          "task_count": 10,
+          "first_task_id": "MYR-D059-T051",
+          "last_task_id": "MYR-D059-T060"
+        },
+        {
+          "index": 7,
+          "name": "Transcriptome-wide specificity and causal attribution",
+          "task_count": 10,
+          "first_task_id": "MYR-D059-T061",
+          "last_task_id": "MYR-D059-T070"
+        },
+        {
+          "index": 8,
+          "name": "Delivery, expression duration, and reversibility control",
+          "task_count": 10,
+          "first_task_id": "MYR-D059-T071",
+          "last_task_id": "MYR-D059-T080"
+        },
+        {
+          "index": 9,
+          "name": "Prediction calibration and empirical validation",
+          "task_count": 10,
+          "first_task_id": "MYR-D059-T081",
+          "last_task_id": "MYR-D059-T090"
+        },
+        {
+          "index": 10,
+          "name": "Decision governance, release, and lifecycle monitoring",
+          "task_count": 10,
+          "first_task_id": "MYR-D059-T091",
+          "last_task_id": "MYR-D059-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 60,
+      "domain_code": "D060",
+      "name": "Nucleic-Acid Delivery-System Engineering",
+      "slug": "nucleic-acid-delivery-system-engineering",
+      "batch_id": 6,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Target product profile and delivery requirements",
+          "task_count": 10,
+          "first_task_id": "MYR-D060-T001",
+          "last_task_id": "MYR-D060-T010"
+        },
+        {
+          "index": 2,
+          "name": "Payload characterization and carrier compatibility",
+          "task_count": 10,
+          "first_task_id": "MYR-D060-T011",
+          "last_task_id": "MYR-D060-T020"
+        },
+        {
+          "index": 3,
+          "name": "Delivery-modality and carrier-platform selection",
+          "task_count": 10,
+          "first_task_id": "MYR-D060-T021",
+          "last_task_id": "MYR-D060-T030"
+        },
+        {
+          "index": 4,
+          "name": "Lipid-nanoparticle composition and structure optimization",
+          "task_count": 10,
+          "first_task_id": "MYR-D060-T031",
+          "last_task_id": "MYR-D060-T040"
+        },
+        {
+          "index": 5,
+          "name": "Polymer, conjugate, vesicle, and alternative carrier engineering",
+          "task_count": 10,
+          "first_task_id": "MYR-D060-T041",
+          "last_task_id": "MYR-D060-T050"
+        },
+        {
+          "index": 6,
+          "name": "Formulation process and scale-up control",
+          "task_count": 10,
+          "first_task_id": "MYR-D060-T051",
+          "last_task_id": "MYR-D060-T060"
+        },
+        {
+          "index": 7,
+          "name": "Biodistribution, cell targeting, and intracellular trafficking",
+          "task_count": 10,
+          "first_task_id": "MYR-D060-T061",
+          "last_task_id": "MYR-D060-T070"
+        },
+        {
+          "index": 8,
+          "name": "Safety, immunogenicity, and repeat-dose assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D060-T071",
+          "last_task_id": "MYR-D060-T080"
+        },
+        {
+          "index": 9,
+          "name": "Delivery pharmacokinetics, pharmacodynamics, and modelling",
+          "task_count": 10,
+          "first_task_id": "MYR-D060-T081",
+          "last_task_id": "MYR-D060-T090"
+        },
+        {
+          "index": 10,
+          "name": "Analytical control, manufacturability, and product release",
+          "task_count": 10,
+          "first_task_id": "MYR-D060-T091",
+          "last_task_id": "MYR-D060-T100"
+        }
+      ]
+    }
+  ],
+  "release_version": "1.0.0",
+  "release_date": "2026-08-04"
+}

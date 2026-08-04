@@ -1,0 +1,29 @@
+{
+  "valid": true,
+  "errors": [],
+  "batch": "004",
+  "domain_count": 10,
+  "task_count": 1000,
+  "tasks_per_domain": {
+    "31": 100,
+    "32": 100,
+    "33": 100,
+    "34": 100,
+    "35": 100,
+    "36": 100,
+    "37": 100,
+    "38": 100,
+    "39": 100,
+    "40": 100
+  },
+  "unique_ids": 1000,
+  "unique_routing_names": 1000,
+  "unique_titles": 1000,
+  "cross_batch_compared_task_count": 3000,
+  "quality_checks": [
+    "minimum eight words per title",
+    "no generic bare action titles",
+    "five completion-evidence classes",
+    "explicit execution boundary"
+  ]
+}

@@ -1,0 +1,26 @@
+name: Task quality issue
+description: Report a scientific, routing, provenance, or boundary issue in a MYRIAD node.
+title: "[Task quality]: "
+labels: ["task-quality"]
+body:
+  - type: input
+    id: task
+    attributes:
+      label: Task ID
+      placeholder: MYR-D001-T001
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: Problem
+      description: Explain the inaccurate, ambiguous, unsafe, duplicated, or unverifiable content.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting evidence
+      description: Prefer current primary sources or controlled standards.
+    validations:
+      required: true

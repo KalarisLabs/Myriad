@@ -1,0 +1,11 @@
+{
+  "algorithm": "SHA-256",
+  "files": {
+    "BATCH_MANIFEST.json": "eb4e636364b7c8db112a81706aa9e524f98f80e18040fe1af291fd03aa20a4d0",
+    "README.md": "d3cc21c9d95c64b280d1535db89a3a16dd57229db6fb5f853c9d5488186b8e77",
+    "SCIENTIFIC_BASIS.md": "21c639d09ad2581d315914f24b85ac88b0e506fea18e8d5a3394ed7e5cc0caa8",
+    "VALIDATION_REPORT.json": "d51f5b1916a61e100b6a363f9d9387328d7b0e1eb27539b7a01c9ed2f98a63bc",
+    "all-tasks.jsonl": "d5fa8313e5839e1fe90b7866c094edc74d9ab50ca378c90f497b4bdccbdbfad4",
+    "validate_batch.py": "687d942c078cbd8788c358b76e0a831d740959da9ecce6c9cb9aff9edd1e9a8c"
+  }
+}

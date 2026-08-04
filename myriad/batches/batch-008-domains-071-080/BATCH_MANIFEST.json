@@ -1,0 +1,822 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 8,
+  "domain_start": 71,
+  "domain_end": 80,
+  "domain_count": 10,
+  "task_count": 1000,
+  "domains": [
+    {
+      "domain_id": 71,
+      "domain_code": "D071",
+      "name": "Production Cell-Line Development",
+      "slug": "production-cell-line-development",
+      "batch_id": 8,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Product, host, and expression-system definition",
+          "task_count": 10,
+          "first_task_id": "MYR-D071-T001",
+          "last_task_id": "MYR-D071-T010"
+        },
+        {
+          "index": 2,
+          "name": "Cell-line generation and selection strategy",
+          "task_count": 10,
+          "first_task_id": "MYR-D071-T011",
+          "last_task_id": "MYR-D071-T020"
+        },
+        {
+          "index": 3,
+          "name": "Clonality and lineage assurance",
+          "task_count": 10,
+          "first_task_id": "MYR-D071-T021",
+          "last_task_id": "MYR-D071-T030"
+        },
+        {
+          "index": 4,
+          "name": "Clone screening and productivity ranking",
+          "task_count": 10,
+          "first_task_id": "MYR-D071-T031",
+          "last_task_id": "MYR-D071-T040"
+        },
+        {
+          "index": 5,
+          "name": "Product-quality and biosynthetic phenotype screening",
+          "task_count": 10,
+          "first_task_id": "MYR-D071-T041",
+          "last_task_id": "MYR-D071-T050"
+        },
+        {
+          "index": 6,
+          "name": "Genetic characterization and stability",
+          "task_count": 10,
+          "first_task_id": "MYR-D071-T051",
+          "last_task_id": "MYR-D071-T060"
+        },
+        {
+          "index": 7,
+          "name": "Process-relevant performance and scale translation",
+          "task_count": 10,
+          "first_task_id": "MYR-D071-T061",
+          "last_task_id": "MYR-D071-T070"
+        },
+        {
+          "index": 8,
+          "name": "Adventitious-agent, identity, and biosafety assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D071-T071",
+          "last_task_id": "MYR-D071-T080"
+        },
+        {
+          "index": 9,
+          "name": "Cell-bank establishment and governance",
+          "task_count": 10,
+          "first_task_id": "MYR-D071-T081",
+          "last_task_id": "MYR-D071-T090"
+        },
+        {
+          "index": 10,
+          "name": "Lead-cell-line selection and lifecycle handoff",
+          "task_count": 10,
+          "first_task_id": "MYR-D071-T091",
+          "last_task_id": "MYR-D071-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 72,
+      "domain_code": "D072",
+      "name": "Upstream Bioprocess Development",
+      "slug": "upstream-bioprocess-development",
+      "batch_id": 8,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Process objective and development strategy",
+          "task_count": 10,
+          "first_task_id": "MYR-D072-T001",
+          "last_task_id": "MYR-D072-T010"
+        },
+        {
+          "index": 2,
+          "name": "Seed train and inoculum-state control",
+          "task_count": 10,
+          "first_task_id": "MYR-D072-T011",
+          "last_task_id": "MYR-D072-T020"
+        },
+        {
+          "index": 3,
+          "name": "Basal medium and raw-material qualification",
+          "task_count": 10,
+          "first_task_id": "MYR-D072-T021",
+          "last_task_id": "MYR-D072-T030"
+        },
+        {
+          "index": 4,
+          "name": "Feed strategy and nutrient delivery",
+          "task_count": 10,
+          "first_task_id": "MYR-D072-T031",
+          "last_task_id": "MYR-D072-T040"
+        },
+        {
+          "index": 5,
+          "name": "Physical environment and gas-transfer development",
+          "task_count": 10,
+          "first_task_id": "MYR-D072-T041",
+          "last_task_id": "MYR-D072-T050"
+        },
+        {
+          "index": 6,
+          "name": "Metabolic-state and by-product control",
+          "task_count": 10,
+          "first_task_id": "MYR-D072-T051",
+          "last_task_id": "MYR-D072-T060"
+        },
+        {
+          "index": 7,
+          "name": "Culture duration, harvest, and clarification readiness",
+          "task_count": 10,
+          "first_task_id": "MYR-D072-T061",
+          "last_task_id": "MYR-D072-T070"
+        },
+        {
+          "index": 8,
+          "name": "Scale-down model and parameter screening",
+          "task_count": 10,
+          "first_task_id": "MYR-D072-T071",
+          "last_task_id": "MYR-D072-T080"
+        },
+        {
+          "index": 9,
+          "name": "Scale-up, technology transfer, and facility fit",
+          "task_count": 10,
+          "first_task_id": "MYR-D072-T081",
+          "last_task_id": "MYR-D072-T090"
+        },
+        {
+          "index": 10,
+          "name": "Robustness, control strategy, and lifecycle handoff",
+          "task_count": 10,
+          "first_task_id": "MYR-D072-T091",
+          "last_task_id": "MYR-D072-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 73,
+      "domain_code": "D073",
+      "name": "Bioreactor Modelling and Process Control",
+      "slug": "bioreactor-modelling-and-process-control",
+      "batch_id": 8,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Modelling objective and system boundary",
+          "task_count": 10,
+          "first_task_id": "MYR-D073-T001",
+          "last_task_id": "MYR-D073-T010"
+        },
+        {
+          "index": 2,
+          "name": "Data ingestion, synchronization, and reconciliation",
+          "task_count": 10,
+          "first_task_id": "MYR-D073-T011",
+          "last_task_id": "MYR-D073-T020"
+        },
+        {
+          "index": 3,
+          "name": "Mass, energy, and component-balance modelling",
+          "task_count": 10,
+          "first_task_id": "MYR-D073-T021",
+          "last_task_id": "MYR-D073-T030"
+        },
+        {
+          "index": 4,
+          "name": "Kinetic, metabolic, and product-formation models",
+          "task_count": 10,
+          "first_task_id": "MYR-D073-T031",
+          "last_task_id": "MYR-D073-T040"
+        },
+        {
+          "index": 5,
+          "name": "Mixing, mass-transfer, and hydrodynamic models",
+          "task_count": 10,
+          "first_task_id": "MYR-D073-T041",
+          "last_task_id": "MYR-D073-T050"
+        },
+        {
+          "index": 6,
+          "name": "Sensor models, soft sensors, and state estimation",
+          "task_count": 10,
+          "first_task_id": "MYR-D073-T051",
+          "last_task_id": "MYR-D073-T060"
+        },
+        {
+          "index": 7,
+          "name": "Control-loop performance and actuator characterization",
+          "task_count": 10,
+          "first_task_id": "MYR-D073-T061",
+          "last_task_id": "MYR-D073-T070"
+        },
+        {
+          "index": 8,
+          "name": "Model-predictive and supervisory control design",
+          "task_count": 10,
+          "first_task_id": "MYR-D073-T071",
+          "last_task_id": "MYR-D073-T080"
+        },
+        {
+          "index": 9,
+          "name": "Digital twin validation and lifecycle monitoring",
+          "task_count": 10,
+          "first_task_id": "MYR-D073-T081",
+          "last_task_id": "MYR-D073-T090"
+        },
+        {
+          "index": 10,
+          "name": "Scenario analysis, control governance, and release",
+          "task_count": 10,
+          "first_task_id": "MYR-D073-T091",
+          "last_task_id": "MYR-D073-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 74,
+      "domain_code": "D074",
+      "name": "Media and Feed Optimization",
+      "slug": "media-and-feed-optimization",
+      "batch_id": 8,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Optimization objective and formulation boundary",
+          "task_count": 10,
+          "first_task_id": "MYR-D074-T001",
+          "last_task_id": "MYR-D074-T010"
+        },
+        {
+          "index": 2,
+          "name": "Ingredient identity and knowledge-base curation",
+          "task_count": 10,
+          "first_task_id": "MYR-D074-T011",
+          "last_task_id": "MYR-D074-T020"
+        },
+        {
+          "index": 3,
+          "name": "Raw-material lot and supplier variability",
+          "task_count": 10,
+          "first_task_id": "MYR-D074-T021",
+          "last_task_id": "MYR-D074-T030"
+        },
+        {
+          "index": 4,
+          "name": "Solubility, compatibility, and preparation stability",
+          "task_count": 10,
+          "first_task_id": "MYR-D074-T031",
+          "last_task_id": "MYR-D074-T040"
+        },
+        {
+          "index": 5,
+          "name": "Metabolic demand and nutrient-balance analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D074-T041",
+          "last_task_id": "MYR-D074-T050"
+        },
+        {
+          "index": 6,
+          "name": "Designed experiments and interaction mapping",
+          "task_count": 10,
+          "first_task_id": "MYR-D074-T051",
+          "last_task_id": "MYR-D074-T060"
+        },
+        {
+          "index": 7,
+          "name": "Machine-learning and active-learning optimization",
+          "task_count": 10,
+          "first_task_id": "MYR-D074-T061",
+          "last_task_id": "MYR-D074-T070"
+        },
+        {
+          "index": 8,
+          "name": "Feed timing, concentration, and delivery optimization",
+          "task_count": 10,
+          "first_task_id": "MYR-D074-T071",
+          "last_task_id": "MYR-D074-T080"
+        },
+        {
+          "index": 9,
+          "name": "Product-quality, impurity, and downstream impact",
+          "task_count": 10,
+          "first_task_id": "MYR-D074-T081",
+          "last_task_id": "MYR-D074-T090"
+        },
+        {
+          "index": 10,
+          "name": "Confirmation, scale transfer, and lifecycle control",
+          "task_count": 10,
+          "first_task_id": "MYR-D074-T091",
+          "last_task_id": "MYR-D074-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 75,
+      "domain_code": "D075",
+      "name": "Downstream Purification Development",
+      "slug": "downstream-purification-development",
+      "batch_id": 8,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Purification target profile and sequence architecture",
+          "task_count": 10,
+          "first_task_id": "MYR-D075-T001",
+          "last_task_id": "MYR-D075-T010"
+        },
+        {
+          "index": 2,
+          "name": "Harvest clarification and primary recovery",
+          "task_count": 10,
+          "first_task_id": "MYR-D075-T011",
+          "last_task_id": "MYR-D075-T020"
+        },
+        {
+          "index": 3,
+          "name": "Capture chromatography development",
+          "task_count": 10,
+          "first_task_id": "MYR-D075-T021",
+          "last_task_id": "MYR-D075-T030"
+        },
+        {
+          "index": 4,
+          "name": "Intermediate purification and impurity clearance",
+          "task_count": 10,
+          "first_task_id": "MYR-D075-T031",
+          "last_task_id": "MYR-D075-T040"
+        },
+        {
+          "index": 5,
+          "name": "Polishing and product-variant control",
+          "task_count": 10,
+          "first_task_id": "MYR-D075-T041",
+          "last_task_id": "MYR-D075-T050"
+        },
+        {
+          "index": 6,
+          "name": "Ultrafiltration, diafiltration, and concentration",
+          "task_count": 10,
+          "first_task_id": "MYR-D075-T051",
+          "last_task_id": "MYR-D075-T060"
+        },
+        {
+          "index": 7,
+          "name": "Viral clearance and microbial-control strategy",
+          "task_count": 10,
+          "first_task_id": "MYR-D075-T061",
+          "last_task_id": "MYR-D075-T070"
+        },
+        {
+          "index": 8,
+          "name": "Buffer, hold, pool, and intermediate stability",
+          "task_count": 10,
+          "first_task_id": "MYR-D075-T071",
+          "last_task_id": "MYR-D075-T080"
+        },
+        {
+          "index": 9,
+          "name": "Scale-up, resin lifetime, and facility integration",
+          "task_count": 10,
+          "first_task_id": "MYR-D075-T081",
+          "last_task_id": "MYR-D075-T090"
+        },
+        {
+          "index": 10,
+          "name": "Integrated process performance and lifecycle handoff",
+          "task_count": 10,
+          "first_task_id": "MYR-D075-T091",
+          "last_task_id": "MYR-D075-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 76,
+      "domain_code": "D076",
+      "name": "Process Analytical Technology and Digital Bioprocessing",
+      "slug": "process-analytical-technology-and-digital-bioprocessing",
+      "batch_id": 8,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "PAT use case and measurement target definition",
+          "task_count": 10,
+          "first_task_id": "MYR-D076-T001",
+          "last_task_id": "MYR-D076-T010"
+        },
+        {
+          "index": 2,
+          "name": "Sensor and analyzer technology selection",
+          "task_count": 10,
+          "first_task_id": "MYR-D076-T011",
+          "last_task_id": "MYR-D076-T020"
+        },
+        {
+          "index": 3,
+          "name": "Sampling interface and reference-method traceability",
+          "task_count": 10,
+          "first_task_id": "MYR-D076-T021",
+          "last_task_id": "MYR-D076-T030"
+        },
+        {
+          "index": 4,
+          "name": "Chemometric and multivariate model development",
+          "task_count": 10,
+          "first_task_id": "MYR-D076-T031",
+          "last_task_id": "MYR-D076-T040"
+        },
+        {
+          "index": 5,
+          "name": "Soft sensors and real-time state estimation",
+          "task_count": 10,
+          "first_task_id": "MYR-D076-T041",
+          "last_task_id": "MYR-D076-T050"
+        },
+        {
+          "index": 6,
+          "name": "Data architecture, contextualization, and integrity",
+          "task_count": 10,
+          "first_task_id": "MYR-D076-T051",
+          "last_task_id": "MYR-D076-T060"
+        },
+        {
+          "index": 7,
+          "name": "Real-time monitoring and multivariate process control",
+          "task_count": 10,
+          "first_task_id": "MYR-D076-T061",
+          "last_task_id": "MYR-D076-T070"
+        },
+        {
+          "index": 8,
+          "name": "Model maintenance, transfer, and drift control",
+          "task_count": 10,
+          "first_task_id": "MYR-D076-T071",
+          "last_task_id": "MYR-D076-T080"
+        },
+        {
+          "index": 9,
+          "name": "Digital workflow, automation, and cybersecurity governance",
+          "task_count": 10,
+          "first_task_id": "MYR-D076-T081",
+          "last_task_id": "MYR-D076-T090"
+        },
+        {
+          "index": 10,
+          "name": "PAT validation, control-strategy integration, and release",
+          "task_count": 10,
+          "first_task_id": "MYR-D076-T091",
+          "last_task_id": "MYR-D076-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 77,
+      "domain_code": "D077",
+      "name": "Quality by Design and Design-Space Modelling",
+      "slug": "quality-by-design-and-design-space-modelling",
+      "batch_id": 8,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Quality target product profile and development intent",
+          "task_count": 10,
+          "first_task_id": "MYR-D077-T001",
+          "last_task_id": "MYR-D077-T010"
+        },
+        {
+          "index": 2,
+          "name": "Critical quality attribute identification and justification",
+          "task_count": 10,
+          "first_task_id": "MYR-D077-T011",
+          "last_task_id": "MYR-D077-T020"
+        },
+        {
+          "index": 3,
+          "name": "Material attribute and process parameter mapping",
+          "task_count": 10,
+          "first_task_id": "MYR-D077-T021",
+          "last_task_id": "MYR-D077-T030"
+        },
+        {
+          "index": 4,
+          "name": "Quality risk management and failure-mode analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D077-T031",
+          "last_task_id": "MYR-D077-T040"
+        },
+        {
+          "index": 5,
+          "name": "Experimental strategy and design-of-experiments",
+          "task_count": 10,
+          "first_task_id": "MYR-D077-T041",
+          "last_task_id": "MYR-D077-T050"
+        },
+        {
+          "index": 6,
+          "name": "Process model development and qualification",
+          "task_count": 10,
+          "first_task_id": "MYR-D077-T051",
+          "last_task_id": "MYR-D077-T060"
+        },
+        {
+          "index": 7,
+          "name": "Proven acceptable range and edge-of-failure analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D077-T061",
+          "last_task_id": "MYR-D077-T070"
+        },
+        {
+          "index": 8,
+          "name": "Design-space construction and verification",
+          "task_count": 10,
+          "first_task_id": "MYR-D077-T071",
+          "last_task_id": "MYR-D077-T080"
+        },
+        {
+          "index": 9,
+          "name": "Control strategy and process-performance integration",
+          "task_count": 10,
+          "first_task_id": "MYR-D077-T081",
+          "last_task_id": "MYR-D077-T090"
+        },
+        {
+          "index": 10,
+          "name": "Lifecycle knowledge management and regulatory handoff",
+          "task_count": 10,
+          "first_task_id": "MYR-D077-T091",
+          "last_task_id": "MYR-D077-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 78,
+      "domain_code": "D078",
+      "name": "Continuous and Intensified Biomanufacturing",
+      "slug": "continuous-and-intensified-biomanufacturing",
+      "batch_id": 8,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Continuous-process concept and operating model",
+          "task_count": 10,
+          "first_task_id": "MYR-D078-T001",
+          "last_task_id": "MYR-D078-T010"
+        },
+        {
+          "index": 2,
+          "name": "Residence-time distribution and material genealogy",
+          "task_count": 10,
+          "first_task_id": "MYR-D078-T011",
+          "last_task_id": "MYR-D078-T020"
+        },
+        {
+          "index": 3,
+          "name": "Startup, shutdown, transition, and campaign boundary",
+          "task_count": 10,
+          "first_task_id": "MYR-D078-T021",
+          "last_task_id": "MYR-D078-T030"
+        },
+        {
+          "index": 4,
+          "name": "Integrated upstream and downstream capacity balancing",
+          "task_count": 10,
+          "first_task_id": "MYR-D078-T031",
+          "last_task_id": "MYR-D078-T040"
+        },
+        {
+          "index": 5,
+          "name": "Continuous upstream intensification",
+          "task_count": 10,
+          "first_task_id": "MYR-D078-T041",
+          "last_task_id": "MYR-D078-T050"
+        },
+        {
+          "index": 6,
+          "name": "Continuous downstream and multi-column operation",
+          "task_count": 10,
+          "first_task_id": "MYR-D078-T051",
+          "last_task_id": "MYR-D078-T060"
+        },
+        {
+          "index": 7,
+          "name": "Disturbance management, diversion, and recovery",
+          "task_count": 10,
+          "first_task_id": "MYR-D078-T061",
+          "last_task_id": "MYR-D078-T070"
+        },
+        {
+          "index": 8,
+          "name": "Microbial control, cleaning, and long-duration operation",
+          "task_count": 10,
+          "first_task_id": "MYR-D078-T071",
+          "last_task_id": "MYR-D078-T080"
+        },
+        {
+          "index": 9,
+          "name": "Lot definition, release, and continuous verification",
+          "task_count": 10,
+          "first_task_id": "MYR-D078-T081",
+          "last_task_id": "MYR-D078-T090"
+        },
+        {
+          "index": 10,
+          "name": "Scale, lifecycle, economics, and regulatory handoff",
+          "task_count": 10,
+          "first_task_id": "MYR-D078-T091",
+          "last_task_id": "MYR-D078-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 79,
+      "domain_code": "D079",
+      "name": "Formulation, Stability, and Cold-Chain Engineering",
+      "slug": "formulation-stability-and-cold-chain-engineering",
+      "batch_id": 8,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Product stability target and degradation-risk definition",
+          "task_count": 10,
+          "first_task_id": "MYR-D079-T001",
+          "last_task_id": "MYR-D079-T010"
+        },
+        {
+          "index": 2,
+          "name": "Formulation screening and excipient selection",
+          "task_count": 10,
+          "first_task_id": "MYR-D079-T011",
+          "last_task_id": "MYR-D079-T020"
+        },
+        {
+          "index": 3,
+          "name": "Chemical degradation mechanism assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D079-T021",
+          "last_task_id": "MYR-D079-T030"
+        },
+        {
+          "index": 4,
+          "name": "Physical stability and particle control",
+          "task_count": 10,
+          "first_task_id": "MYR-D079-T031",
+          "last_task_id": "MYR-D079-T040"
+        },
+        {
+          "index": 5,
+          "name": "High-concentration and delivery-device compatibility",
+          "task_count": 10,
+          "first_task_id": "MYR-D079-T041",
+          "last_task_id": "MYR-D079-T050"
+        },
+        {
+          "index": 6,
+          "name": "Container-closure, extractables, and leachables",
+          "task_count": 10,
+          "first_task_id": "MYR-D079-T051",
+          "last_task_id": "MYR-D079-T060"
+        },
+        {
+          "index": 7,
+          "name": "Stability study design and data integrity",
+          "task_count": 10,
+          "first_task_id": "MYR-D079-T061",
+          "last_task_id": "MYR-D079-T070"
+        },
+        {
+          "index": 8,
+          "name": "Shelf-life, trending, and predictive stability modelling",
+          "task_count": 10,
+          "first_task_id": "MYR-D079-T071",
+          "last_task_id": "MYR-D079-T080"
+        },
+        {
+          "index": 9,
+          "name": "Cold-chain design, shipping validation, and excursions",
+          "task_count": 10,
+          "first_task_id": "MYR-D079-T081",
+          "last_task_id": "MYR-D079-T090"
+        },
+        {
+          "index": 10,
+          "name": "In-use stability, lifecycle monitoring, and handoff",
+          "task_count": 10,
+          "first_task_id": "MYR-D079-T091",
+          "last_task_id": "MYR-D079-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 80,
+      "domain_code": "D080",
+      "name": "Analytical Development, Lot Release, and Comparability",
+      "slug": "analytical-development-lot-release-and-comparability",
+      "batch_id": 8,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Analytical target profile and method portfolio",
+          "task_count": 10,
+          "first_task_id": "MYR-D080-T001",
+          "last_task_id": "MYR-D080-T010"
+        },
+        {
+          "index": 2,
+          "name": "Method development and analytical procedure understanding",
+          "task_count": 10,
+          "first_task_id": "MYR-D080-T011",
+          "last_task_id": "MYR-D080-T020"
+        },
+        {
+          "index": 3,
+          "name": "Method qualification and validation",
+          "task_count": 10,
+          "first_task_id": "MYR-D080-T021",
+          "last_task_id": "MYR-D080-T030"
+        },
+        {
+          "index": 4,
+          "name": "Reference standards and critical reagent governance",
+          "task_count": 10,
+          "first_task_id": "MYR-D080-T031",
+          "last_task_id": "MYR-D080-T040"
+        },
+        {
+          "index": 5,
+          "name": "Specifications and acceptance-criteria development",
+          "task_count": 10,
+          "first_task_id": "MYR-D080-T041",
+          "last_task_id": "MYR-D080-T050"
+        },
+        {
+          "index": 6,
+          "name": "Potency and biological activity assays",
+          "task_count": 10,
+          "first_task_id": "MYR-D080-T051",
+          "last_task_id": "MYR-D080-T060"
+        },
+        {
+          "index": 7,
+          "name": "Stability-indicating and multi-attribute methods",
+          "task_count": 10,
+          "first_task_id": "MYR-D080-T061",
+          "last_task_id": "MYR-D080-T070"
+        },
+        {
+          "index": 8,
+          "name": "Lot release, data review, and disposition support",
+          "task_count": 10,
+          "first_task_id": "MYR-D080-T071",
+          "last_task_id": "MYR-D080-T080"
+        },
+        {
+          "index": 9,
+          "name": "Analytical transfer and lifecycle performance monitoring",
+          "task_count": 10,
+          "first_task_id": "MYR-D080-T081",
+          "last_task_id": "MYR-D080-T090"
+        },
+        {
+          "index": 10,
+          "name": "Product and process comparability assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D080-T091",
+          "last_task_id": "MYR-D080-T100"
+        }
+      ]
+    }
+  ],
+  "release_version": "1.0.0",
+  "release_date": "2026-08-04"
+}

@@ -1,0 +1,96 @@
+{
+  "initiative": "MYRIAD",
+  "phase": 2,
+  "batch": "010",
+  "domain_range": [
+    91,
+    100
+  ],
+  "domain_count": 10,
+  "tasks_per_domain": 100,
+  "task_count": 1000,
+  "domains": [
+    {
+      "domain_id": 91,
+      "domain_code": "D091",
+      "domain": "Clinical Trial Design and Biostatistics",
+      "slug": "clinical-trial-design-and-biostatistics",
+      "task_count": 100,
+      "path": "091-clinical-trial-design-and-biostatistics"
+    },
+    {
+      "domain_id": 92,
+      "domain_code": "D092",
+      "domain": "Clinical Data Management and Standards",
+      "slug": "clinical-data-management-and-standards",
+      "task_count": 100,
+      "path": "092-clinical-data-management-and-standards"
+    },
+    {
+      "domain_id": 93,
+      "domain_code": "D093",
+      "domain": "Real-World Evidence and Pharmacoepidemiology",
+      "slug": "real-world-evidence-and-pharmacoepidemiology",
+      "task_count": 100,
+      "path": "093-real-world-evidence-and-pharmacoepidemiology"
+    },
+    {
+      "domain_id": 94,
+      "domain_code": "D094",
+      "domain": "Pharmacovigilance and Safety-Signal Detection",
+      "slug": "pharmacovigilance-and-safety-signal-detection",
+      "task_count": 100,
+      "path": "094-pharmacovigilance-and-safety-signal-detection"
+    },
+    {
+      "domain_id": 95,
+      "domain_code": "D095",
+      "domain": "Regulatory Intelligence and Submission Engineering",
+      "slug": "regulatory-intelligence-and-submission-engineering",
+      "task_count": 100,
+      "path": "095-regulatory-intelligence-and-submission-engineering"
+    },
+    {
+      "domain_id": 96,
+      "domain_code": "D096",
+      "domain": "GxP Compliance and Computer-System Validation",
+      "slug": "gxp-compliance-and-computer-system-validation",
+      "task_count": 100,
+      "path": "096-gxp-compliance-and-computer-system-validation"
+    },
+    {
+      "domain_id": 97,
+      "domain_code": "D097",
+      "domain": "Laboratory Informatics, LIMS, and ELN Automation",
+      "slug": "laboratory-informatics-lims-and-eln-automation",
+      "task_count": 100,
+      "path": "097-laboratory-informatics-lims-and-eln-automation"
+    },
+    {
+      "domain_id": 98,
+      "domain_code": "D098",
+      "domain": "FAIR Biomedical Data and Ontology Engineering",
+      "slug": "fair-biomedical-data-and-ontology-engineering",
+      "task_count": 100,
+      "path": "098-fair-biomedical-data-and-ontology-engineering"
+    },
+    {
+      "domain_id": 99,
+      "domain_code": "D099",
+      "domain": "Biomedical Knowledge Graphs and Evidence Synthesis",
+      "slug": "biomedical-knowledge-graphs-and-evidence-synthesis",
+      "task_count": 100,
+      "path": "099-biomedical-knowledge-graphs-and-evidence-synthesis"
+    },
+    {
+      "domain_id": 100,
+      "domain_code": "D100",
+      "domain": "Biotech AI Validation, Governance, Biosafety, and Biosecurity",
+      "slug": "biotech-ai-validation-governance-biosafety-and-biosecurity",
+      "task_count": 100,
+      "path": "100-biotech-ai-validation-governance-biosafety-and-biosecurity"
+    }
+  ],
+  "previous_batch": "batch-009-domains-081-090",
+  "next_domain": null
+}

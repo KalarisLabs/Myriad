@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "errors": [],
+  "batch": 2,
+  "domain_range": [
+    11,
+    20
+  ],
+  "domain_count": 10,
+  "task_count": 1000,
+  "cumulative_domain_count": 20,
+  "cumulative_task_count": 2000,
+  "unique_ids": 2000,
+  "unique_routing_names": 2000,
+  "unique_titles": 2000,
+  "generated_at_utc": "2026-08-04T03:59:10.518805+00:00"
+}

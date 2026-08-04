@@ -1,0 +1,104 @@
+{
+  "initiative": "MYRIAD",
+  "phase": 2,
+  "batch": "003",
+  "domain_range": [
+    21,
+    30
+  ],
+  "domain_count": 10,
+  "tasks_per_domain": 100,
+  "task_count": 1000,
+  "domains": [
+    {
+      "domain_id": 21,
+      "domain_code": "D021",
+      "domain": "Protein Structure Prediction and Confidence Assessment",
+      "slug": "protein-structure-prediction-and-confidence-assessment",
+      "task_count": 100,
+      "path": "021-protein-structure-prediction-and-confidence-assessment"
+    },
+    {
+      "domain_id": 22,
+      "domain_code": "D022",
+      "domain": "Cryogenic Electron Microscopy Data Processing",
+      "slug": "cryogenic-electron-microscopy-data-processing",
+      "task_count": 100,
+      "path": "022-cryogenic-electron-microscopy-data-processing"
+    },
+    {
+      "domain_id": 23,
+      "domain_code": "D023",
+      "domain": "X-Ray Crystallography Informatics",
+      "slug": "x-ray-crystallography-informatics",
+      "task_count": 100,
+      "path": "023-x-ray-crystallography-informatics"
+    },
+    {
+      "domain_id": 24,
+      "domain_code": "D024",
+      "domain": "Biomolecular NMR Structure Analysis",
+      "slug": "biomolecular-nmr-structure-analysis",
+      "task_count": 100,
+      "path": "024-biomolecular-nmr-structure-analysis"
+    },
+    {
+      "domain_id": 25,
+      "domain_code": "D025",
+      "domain": "Atomistic Molecular Dynamics Simulation",
+      "slug": "atomistic-molecular-dynamics-simulation",
+      "task_count": 100,
+      "path": "025-atomistic-molecular-dynamics-simulation"
+    },
+    {
+      "domain_id": 26,
+      "domain_code": "D026",
+      "domain": "Quantum Mechanics and QM/MM Modelling",
+      "slug": "quantum-mechanics-and-qm-mm-modelling",
+      "task_count": 100,
+      "path": "026-quantum-mechanics-and-qm-mm-modelling"
+    },
+    {
+      "domain_id": 27,
+      "domain_code": "D027",
+      "domain": "Protein Stability and Folding Engineering",
+      "slug": "protein-stability-and-folding-engineering",
+      "task_count": 100,
+      "path": "027-protein-stability-and-folding-engineering"
+    },
+    {
+      "domain_id": 28,
+      "domain_code": "D028",
+      "domain": "Protein\u2013Protein Interaction Modelling",
+      "slug": "protein-protein-interaction-modelling",
+      "task_count": 100,
+      "path": "028-protein-protein-interaction-modelling"
+    },
+    {
+      "domain_id": 29,
+      "domain_code": "D029",
+      "domain": "De Novo Protein and Peptide Design",
+      "slug": "de-novo-protein-and-peptide-design",
+      "task_count": 100,
+      "path": "029-de-novo-protein-and-peptide-design"
+    },
+    {
+      "domain_id": 30,
+      "domain_code": "D030",
+      "domain": "Antibody Structure and Sequence Engineering",
+      "slug": "antibody-structure-and-sequence-engineering",
+      "task_count": 100,
+      "path": "030-antibody-structure-and-sequence-engineering"
+    }
+  ],
+  "previous_batch": "batch-002-domains-011-020",
+  "next_domain": 31,
+  "validation_invariants": [
+    "exactly 10 domains",
+    "exactly 100 tasks per domain",
+    "exactly 1000 tasks",
+    "10 workstreams with 10 tasks per domain",
+    "globally unique IDs, routing names, and titles",
+    "computational and evidence-management boundary on every task"
+  ]
+}

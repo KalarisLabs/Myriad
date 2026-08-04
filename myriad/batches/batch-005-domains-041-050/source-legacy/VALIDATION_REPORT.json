@@ -1,0 +1,32 @@
+{
+  "valid": true,
+  "errors": [],
+  "batch": "005",
+  "domain_range": [
+    41,
+    50
+  ],
+  "domain_count": 10,
+  "task_count": 1000,
+  "tasks_per_domain": {
+    "41": 100,
+    "42": 100,
+    "43": 100,
+    "44": 100,
+    "45": 100,
+    "46": 100,
+    "47": 100,
+    "48": 100,
+    "49": 100,
+    "50": 100
+  },
+  "unique_ids": 1000,
+  "unique_routing_names": 1000,
+  "unique_titles": 1000,
+  "minimum_title_word_count": 9,
+  "normalized_near_duplicate_pairs_at_or_above_0_92": 0,
+  "cross_batch_task_count_checked": 5000,
+  "placeholder_scan": "pass",
+  "execution_boundary_records": 1000,
+  "completion_evidence_records": 1000
+}

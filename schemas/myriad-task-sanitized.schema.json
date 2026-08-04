@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:kalaris:myriad:task:sanitized:1.0.0",
+  "title": "MYRIAD Sanitized Task Node",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "domain_id",
+    "domain",
+    "domain_slug",
+    "batch_id",
+    "workstream_index",
+    "workstream",
+    "task_number",
+    "name",
+    "description",
+    "activation_keywords",
+    "goal",
+    "objective",
+    "execution_boundary",
+    "human_review_required",
+    "required_completion_evidence",
+    "no_call_when",
+    "status",
+    "operational_readiness"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^MYR-D(?:00[1-9]|0[1-9][0-9]|100)-T(?:00[1-9]|0[1-9][0-9]|100)$"
+    },
+    "domain_id": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 100
+    },
+    "domain": {
+      "type": "string",
+      "minLength": 3
+    },
+    "domain_slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "batch_id": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "workstream_index": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "workstream": {
+      "type": "string",
+      "minLength": 3
+    },
+    "task_number": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 100
+    },
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 80
+    },
+    "activation_keywords": {
+      "type": "array",
+      "minItems": 3,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "goal": {
+      "type": "string",
+      "minLength": 10
+    },
+    "objective": {
+      "type": "string",
+      "minLength": 10
+    },
+    "execution_boundary": {
+      "const": "computational-advisory"
+    },
+    "human_review_required": {
+      "const": true
+    },
+    "required_completion_evidence": {
+      "type": "array",
+      "minItems": 5,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "no_call_when": {
+      "type": "array",
+      "minItems": 4,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "const": "taxonomy-defined"
+    },
+    "operational_readiness": {
+      "const": "requires-task-specific-skill-and-domain-expert-review"
+    }
+  }
+}

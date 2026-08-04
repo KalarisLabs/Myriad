@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:kalaris:myriad:task:1.0.0",
+  "title": "MYRIAD Canonical Task Node",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "domain_id",
+    "domain_code",
+    "domain",
+    "domain_slug",
+    "batch_id",
+    "workstream_index",
+    "workstream",
+    "task_number",
+    "routing",
+    "goal",
+    "objective",
+    "execution_contract",
+    "maturity",
+    "provenance"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^MYR-D(?:00[1-9]|0[1-9][0-9]|100)-T(?:00[1-9]|0[1-9][0-9]|100)$"
+    },
+    "domain_id": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 100
+    },
+    "domain_code": {
+      "type": "string",
+      "pattern": "^D(?:00[1-9]|0[1-9][0-9]|100)$"
+    },
+    "domain": {
+      "type": "string",
+      "minLength": 3
+    },
+    "domain_slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "batch_id": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "workstream_index": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "workstream": {
+      "type": "string",
+      "minLength": 3
+    },
+    "task_number": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 100
+    },
+    "routing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "description",
+        "keywords"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "description": {
+          "type": "string",
+          "minLength": 80
+        },
+        "keywords": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "goal": {
+      "type": "string",
+      "minLength": 10
+    },
+    "objective": {
+      "type": "string",
+      "minLength": 10
+    },
+    "execution_contract": {
+      "type": "object"
+    },
+    "maturity": {
+      "type": "object"
+    },
+    "provenance": {
+      "type": "object"
+    }
+  }
+}

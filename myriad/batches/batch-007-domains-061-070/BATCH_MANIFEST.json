@@ -1,0 +1,822 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 7,
+  "domain_start": 61,
+  "domain_end": 70,
+  "domain_count": 10,
+  "task_count": 1000,
+  "domains": [
+    {
+      "domain_id": 61,
+      "domain_code": "D061",
+      "name": "Monoclonal Antibody Discovery",
+      "slug": "monoclonal-antibody-discovery",
+      "batch_id": 7,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Campaign definition and antigen evidence",
+          "task_count": 10,
+          "first_task_id": "MYR-D061-T001",
+          "last_task_id": "MYR-D061-T010"
+        },
+        {
+          "index": 2,
+          "name": "Repertoire and library data ingestion",
+          "task_count": 10,
+          "first_task_id": "MYR-D061-T011",
+          "last_task_id": "MYR-D061-T020"
+        },
+        {
+          "index": 3,
+          "name": "Clonotype structure and sequence prioritization",
+          "task_count": 10,
+          "first_task_id": "MYR-D061-T021",
+          "last_task_id": "MYR-D061-T030"
+        },
+        {
+          "index": 4,
+          "name": "Primary binding-screen normalization",
+          "task_count": 10,
+          "first_task_id": "MYR-D061-T031",
+          "last_task_id": "MYR-D061-T040"
+        },
+        {
+          "index": 5,
+          "name": "Affinity and kinetic characterization",
+          "task_count": 10,
+          "first_task_id": "MYR-D061-T041",
+          "last_task_id": "MYR-D061-T050"
+        },
+        {
+          "index": 6,
+          "name": "Epitope and mechanism mapping",
+          "task_count": 10,
+          "first_task_id": "MYR-D061-T051",
+          "last_task_id": "MYR-D061-T060"
+        },
+        {
+          "index": 7,
+          "name": "Specificity and cross-reactivity assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D061-T061",
+          "last_task_id": "MYR-D061-T070"
+        },
+        {
+          "index": 8,
+          "name": "Developability and manufacturability",
+          "task_count": 10,
+          "first_task_id": "MYR-D061-T071",
+          "last_task_id": "MYR-D061-T080"
+        },
+        {
+          "index": 9,
+          "name": "Functional potency and translational evidence",
+          "task_count": 10,
+          "first_task_id": "MYR-D061-T081",
+          "last_task_id": "MYR-D061-T090"
+        },
+        {
+          "index": 10,
+          "name": "Candidate integration and release",
+          "task_count": 10,
+          "first_task_id": "MYR-D061-T091",
+          "last_task_id": "MYR-D061-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 62,
+      "domain_code": "D062",
+      "name": "Bispecific and Multispecific Antibody Engineering",
+      "slug": "bispecific-and-multispecific-antibody-engineering",
+      "batch_id": 7,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Therapeutic logic and target-pair specification",
+          "task_count": 10,
+          "first_task_id": "MYR-D062-T001",
+          "last_task_id": "MYR-D062-T010"
+        },
+        {
+          "index": 2,
+          "name": "Format and chain-pairing architecture",
+          "task_count": 10,
+          "first_task_id": "MYR-D062-T011",
+          "last_task_id": "MYR-D062-T020"
+        },
+        {
+          "index": 3,
+          "name": "Geometry, valency, and spatial reach",
+          "task_count": 10,
+          "first_task_id": "MYR-D062-T021",
+          "last_task_id": "MYR-D062-T030"
+        },
+        {
+          "index": 4,
+          "name": "Arm affinity and kinetic balancing",
+          "task_count": 10,
+          "first_task_id": "MYR-D062-T031",
+          "last_task_id": "MYR-D062-T040"
+        },
+        {
+          "index": 5,
+          "name": "Expression, assembly, and analytical identity",
+          "task_count": 10,
+          "first_task_id": "MYR-D062-T041",
+          "last_task_id": "MYR-D062-T050"
+        },
+        {
+          "index": 6,
+          "name": "Mechanistic potency and co-engagement",
+          "task_count": 10,
+          "first_task_id": "MYR-D062-T051",
+          "last_task_id": "MYR-D062-T060"
+        },
+        {
+          "index": 7,
+          "name": "Cytokine and mechanism-based safety",
+          "task_count": 10,
+          "first_task_id": "MYR-D062-T061",
+          "last_task_id": "MYR-D062-T070"
+        },
+        {
+          "index": 8,
+          "name": "Developability, stability, and formulation",
+          "task_count": 10,
+          "first_task_id": "MYR-D062-T071",
+          "last_task_id": "MYR-D062-T080"
+        },
+        {
+          "index": 9,
+          "name": "Pharmacology and translational modelling",
+          "task_count": 10,
+          "first_task_id": "MYR-D062-T081",
+          "last_task_id": "MYR-D062-T090"
+        },
+        {
+          "index": 10,
+          "name": "Candidate ranking and lifecycle release",
+          "task_count": 10,
+          "first_task_id": "MYR-D062-T091",
+          "last_task_id": "MYR-D062-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 63,
+      "domain_code": "D063",
+      "name": "Antibody–Drug Conjugate Design",
+      "slug": "antibodydrug-conjugate-design",
+      "batch_id": 7,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Product hypothesis and target suitability",
+          "task_count": 10,
+          "first_task_id": "MYR-D063-T001",
+          "last_task_id": "MYR-D063-T010"
+        },
+        {
+          "index": 2,
+          "name": "Antibody component selection",
+          "task_count": 10,
+          "first_task_id": "MYR-D063-T011",
+          "last_task_id": "MYR-D063-T020"
+        },
+        {
+          "index": 3,
+          "name": "Payload mechanism and potency selection",
+          "task_count": 10,
+          "first_task_id": "MYR-D063-T021",
+          "last_task_id": "MYR-D063-T030"
+        },
+        {
+          "index": 4,
+          "name": "Linker and release-mechanism engineering",
+          "task_count": 10,
+          "first_task_id": "MYR-D063-T031",
+          "last_task_id": "MYR-D063-T040"
+        },
+        {
+          "index": 5,
+          "name": "Conjugation site and DAR control",
+          "task_count": 10,
+          "first_task_id": "MYR-D063-T041",
+          "last_task_id": "MYR-D063-T050"
+        },
+        {
+          "index": 6,
+          "name": "Analytical characterization and product quality",
+          "task_count": 10,
+          "first_task_id": "MYR-D063-T051",
+          "last_task_id": "MYR-D063-T060"
+        },
+        {
+          "index": 7,
+          "name": "Cellular trafficking and mechanism",
+          "task_count": 10,
+          "first_task_id": "MYR-D063-T061",
+          "last_task_id": "MYR-D063-T070"
+        },
+        {
+          "index": 8,
+          "name": "Pharmacokinetics and exposure-response",
+          "task_count": 10,
+          "first_task_id": "MYR-D063-T071",
+          "last_task_id": "MYR-D063-T080"
+        },
+        {
+          "index": 9,
+          "name": "Safety, resistance, and therapeutic window",
+          "task_count": 10,
+          "first_task_id": "MYR-D063-T081",
+          "last_task_id": "MYR-D063-T090"
+        },
+        {
+          "index": 10,
+          "name": "Candidate optimization and release",
+          "task_count": 10,
+          "first_task_id": "MYR-D063-T091",
+          "last_task_id": "MYR-D063-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 64,
+      "domain_code": "D064",
+      "name": "Therapeutic Protein and Enzyme Engineering",
+      "slug": "therapeutic-protein-and-enzyme-engineering",
+      "batch_id": 7,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Therapeutic mechanism and product definition",
+          "task_count": 10,
+          "first_task_id": "MYR-D064-T001",
+          "last_task_id": "MYR-D064-T010"
+        },
+        {
+          "index": 2,
+          "name": "Sequence and structural model control",
+          "task_count": 10,
+          "first_task_id": "MYR-D064-T011",
+          "last_task_id": "MYR-D064-T020"
+        },
+        {
+          "index": 3,
+          "name": "Catalytic and functional engineering",
+          "task_count": 10,
+          "first_task_id": "MYR-D064-T021",
+          "last_task_id": "MYR-D064-T030"
+        },
+        {
+          "index": 4,
+          "name": "Stability and folding engineering",
+          "task_count": 10,
+          "first_task_id": "MYR-D064-T031",
+          "last_task_id": "MYR-D064-T040"
+        },
+        {
+          "index": 5,
+          "name": "Expression, secretion, and production fitness",
+          "task_count": 10,
+          "first_task_id": "MYR-D064-T041",
+          "last_task_id": "MYR-D064-T050"
+        },
+        {
+          "index": 6,
+          "name": "Post-translational modification and heterogeneity",
+          "task_count": 10,
+          "first_task_id": "MYR-D064-T051",
+          "last_task_id": "MYR-D064-T060"
+        },
+        {
+          "index": 7,
+          "name": "Half-life, distribution, and delivery engineering",
+          "task_count": 10,
+          "first_task_id": "MYR-D064-T061",
+          "last_task_id": "MYR-D064-T070"
+        },
+        {
+          "index": 8,
+          "name": "Functional potency and disease-model evidence",
+          "task_count": 10,
+          "first_task_id": "MYR-D064-T071",
+          "last_task_id": "MYR-D064-T080"
+        },
+        {
+          "index": 9,
+          "name": "Immunogenicity and safety assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D064-T081",
+          "last_task_id": "MYR-D064-T090"
+        },
+        {
+          "index": 10,
+          "name": "Candidate integration and quality release",
+          "task_count": 10,
+          "first_task_id": "MYR-D064-T091",
+          "last_task_id": "MYR-D064-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 65,
+      "domain_code": "D065",
+      "name": "Targeted Protein Degradation",
+      "slug": "targeted-protein-degradation",
+      "batch_id": 7,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Target and degradation-hypothesis definition",
+          "task_count": 10,
+          "first_task_id": "MYR-D065-T001",
+          "last_task_id": "MYR-D065-T010"
+        },
+        {
+          "index": 2,
+          "name": "E3 ligase and machinery selection",
+          "task_count": 10,
+          "first_task_id": "MYR-D065-T011",
+          "last_task_id": "MYR-D065-T020"
+        },
+        {
+          "index": 3,
+          "name": "Target and ligase binder qualification",
+          "task_count": 10,
+          "first_task_id": "MYR-D065-T021",
+          "last_task_id": "MYR-D065-T030"
+        },
+        {
+          "index": 4,
+          "name": "Ternary-complex and induced-proximity modelling",
+          "task_count": 10,
+          "first_task_id": "MYR-D065-T031",
+          "last_task_id": "MYR-D065-T040"
+        },
+        {
+          "index": 5,
+          "name": "Linker and degrader physicochemical design",
+          "task_count": 10,
+          "first_task_id": "MYR-D065-T041",
+          "last_task_id": "MYR-D065-T050"
+        },
+        {
+          "index": 6,
+          "name": "Cellular degradation kinetics and pharmacology",
+          "task_count": 10,
+          "first_task_id": "MYR-D065-T051",
+          "last_task_id": "MYR-D065-T060"
+        },
+        {
+          "index": 7,
+          "name": "Ubiquitination and mechanism validation",
+          "task_count": 10,
+          "first_task_id": "MYR-D065-T061",
+          "last_task_id": "MYR-D065-T070"
+        },
+        {
+          "index": 8,
+          "name": "Selectivity, proteomics, and resistance",
+          "task_count": 10,
+          "first_task_id": "MYR-D065-T071",
+          "last_task_id": "MYR-D065-T080"
+        },
+        {
+          "index": 9,
+          "name": "ADME, exposure, and safety translation",
+          "task_count": 10,
+          "first_task_id": "MYR-D065-T081",
+          "last_task_id": "MYR-D065-T090"
+        },
+        {
+          "index": 10,
+          "name": "Candidate integration and lifecycle release",
+          "task_count": 10,
+          "first_task_id": "MYR-D065-T091",
+          "last_task_id": "MYR-D065-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 66,
+      "domain_code": "D066",
+      "name": "Vaccine Antigen and Immunogen Design",
+      "slug": "vaccine-antigen-and-immunogen-design",
+      "batch_id": 7,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Public-health need and product-profile definition",
+          "task_count": 10,
+          "first_task_id": "MYR-D066-T001",
+          "last_task_id": "MYR-D066-T010"
+        },
+        {
+          "index": 2,
+          "name": "Pathogen diversity and antigen conservation",
+          "task_count": 10,
+          "first_task_id": "MYR-D066-T011",
+          "last_task_id": "MYR-D066-T020"
+        },
+        {
+          "index": 3,
+          "name": "Antigen structure and epitope landscape",
+          "task_count": 10,
+          "first_task_id": "MYR-D066-T021",
+          "last_task_id": "MYR-D066-T030"
+        },
+        {
+          "index": 4,
+          "name": "Immunogen stabilization and resurfacing",
+          "task_count": 10,
+          "first_task_id": "MYR-D066-T031",
+          "last_task_id": "MYR-D066-T040"
+        },
+        {
+          "index": 5,
+          "name": "Display platform and delivery-context design",
+          "task_count": 10,
+          "first_task_id": "MYR-D066-T041",
+          "last_task_id": "MYR-D066-T050"
+        },
+        {
+          "index": 6,
+          "name": "Adjuvant and formulation evidence planning",
+          "task_count": 10,
+          "first_task_id": "MYR-D066-T051",
+          "last_task_id": "MYR-D066-T060"
+        },
+        {
+          "index": 7,
+          "name": "Preclinical immunogenicity and functional assays",
+          "task_count": 10,
+          "first_task_id": "MYR-D066-T061",
+          "last_task_id": "MYR-D066-T070"
+        },
+        {
+          "index": 8,
+          "name": "Breadth, escape, and population coverage",
+          "task_count": 10,
+          "first_task_id": "MYR-D066-T071",
+          "last_task_id": "MYR-D066-T080"
+        },
+        {
+          "index": 9,
+          "name": "Safety, manufacturability, and deployment",
+          "task_count": 10,
+          "first_task_id": "MYR-D066-T081",
+          "last_task_id": "MYR-D066-T090"
+        },
+        {
+          "index": 10,
+          "name": "Candidate integration and release",
+          "task_count": 10,
+          "first_task_id": "MYR-D066-T091",
+          "last_task_id": "MYR-D066-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 67,
+      "domain_code": "D067",
+      "name": "Immunoinformatics and Epitope Prediction",
+      "slug": "immunoinformatics-and-epitope-prediction",
+      "batch_id": 7,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Question definition and reference control",
+          "task_count": 10,
+          "first_task_id": "MYR-D067-T001",
+          "last_task_id": "MYR-D067-T010"
+        },
+        {
+          "index": 2,
+          "name": "MHC class I presentation prediction",
+          "task_count": 10,
+          "first_task_id": "MYR-D067-T011",
+          "last_task_id": "MYR-D067-T020"
+        },
+        {
+          "index": 3,
+          "name": "MHC class II presentation prediction",
+          "task_count": 10,
+          "first_task_id": "MYR-D067-T021",
+          "last_task_id": "MYR-D067-T030"
+        },
+        {
+          "index": 4,
+          "name": "T-cell recognition and immunogenicity evidence",
+          "task_count": 10,
+          "first_task_id": "MYR-D067-T031",
+          "last_task_id": "MYR-D067-T040"
+        },
+        {
+          "index": 5,
+          "name": "B-cell epitope and antibody-accessibility analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D067-T041",
+          "last_task_id": "MYR-D067-T050"
+        },
+        {
+          "index": 6,
+          "name": "Population coverage and HLA representation",
+          "task_count": 10,
+          "first_task_id": "MYR-D067-T051",
+          "last_task_id": "MYR-D067-T060"
+        },
+        {
+          "index": 7,
+          "name": "Cross-reactivity and immune-safety analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D067-T061",
+          "last_task_id": "MYR-D067-T070"
+        },
+        {
+          "index": 8,
+          "name": "Model validation, calibration, and leakage control",
+          "task_count": 10,
+          "first_task_id": "MYR-D067-T071",
+          "last_task_id": "MYR-D067-T080"
+        },
+        {
+          "index": 9,
+          "name": "Experimental evidence and database synthesis",
+          "task_count": 10,
+          "first_task_id": "MYR-D067-T081",
+          "last_task_id": "MYR-D067-T090"
+        },
+        {
+          "index": 10,
+          "name": "Candidate ranking and reporting",
+          "task_count": 10,
+          "first_task_id": "MYR-D067-T091",
+          "last_task_id": "MYR-D067-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 68,
+      "domain_code": "D068",
+      "name": "Biologic Immunogenicity Risk Assessment",
+      "slug": "biologic-immunogenicity-risk-assessment",
+      "batch_id": 7,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Context-of-use and risk framing",
+          "task_count": 10,
+          "first_task_id": "MYR-D068-T001",
+          "last_task_id": "MYR-D068-T010"
+        },
+        {
+          "index": 2,
+          "name": "Sequence and T-cell epitope liabilities",
+          "task_count": 10,
+          "first_task_id": "MYR-D068-T011",
+          "last_task_id": "MYR-D068-T020"
+        },
+        {
+          "index": 3,
+          "name": "Aggregation, particles, and structural quality",
+          "task_count": 10,
+          "first_task_id": "MYR-D068-T021",
+          "last_task_id": "MYR-D068-T030"
+        },
+        {
+          "index": 4,
+          "name": "Process impurities and product modifications",
+          "task_count": 10,
+          "first_task_id": "MYR-D068-T031",
+          "last_task_id": "MYR-D068-T040"
+        },
+        {
+          "index": 5,
+          "name": "ADA screening, confirmation, and titration assays",
+          "task_count": 10,
+          "first_task_id": "MYR-D068-T041",
+          "last_task_id": "MYR-D068-T050"
+        },
+        {
+          "index": 6,
+          "name": "Neutralizing-antibody and characterization assays",
+          "task_count": 10,
+          "first_task_id": "MYR-D068-T051",
+          "last_task_id": "MYR-D068-T060"
+        },
+        {
+          "index": 7,
+          "name": "Clinical sampling and treatment-emergent analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D068-T061",
+          "last_task_id": "MYR-D068-T070"
+        },
+        {
+          "index": 8,
+          "name": "Clinical consequence integration",
+          "task_count": 10,
+          "first_task_id": "MYR-D068-T071",
+          "last_task_id": "MYR-D068-T080"
+        },
+        {
+          "index": 9,
+          "name": "Comparability, mitigation, and lifecycle monitoring",
+          "task_count": 10,
+          "first_task_id": "MYR-D068-T081",
+          "last_task_id": "MYR-D068-T090"
+        },
+        {
+          "index": 10,
+          "name": "Integrated summary and release",
+          "task_count": 10,
+          "first_task_id": "MYR-D068-T091",
+          "last_task_id": "MYR-D068-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 69,
+      "domain_code": "D069",
+      "name": "Engineered Immune-Cell Therapy",
+      "slug": "engineered-immune-cell-therapy",
+      "batch_id": 7,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Indication, target, and product hypothesis",
+          "task_count": 10,
+          "first_task_id": "MYR-D069-T001",
+          "last_task_id": "MYR-D069-T010"
+        },
+        {
+          "index": 2,
+          "name": "Receptor and circuit architecture",
+          "task_count": 10,
+          "first_task_id": "MYR-D069-T011",
+          "last_task_id": "MYR-D069-T020"
+        },
+        {
+          "index": 3,
+          "name": "Vector, editing, and genomic integrity",
+          "task_count": 10,
+          "first_task_id": "MYR-D069-T021",
+          "last_task_id": "MYR-D069-T030"
+        },
+        {
+          "index": 4,
+          "name": "Cell source and starting-material control",
+          "task_count": 10,
+          "first_task_id": "MYR-D069-T031",
+          "last_task_id": "MYR-D069-T040"
+        },
+        {
+          "index": 5,
+          "name": "Manufacturing process and process analytics",
+          "task_count": 10,
+          "first_task_id": "MYR-D069-T041",
+          "last_task_id": "MYR-D069-T050"
+        },
+        {
+          "index": 6,
+          "name": "Identity, purity, phenotype, and potency",
+          "task_count": 10,
+          "first_task_id": "MYR-D069-T051",
+          "last_task_id": "MYR-D069-T060"
+        },
+        {
+          "index": 7,
+          "name": "Preclinical efficacy and translational models",
+          "task_count": 10,
+          "first_task_id": "MYR-D069-T061",
+          "last_task_id": "MYR-D069-T070"
+        },
+        {
+          "index": 8,
+          "name": "Safety and off-target assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D069-T071",
+          "last_task_id": "MYR-D069-T080"
+        },
+        {
+          "index": 9,
+          "name": "Clinical pharmacology and development planning",
+          "task_count": 10,
+          "first_task_id": "MYR-D069-T081",
+          "last_task_id": "MYR-D069-T090"
+        },
+        {
+          "index": 10,
+          "name": "Candidate and lifecycle release",
+          "task_count": 10,
+          "first_task_id": "MYR-D069-T091",
+          "last_task_id": "MYR-D069-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 70,
+      "domain_code": "D070",
+      "name": "Organoid, Organ-on-Chip, and Advanced Disease Models",
+      "slug": "organoid-organ-on-chip-and-advanced-disease-models",
+      "batch_id": 7,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Context of use and model specification",
+          "task_count": 10,
+          "first_task_id": "MYR-D070-T001",
+          "last_task_id": "MYR-D070-T010"
+        },
+        {
+          "index": 2,
+          "name": "Cell source, identity, and genetic background",
+          "task_count": 10,
+          "first_task_id": "MYR-D070-T011",
+          "last_task_id": "MYR-D070-T020"
+        },
+        {
+          "index": 3,
+          "name": "Differentiation, assembly, and maturation",
+          "task_count": 10,
+          "first_task_id": "MYR-D070-T021",
+          "last_task_id": "MYR-D070-T030"
+        },
+        {
+          "index": 4,
+          "name": "Device, matrix, mechanics, and fluidics",
+          "task_count": 10,
+          "first_task_id": "MYR-D070-T031",
+          "last_task_id": "MYR-D070-T040"
+        },
+        {
+          "index": 5,
+          "name": "Structural, molecular, and spatial quality control",
+          "task_count": 10,
+          "first_task_id": "MYR-D070-T041",
+          "last_task_id": "MYR-D070-T050"
+        },
+        {
+          "index": 6,
+          "name": "Functional validation and disease phenotyping",
+          "task_count": 10,
+          "first_task_id": "MYR-D070-T051",
+          "last_task_id": "MYR-D070-T060"
+        },
+        {
+          "index": 7,
+          "name": "Exposure, disposition, and intervention testing",
+          "task_count": 10,
+          "first_task_id": "MYR-D070-T061",
+          "last_task_id": "MYR-D070-T070"
+        },
+        {
+          "index": 8,
+          "name": "Data integration and computational modelling",
+          "task_count": 10,
+          "first_task_id": "MYR-D070-T071",
+          "last_task_id": "MYR-D070-T080"
+        },
+        {
+          "index": 9,
+          "name": "Reproducibility, benchmarking, and transferability",
+          "task_count": 10,
+          "first_task_id": "MYR-D070-T081",
+          "last_task_id": "MYR-D070-T090"
+        },
+        {
+          "index": 10,
+          "name": "Ethics, evidence integration, and release",
+          "task_count": 10,
+          "first_task_id": "MYR-D070-T091",
+          "last_task_id": "MYR-D070-T100"
+        }
+      ]
+    }
+  ],
+  "release_version": "1.0.0",
+  "release_date": "2026-08-04"
+}

@@ -1,0 +1,106 @@
+{
+  "initiative": "MYRIAD",
+  "phase": 2,
+  "batch": "005",
+  "domain_range": [
+    41,
+    50
+  ],
+  "domain_count": 10,
+  "tasks_per_domain": 100,
+  "task_count": 1000,
+  "domains": [
+    {
+      "domain_id": 41,
+      "domain_code": "D041",
+      "domain": "Multi-Parameter Medicinal Chemistry Optimization",
+      "slug": "multi-parameter-medicinal-chemistry-optimization",
+      "task_count": 100,
+      "path": "041-multi-parameter-medicinal-chemistry-optimization"
+    },
+    {
+      "domain_id": 42,
+      "domain_code": "D042",
+      "domain": "Absorption, Distribution, Metabolism, and Excretion Prediction",
+      "slug": "absorption-distribution-metabolism-and-excretion-prediction",
+      "task_count": 100,
+      "path": "042-absorption-distribution-metabolism-and-excretion-prediction"
+    },
+    {
+      "domain_id": 43,
+      "domain_code": "D043",
+      "domain": "Drug Metabolism and Pharmacokinetics Analysis",
+      "slug": "drug-metabolism-and-pharmacokinetics-analysis",
+      "task_count": 100,
+      "path": "043-drug-metabolism-and-pharmacokinetics-analysis"
+    },
+    {
+      "domain_id": 44,
+      "domain_code": "D044",
+      "domain": "Pharmacokinetic\u2013Pharmacodynamic Modelling",
+      "slug": "pharmacokinetic-pharmacodynamic-modelling",
+      "task_count": 100,
+      "path": "044-pharmacokinetic-pharmacodynamic-modelling"
+    },
+    {
+      "domain_id": 45,
+      "domain_code": "D045",
+      "domain": "Quantitative Systems Pharmacology",
+      "slug": "quantitative-systems-pharmacology",
+      "task_count": 100,
+      "path": "045-quantitative-systems-pharmacology"
+    },
+    {
+      "domain_id": 46,
+      "domain_code": "D046",
+      "domain": "Preclinical Safety and Predictive Toxicology",
+      "slug": "preclinical-safety-and-predictive-toxicology",
+      "task_count": 100,
+      "path": "046-preclinical-safety-and-predictive-toxicology"
+    },
+    {
+      "domain_id": 47,
+      "domain_code": "D047",
+      "domain": "Biomarker Discovery and Qualification",
+      "slug": "biomarker-discovery-and-qualification",
+      "task_count": 100,
+      "path": "047-biomarker-discovery-and-qualification"
+    },
+    {
+      "domain_id": 48,
+      "domain_code": "D048",
+      "domain": "Molecular Diagnostics and Assay Interpretation",
+      "slug": "molecular-diagnostics-and-assay-interpretation",
+      "task_count": 100,
+      "path": "048-molecular-diagnostics-and-assay-interpretation"
+    },
+    {
+      "domain_id": 49,
+      "domain_code": "D049",
+      "domain": "Companion Diagnostic Co-Development",
+      "slug": "companion-diagnostic-co-development",
+      "task_count": 100,
+      "path": "049-companion-diagnostic-co-development"
+    },
+    {
+      "domain_id": 50,
+      "domain_code": "D050",
+      "domain": "Pharmacogenomics and Precision Dosing",
+      "slug": "pharmacogenomics-and-precision-dosing",
+      "task_count": 100,
+      "path": "050-pharmacogenomics-and-precision-dosing"
+    }
+  ],
+  "previous_batch": "batch-004-domains-031-040",
+  "next_domain": 51,
+  "validation_invariants": [
+    "exactly 10 domains",
+    "exactly 100 tasks per domain",
+    "exactly 1000 tasks",
+    "10 workstreams with 10 tasks per domain",
+    "globally unique IDs, routing names, and titles",
+    "computational and evidence-management boundary on every task",
+    "no placeholders, short samples, or generic verb-object tasks",
+    "volatile references remain versioned and external to durable task logic"
+  ]
+}

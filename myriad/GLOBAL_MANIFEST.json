@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "initiative": "MYRIAD",
+  "release_version": "1.0.0",
+  "release_date": "2026-08-04",
+  "domains": 100,
+  "batches": 10,
+  "workstreams": 1000,
+  "tasks": 10000,
+  "node_markdown_files": 10000,
+  "seed_skills": 3,
+  "distributions": {
+    "raw": "data/raw/all-tasks.raw.jsonl",
+    "canonical": "data/canonical/all-tasks.jsonl",
+    "sanitized": "dist/sanitized/all-tasks.sanitized.jsonl"
+  },
+  "maturity": "taxonomy-defined; task-specific skill implementation and expert review required"
+}

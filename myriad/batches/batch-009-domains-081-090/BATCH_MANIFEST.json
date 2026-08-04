@@ -1,0 +1,822 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 9,
+  "domain_start": 81,
+  "domain_end": 90,
+  "domain_count": 10,
+  "task_count": 1000,
+  "domains": [
+    {
+      "domain_id": 81,
+      "domain_code": "D081",
+      "name": "Microbial Genomics and Antimicrobial Resistance Analysis",
+      "slug": "microbial-genomics-and-antimicrobial-resistance-analysis",
+      "batch_id": 9,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Study intent, isolate metadata, and biosafety context",
+          "task_count": 10,
+          "first_task_id": "MYR-D081-T001",
+          "last_task_id": "MYR-D081-T010"
+        },
+        {
+          "index": 2,
+          "name": "Read quality, contamination, and mixture assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D081-T011",
+          "last_task_id": "MYR-D081-T020"
+        },
+        {
+          "index": 3,
+          "name": "Genome assembly, polishing, and completeness assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D081-T021",
+          "last_task_id": "MYR-D081-T030"
+        },
+        {
+          "index": 4,
+          "name": "Species, lineage, and strain identity resolution",
+          "task_count": 10,
+          "first_task_id": "MYR-D081-T031",
+          "last_task_id": "MYR-D081-T040"
+        },
+        {
+          "index": 5,
+          "name": "AMR determinant detection and mechanism annotation",
+          "task_count": 10,
+          "first_task_id": "MYR-D081-T041",
+          "last_task_id": "MYR-D081-T050"
+        },
+        {
+          "index": 6,
+          "name": "Phenotype-genotype concordance and resistance interpretation",
+          "task_count": 10,
+          "first_task_id": "MYR-D081-T051",
+          "last_task_id": "MYR-D081-T060"
+        },
+        {
+          "index": 7,
+          "name": "Plasmid, mobile element, and genomic-context analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D081-T061",
+          "last_task_id": "MYR-D081-T070"
+        },
+        {
+          "index": 8,
+          "name": "Virulence, pathogenicity, and host-adaptation profiling",
+          "task_count": 10,
+          "first_task_id": "MYR-D081-T071",
+          "last_task_id": "MYR-D081-T080"
+        },
+        {
+          "index": 9,
+          "name": "Phylogenomics, relatedness, and transmission hypothesis testing",
+          "task_count": 10,
+          "first_task_id": "MYR-D081-T081",
+          "last_task_id": "MYR-D081-T090"
+        },
+        {
+          "index": 10,
+          "name": "Reporting, surveillance integration, and reproducible release",
+          "task_count": 10,
+          "first_task_id": "MYR-D081-T091",
+          "last_task_id": "MYR-D081-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 82,
+      "domain_code": "D082",
+      "name": "Metagenomics and Microbiome Analysis",
+      "slug": "metagenomics-and-microbiome-analysis",
+      "batch_id": 9,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Study design, sampling frame, and metadata harmonization",
+          "task_count": 10,
+          "first_task_id": "MYR-D082-T001",
+          "last_task_id": "MYR-D082-T010"
+        },
+        {
+          "index": 2,
+          "name": "Raw-read QC, host filtering, and contaminant control",
+          "task_count": 10,
+          "first_task_id": "MYR-D082-T011",
+          "last_task_id": "MYR-D082-T020"
+        },
+        {
+          "index": 3,
+          "name": "Amplicon feature inference and taxonomic assignment",
+          "task_count": 10,
+          "first_task_id": "MYR-D082-T021",
+          "last_task_id": "MYR-D082-T030"
+        },
+        {
+          "index": 4,
+          "name": "Shotgun taxonomic and strain-resolved profiling",
+          "task_count": 10,
+          "first_task_id": "MYR-D082-T031",
+          "last_task_id": "MYR-D082-T040"
+        },
+        {
+          "index": 5,
+          "name": "Metagenome assembly, binning, and genome reconstruction",
+          "task_count": 10,
+          "first_task_id": "MYR-D082-T041",
+          "last_task_id": "MYR-D082-T050"
+        },
+        {
+          "index": 6,
+          "name": "Functional gene, pathway, and resistome profiling",
+          "task_count": 10,
+          "first_task_id": "MYR-D082-T051",
+          "last_task_id": "MYR-D082-T060"
+        },
+        {
+          "index": 7,
+          "name": "Compositional statistics and differential abundance",
+          "task_count": 10,
+          "first_task_id": "MYR-D082-T061",
+          "last_task_id": "MYR-D082-T070"
+        },
+        {
+          "index": 8,
+          "name": "Longitudinal ecology, interactions, and community dynamics",
+          "task_count": 10,
+          "first_task_id": "MYR-D082-T071",
+          "last_task_id": "MYR-D082-T080"
+        },
+        {
+          "index": 9,
+          "name": "Host integration, multi-omics, and mechanistic prioritization",
+          "task_count": 10,
+          "first_task_id": "MYR-D082-T081",
+          "last_task_id": "MYR-D082-T090"
+        },
+        {
+          "index": 10,
+          "name": "Biomarker validation, reproducibility, and responsible release",
+          "task_count": 10,
+          "first_task_id": "MYR-D082-T091",
+          "last_task_id": "MYR-D082-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 83,
+      "domain_code": "D083",
+      "name": "Pathogen Genomic Surveillance",
+      "slug": "pathogen-genomic-surveillance",
+      "batch_id": 9,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Surveillance objectives, hazards, and decision thresholds",
+          "task_count": 10,
+          "first_task_id": "MYR-D083-T001",
+          "last_task_id": "MYR-D083-T010"
+        },
+        {
+          "index": 2,
+          "name": "Sampling strategy, representativeness, and equity",
+          "task_count": 10,
+          "first_task_id": "MYR-D083-T011",
+          "last_task_id": "MYR-D083-T020"
+        },
+        {
+          "index": 3,
+          "name": "Laboratory sequencing readiness and quality monitoring",
+          "task_count": 10,
+          "first_task_id": "MYR-D083-T021",
+          "last_task_id": "MYR-D083-T030"
+        },
+        {
+          "index": 4,
+          "name": "Bioinformatics pipeline validation and operational reproducibility",
+          "task_count": 10,
+          "first_task_id": "MYR-D083-T031",
+          "last_task_id": "MYR-D083-T040"
+        },
+        {
+          "index": 5,
+          "name": "Lineage, clade, and nomenclature assignment",
+          "task_count": 10,
+          "first_task_id": "MYR-D083-T041",
+          "last_task_id": "MYR-D083-T050"
+        },
+        {
+          "index": 6,
+          "name": "Phylogenetics, clusters, and transmission-context analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D083-T051",
+          "last_task_id": "MYR-D083-T060"
+        },
+        {
+          "index": 7,
+          "name": "Variant, mutation, and phenotypic-risk monitoring",
+          "task_count": 10,
+          "first_task_id": "MYR-D083-T061",
+          "last_task_id": "MYR-D083-T070"
+        },
+        {
+          "index": 8,
+          "name": "Wastewater and environmental genomic surveillance",
+          "task_count": 10,
+          "first_task_id": "MYR-D083-T071",
+          "last_task_id": "MYR-D083-T080"
+        },
+        {
+          "index": 9,
+          "name": "Alerting, dashboards, and public-health communication",
+          "task_count": 10,
+          "first_task_id": "MYR-D083-T081",
+          "last_task_id": "MYR-D083-T090"
+        },
+        {
+          "index": 10,
+          "name": "Data sharing, governance, equity, and network sustainability",
+          "task_count": 10,
+          "first_task_id": "MYR-D083-T091",
+          "last_task_id": "MYR-D083-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 84,
+      "domain_code": "D084",
+      "name": "Microbiome Therapeutic Development",
+      "slug": "microbiome-therapeutic-development",
+      "batch_id": 9,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Therapeutic concept, indication, and product classification",
+          "task_count": 10,
+          "first_task_id": "MYR-D084-T001",
+          "last_task_id": "MYR-D084-T010"
+        },
+        {
+          "index": 2,
+          "name": "Strain identity, provenance, and functional qualification",
+          "task_count": 10,
+          "first_task_id": "MYR-D084-T011",
+          "last_task_id": "MYR-D084-T020"
+        },
+        {
+          "index": 3,
+          "name": "Consortium composition and ecological design",
+          "task_count": 10,
+          "first_task_id": "MYR-D084-T021",
+          "last_task_id": "MYR-D084-T030"
+        },
+        {
+          "index": 4,
+          "name": "Engineered microbe construct and containment assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D084-T031",
+          "last_task_id": "MYR-D084-T040"
+        },
+        {
+          "index": 5,
+          "name": "Manufacturing process, cell banks, and composition control",
+          "task_count": 10,
+          "first_task_id": "MYR-D084-T041",
+          "last_task_id": "MYR-D084-T050"
+        },
+        {
+          "index": 6,
+          "name": "Potency, mechanism, and functional assay development",
+          "task_count": 10,
+          "first_task_id": "MYR-D084-T051",
+          "last_task_id": "MYR-D084-T060"
+        },
+        {
+          "index": 7,
+          "name": "Preclinical efficacy, biodistribution, and ecological response",
+          "task_count": 10,
+          "first_task_id": "MYR-D084-T061",
+          "last_task_id": "MYR-D084-T070"
+        },
+        {
+          "index": 8,
+          "name": "Safety, pathogenicity, AMR, and host-risk assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D084-T071",
+          "last_task_id": "MYR-D084-T080"
+        },
+        {
+          "index": 9,
+          "name": "Clinical design, biomarkers, colonization, and shedding",
+          "task_count": 10,
+          "first_task_id": "MYR-D084-T081",
+          "last_task_id": "MYR-D084-T090"
+        },
+        {
+          "index": 10,
+          "name": "Regulatory lifecycle, pharmacovigilance, and post-treatment monitoring",
+          "task_count": 10,
+          "first_task_id": "MYR-D084-T091",
+          "last_task_id": "MYR-D084-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 85,
+      "domain_code": "D085",
+      "name": "Bacteriophage Discovery and Therapy Informatics",
+      "slug": "bacteriophage-discovery-and-therapy-informatics",
+      "batch_id": 9,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Clinical or ecological target definition and candidate intake",
+          "task_count": 10,
+          "first_task_id": "MYR-D085-T001",
+          "last_task_id": "MYR-D085-T010"
+        },
+        {
+          "index": 2,
+          "name": "Phage genome assembly, termini, and sequence-quality assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D085-T011",
+          "last_task_id": "MYR-D085-T020"
+        },
+        {
+          "index": 3,
+          "name": "Genome annotation, taxonomy, and lifecycle classification",
+          "task_count": 10,
+          "first_task_id": "MYR-D085-T021",
+          "last_task_id": "MYR-D085-T030"
+        },
+        {
+          "index": 4,
+          "name": "Genomic safety and disqualifying-feature screening",
+          "task_count": 10,
+          "first_task_id": "MYR-D085-T031",
+          "last_task_id": "MYR-D085-T040"
+        },
+        {
+          "index": 5,
+          "name": "Host-range mapping and bacterial-panel coverage",
+          "task_count": 10,
+          "first_task_id": "MYR-D085-T041",
+          "last_task_id": "MYR-D085-T050"
+        },
+        {
+          "index": 6,
+          "name": "Receptor biology, adsorption, and resistance-mechanism analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D085-T051",
+          "last_task_id": "MYR-D085-T060"
+        },
+        {
+          "index": 7,
+          "name": "Cocktail composition and evolutionary robustness modelling",
+          "task_count": 10,
+          "first_task_id": "MYR-D085-T061",
+          "last_task_id": "MYR-D085-T070"
+        },
+        {
+          "index": 8,
+          "name": "Phage pharmacology, exposure, and bacteria-kill modelling",
+          "task_count": 10,
+          "first_task_id": "MYR-D085-T071",
+          "last_task_id": "MYR-D085-T080"
+        },
+        {
+          "index": 9,
+          "name": "Manufacturing, analytical control, and stability assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D085-T081",
+          "last_task_id": "MYR-D085-T090"
+        },
+        {
+          "index": 10,
+          "name": "Clinical evidence, regulatory pathway, and lifecycle monitoring",
+          "task_count": 10,
+          "first_task_id": "MYR-D085-T091",
+          "last_task_id": "MYR-D085-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 86,
+      "domain_code": "D086",
+      "name": "Synthetic Gene-Circuit Engineering",
+      "slug": "synthetic-gene-circuit-engineering",
+      "batch_id": 9,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "System requirements, chassis, and context specification",
+          "task_count": 10,
+          "first_task_id": "MYR-D086-T001",
+          "last_task_id": "MYR-D086-T010"
+        },
+        {
+          "index": 2,
+          "name": "Biological part selection and characterization",
+          "task_count": 10,
+          "first_task_id": "MYR-D086-T011",
+          "last_task_id": "MYR-D086-T020"
+        },
+        {
+          "index": 3,
+          "name": "Logic, memory, and state-machine architecture",
+          "task_count": 10,
+          "first_task_id": "MYR-D086-T021",
+          "last_task_id": "MYR-D086-T030"
+        },
+        {
+          "index": 4,
+          "name": "Dynamic modelling and parameter inference",
+          "task_count": 10,
+          "first_task_id": "MYR-D086-T031",
+          "last_task_id": "MYR-D086-T040"
+        },
+        {
+          "index": 5,
+          "name": "Feedback control, adaptation, and oscillatory systems",
+          "task_count": 10,
+          "first_task_id": "MYR-D086-T041",
+          "last_task_id": "MYR-D086-T050"
+        },
+        {
+          "index": 6,
+          "name": "Noise, heterogeneity, and information transmission",
+          "task_count": 10,
+          "first_task_id": "MYR-D086-T051",
+          "last_task_id": "MYR-D086-T060"
+        },
+        {
+          "index": 7,
+          "name": "Resource burden, host coupling, and evolutionary stability",
+          "task_count": 10,
+          "first_task_id": "MYR-D086-T061",
+          "last_task_id": "MYR-D086-T070"
+        },
+        {
+          "index": 8,
+          "name": "Design automation, optimization, and formal verification",
+          "task_count": 10,
+          "first_task_id": "MYR-D086-T071",
+          "last_task_id": "MYR-D086-T080"
+        },
+        {
+          "index": 9,
+          "name": "Biocontainment, environmental boundaries, and dual-use review",
+          "task_count": 10,
+          "first_task_id": "MYR-D086-T081",
+          "last_task_id": "MYR-D086-T090"
+        },
+        {
+          "index": 10,
+          "name": "Experiment planning, data interpretation, and iterative learning",
+          "task_count": 10,
+          "first_task_id": "MYR-D086-T091",
+          "last_task_id": "MYR-D086-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 87,
+      "domain_code": "D087",
+      "name": "Metabolic Pathway and Strain Engineering",
+      "slug": "metabolic-pathway-and-strain-engineering",
+      "batch_id": 9,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Product objective, host selection, and performance envelope",
+          "task_count": 10,
+          "first_task_id": "MYR-D087-T001",
+          "last_task_id": "MYR-D087-T010"
+        },
+        {
+          "index": 2,
+          "name": "Genome-scale metabolic model reconstruction and quality control",
+          "task_count": 10,
+          "first_task_id": "MYR-D087-T011",
+          "last_task_id": "MYR-D087-T020"
+        },
+        {
+          "index": 3,
+          "name": "Thermodynamic and pathway-feasibility analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D087-T021",
+          "last_task_id": "MYR-D087-T030"
+        },
+        {
+          "index": 4,
+          "name": "Flux-balance, variability, and phenotype simulation",
+          "task_count": 10,
+          "first_task_id": "MYR-D087-T031",
+          "last_task_id": "MYR-D087-T040"
+        },
+        {
+          "index": 5,
+          "name": "Fluxomics and isotope-tracing inference",
+          "task_count": 10,
+          "first_task_id": "MYR-D087-T041",
+          "last_task_id": "MYR-D087-T050"
+        },
+        {
+          "index": 6,
+          "name": "Engineering-target identification and intervention ranking",
+          "task_count": 10,
+          "first_task_id": "MYR-D087-T051",
+          "last_task_id": "MYR-D087-T060"
+        },
+        {
+          "index": 7,
+          "name": "Enzyme, cofactor, transporter, and pathway balancing",
+          "task_count": 10,
+          "first_task_id": "MYR-D087-T061",
+          "last_task_id": "MYR-D087-T070"
+        },
+        {
+          "index": 8,
+          "name": "Adaptive evolution, mutation analysis, and genotype-phenotype learning",
+          "task_count": 10,
+          "first_task_id": "MYR-D087-T071",
+          "last_task_id": "MYR-D087-T080"
+        },
+        {
+          "index": 9,
+          "name": "Process coupling, scale translation, and dynamic control",
+          "task_count": 10,
+          "first_task_id": "MYR-D087-T081",
+          "last_task_id": "MYR-D087-T090"
+        },
+        {
+          "index": 10,
+          "name": "DBTL knowledge management, economics, and sustainability",
+          "task_count": 10,
+          "first_task_id": "MYR-D087-T091",
+          "last_task_id": "MYR-D087-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 88,
+      "domain_code": "D088",
+      "name": "Cell-Free Synthetic Biology",
+      "slug": "cell-free-synthetic-biology",
+      "batch_id": 9,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Platform selection and intended-use definition",
+          "task_count": 10,
+          "first_task_id": "MYR-D088-T001",
+          "last_task_id": "MYR-D088-T010"
+        },
+        {
+          "index": 2,
+          "name": "Extract, reagent, and lot characterization",
+          "task_count": 10,
+          "first_task_id": "MYR-D088-T011",
+          "last_task_id": "MYR-D088-T020"
+        },
+        {
+          "index": 3,
+          "name": "DNA and RNA template architecture",
+          "task_count": 10,
+          "first_task_id": "MYR-D088-T021",
+          "last_task_id": "MYR-D088-T030"
+        },
+        {
+          "index": 4,
+          "name": "Resource allocation and mechanistic reaction modelling",
+          "task_count": 10,
+          "first_task_id": "MYR-D088-T031",
+          "last_task_id": "MYR-D088-T040"
+        },
+        {
+          "index": 5,
+          "name": "Circuit prototyping and context transfer",
+          "task_count": 10,
+          "first_task_id": "MYR-D088-T041",
+          "last_task_id": "MYR-D088-T050"
+        },
+        {
+          "index": 6,
+          "name": "Protein production, folding, and post-translational processing",
+          "task_count": 10,
+          "first_task_id": "MYR-D088-T051",
+          "last_task_id": "MYR-D088-T060"
+        },
+        {
+          "index": 7,
+          "name": "Biosensor and diagnostic-assay design",
+          "task_count": 10,
+          "first_task_id": "MYR-D088-T061",
+          "last_task_id": "MYR-D088-T070"
+        },
+        {
+          "index": 8,
+          "name": "Automation, miniaturization, and design-of-experiments",
+          "task_count": 10,
+          "first_task_id": "MYR-D088-T071",
+          "last_task_id": "MYR-D088-T080"
+        },
+        {
+          "index": 9,
+          "name": "Preservation, transport, and field deployment",
+          "task_count": 10,
+          "first_task_id": "MYR-D088-T081",
+          "last_task_id": "MYR-D088-T090"
+        },
+        {
+          "index": 10,
+          "name": "Safety, standardization, reproducibility, and release",
+          "task_count": 10,
+          "first_task_id": "MYR-D088-T091",
+          "last_task_id": "MYR-D088-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 89,
+      "domain_code": "D089",
+      "name": "Agricultural Genomics and Precision Breeding",
+      "slug": "agricultural-genomics-and-precision-breeding",
+      "batch_id": 9,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Breeding objective, target population, and product profile",
+          "task_count": 10,
+          "first_task_id": "MYR-D089-T001",
+          "last_task_id": "MYR-D089-T010"
+        },
+        {
+          "index": 2,
+          "name": "Phenotyping, sensor data, and trait-quality control",
+          "task_count": 10,
+          "first_task_id": "MYR-D089-T011",
+          "last_task_id": "MYR-D089-T020"
+        },
+        {
+          "index": 3,
+          "name": "Genotyping, sequencing, and marker data curation",
+          "task_count": 10,
+          "first_task_id": "MYR-D089-T021",
+          "last_task_id": "MYR-D089-T030"
+        },
+        {
+          "index": 4,
+          "name": "Pedigree, relationship, diversity, and population structure",
+          "task_count": 10,
+          "first_task_id": "MYR-D089-T031",
+          "last_task_id": "MYR-D089-T040"
+        },
+        {
+          "index": 5,
+          "name": "QTL, GWAS, and causal-locus prioritization",
+          "task_count": 10,
+          "first_task_id": "MYR-D089-T041",
+          "last_task_id": "MYR-D089-T050"
+        },
+        {
+          "index": 6,
+          "name": "Genomic prediction and selection-model validation",
+          "task_count": 10,
+          "first_task_id": "MYR-D089-T051",
+          "last_task_id": "MYR-D089-T060"
+        },
+        {
+          "index": 7,
+          "name": "Genotype-by-environment and climate-resilience modelling",
+          "task_count": 10,
+          "first_task_id": "MYR-D089-T061",
+          "last_task_id": "MYR-D089-T070"
+        },
+        {
+          "index": 8,
+          "name": "Marker-assisted selection, editing, and introgression planning",
+          "task_count": 10,
+          "first_task_id": "MYR-D089-T071",
+          "last_task_id": "MYR-D089-T080"
+        },
+        {
+          "index": 9,
+          "name": "Disease, pest, and biosecurity trait analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D089-T081",
+          "last_task_id": "MYR-D089-T090"
+        },
+        {
+          "index": 10,
+          "name": "Deployment, seed or stock systems, equity, and benefit sharing",
+          "task_count": 10,
+          "first_task_id": "MYR-D089-T091",
+          "last_task_id": "MYR-D089-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 90,
+      "domain_code": "D090",
+      "name": "Environmental Biotechnology and Bioremediation",
+      "slug": "environmental-biotechnology-and-bioremediation",
+      "batch_id": 9,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Problem formulation, site model, and remediation objectives",
+          "task_count": 10,
+          "first_task_id": "MYR-D090-T001",
+          "last_task_id": "MYR-D090-T010"
+        },
+        {
+          "index": 2,
+          "name": "Sampling design, geospatial data, and analytical quality",
+          "task_count": 10,
+          "first_task_id": "MYR-D090-T011",
+          "last_task_id": "MYR-D090-T020"
+        },
+        {
+          "index": 3,
+          "name": "Microbial community and functional-potential characterization",
+          "task_count": 10,
+          "first_task_id": "MYR-D090-T021",
+          "last_task_id": "MYR-D090-T030"
+        },
+        {
+          "index": 4,
+          "name": "Contaminant fate, transport, and reaction-network modelling",
+          "task_count": 10,
+          "first_task_id": "MYR-D090-T031",
+          "last_task_id": "MYR-D090-T040"
+        },
+        {
+          "index": 5,
+          "name": "Biodegradation pathway and transformation-product assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D090-T041",
+          "last_task_id": "MYR-D090-T050"
+        },
+        {
+          "index": 6,
+          "name": "Biostimulation, bioaugmentation, and process-condition design",
+          "task_count": 10,
+          "first_task_id": "MYR-D090-T051",
+          "last_task_id": "MYR-D090-T060"
+        },
+        {
+          "index": 7,
+          "name": "Bioreactor and engineered-treatment system optimization",
+          "task_count": 10,
+          "first_task_id": "MYR-D090-T061",
+          "last_task_id": "MYR-D090-T070"
+        },
+        {
+          "index": 8,
+          "name": "Performance monitoring, biomarkers, and remedy verification",
+          "task_count": 10,
+          "first_task_id": "MYR-D090-T071",
+          "last_task_id": "MYR-D090-T080"
+        },
+        {
+          "index": 9,
+          "name": "Ecological risk, non-target effects, and restoration outcomes",
+          "task_count": 10,
+          "first_task_id": "MYR-D090-T081",
+          "last_task_id": "MYR-D090-T090"
+        },
+        {
+          "index": 10,
+          "name": "Scale-up, technoeconomics, life-cycle impact, and community governance",
+          "task_count": 10,
+          "first_task_id": "MYR-D090-T091",
+          "last_task_id": "MYR-D090-T100"
+        }
+      ]
+    }
+  ],
+  "release_version": "1.0.0",
+  "release_date": "2026-08-04"
+}

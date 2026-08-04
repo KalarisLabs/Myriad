@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "release": "1.0.0",
+  "date": "2026-08-04",
+  "raw_records": 10000,
+  "canonical_records": 10000,
+  "sanitized_records": 10000,
+  "field_shape_count": 1,
+  "unique_ids": 10000,
+  "unique_names": 10000,
+  "unique_titles": 10000,
+  "unique_objectives": 10000,
+  "normalized_title_duplicates": 0,
+  "objective_equals_title_count": 8000,
+  "objective_equals_title_note": "Earlier batches intentionally encode atomic taxonomy nodes tersely. Canonical records preserve those objectives and add separate routing, completion, provenance, uncertainty, no-call, and safety contracts rather than fabricating task-specific details.",
+  "title_words": {
+    "min": 5,
+    "median": 14.0,
+    "max": 24
+  },
+  "objective_words": {
+    "min": 5,
+    "median": 14.0,
+    "max": 57
+  },
+  "placeholder_hits": 0,
+  "control_character_hits": [],
+  "within_domain_near_duplicate_pairs_jaccard_gte_0_92": [],
+  "node_markdown_frontmatter_parsed": 10000,
+  "node_markdown_frontmatter_errors": [],
+  "scientific_basis_files": 10,
+  "limitations": [
+    "No automated or AI-only audit can establish task-by-task experimental truth across 10,000 scientific tasks. The release therefore makes no scientific-validation claim and requires current primary sources and qualified review.",
+    "Near-duplicate analysis is exhaustive within each 100-task domain, not across every cross-domain pair."
+  ]
+}

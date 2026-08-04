@@ -1,0 +1,96 @@
+{
+  "initiative": "MYRIAD",
+  "phase": 2,
+  "batch": "009",
+  "domain_range": [
+    81,
+    90
+  ],
+  "domain_count": 10,
+  "tasks_per_domain": 100,
+  "task_count": 1000,
+  "domains": [
+    {
+      "domain_id": 81,
+      "domain_code": "D081",
+      "domain": "Microbial Genomics and Antimicrobial Resistance Analysis",
+      "slug": "microbial-genomics-and-antimicrobial-resistance-analysis",
+      "task_count": 100,
+      "path": "081-microbial-genomics-and-antimicrobial-resistance-analysis"
+    },
+    {
+      "domain_id": 82,
+      "domain_code": "D082",
+      "domain": "Metagenomics and Microbiome Analysis",
+      "slug": "metagenomics-and-microbiome-analysis",
+      "task_count": 100,
+      "path": "082-metagenomics-and-microbiome-analysis"
+    },
+    {
+      "domain_id": 83,
+      "domain_code": "D083",
+      "domain": "Pathogen Genomic Surveillance",
+      "slug": "pathogen-genomic-surveillance",
+      "task_count": 100,
+      "path": "083-pathogen-genomic-surveillance"
+    },
+    {
+      "domain_id": 84,
+      "domain_code": "D084",
+      "domain": "Microbiome Therapeutic Development",
+      "slug": "microbiome-therapeutic-development",
+      "task_count": 100,
+      "path": "084-microbiome-therapeutic-development"
+    },
+    {
+      "domain_id": 85,
+      "domain_code": "D085",
+      "domain": "Bacteriophage Discovery and Therapy Informatics",
+      "slug": "bacteriophage-discovery-and-therapy-informatics",
+      "task_count": 100,
+      "path": "085-bacteriophage-discovery-and-therapy-informatics"
+    },
+    {
+      "domain_id": 86,
+      "domain_code": "D086",
+      "domain": "Synthetic Gene-Circuit Engineering",
+      "slug": "synthetic-gene-circuit-engineering",
+      "task_count": 100,
+      "path": "086-synthetic-gene-circuit-engineering"
+    },
+    {
+      "domain_id": 87,
+      "domain_code": "D087",
+      "domain": "Metabolic Pathway and Strain Engineering",
+      "slug": "metabolic-pathway-and-strain-engineering",
+      "task_count": 100,
+      "path": "087-metabolic-pathway-and-strain-engineering"
+    },
+    {
+      "domain_id": 88,
+      "domain_code": "D088",
+      "domain": "Cell-Free Synthetic Biology",
+      "slug": "cell-free-synthetic-biology",
+      "task_count": 100,
+      "path": "088-cell-free-synthetic-biology"
+    },
+    {
+      "domain_id": 89,
+      "domain_code": "D089",
+      "domain": "Agricultural Genomics and Precision Breeding",
+      "slug": "agricultural-genomics-and-precision-breeding",
+      "task_count": 100,
+      "path": "089-agricultural-genomics-and-precision-breeding"
+    },
+    {
+      "domain_id": 90,
+      "domain_code": "D090",
+      "domain": "Environmental Biotechnology and Bioremediation",
+      "slug": "environmental-biotechnology-and-bioremediation",
+      "task_count": 100,
+      "path": "090-environmental-biotechnology-and-bioremediation"
+    }
+  ],
+  "previous_batch": "batch-008-domains-071-080",
+  "next_domain": 91
+}

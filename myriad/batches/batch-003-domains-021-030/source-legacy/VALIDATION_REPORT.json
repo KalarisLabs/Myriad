@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "errors": [],
+  "domains": 10,
+  "tasks": 1000,
+  "per_domain": {
+    "21": 100,
+    "22": 100,
+    "23": 100,
+    "24": 100,
+    "25": 100,
+    "26": 100,
+    "27": 100,
+    "28": 100,
+    "29": 100,
+    "30": 100
+  },
+  "cross_batch_valid": true,
+  "cross_batch_errors": [],
+  "cumulative_domain_count": 30,
+  "cumulative_task_count": 3000
+}

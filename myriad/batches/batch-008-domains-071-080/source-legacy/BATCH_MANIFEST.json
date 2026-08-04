@@ -1,0 +1,96 @@
+{
+  "initiative": "MYRIAD",
+  "phase": 2,
+  "batch": "008",
+  "domain_range": [
+    71,
+    80
+  ],
+  "domain_count": 10,
+  "tasks_per_domain": 100,
+  "task_count": 1000,
+  "domains": [
+    {
+      "domain_id": 71,
+      "domain_code": "D071",
+      "domain": "Production Cell-Line Development",
+      "slug": "production-cell-line-development",
+      "task_count": 100,
+      "path": "071-production-cell-line-development"
+    },
+    {
+      "domain_id": 72,
+      "domain_code": "D072",
+      "domain": "Upstream Bioprocess Development",
+      "slug": "upstream-bioprocess-development",
+      "task_count": 100,
+      "path": "072-upstream-bioprocess-development"
+    },
+    {
+      "domain_id": 73,
+      "domain_code": "D073",
+      "domain": "Bioreactor Modelling and Process Control",
+      "slug": "bioreactor-modelling-and-process-control",
+      "task_count": 100,
+      "path": "073-bioreactor-modelling-and-process-control"
+    },
+    {
+      "domain_id": 74,
+      "domain_code": "D074",
+      "domain": "Media and Feed Optimization",
+      "slug": "media-and-feed-optimization",
+      "task_count": 100,
+      "path": "074-media-and-feed-optimization"
+    },
+    {
+      "domain_id": 75,
+      "domain_code": "D075",
+      "domain": "Downstream Purification Development",
+      "slug": "downstream-purification-development",
+      "task_count": 100,
+      "path": "075-downstream-purification-development"
+    },
+    {
+      "domain_id": 76,
+      "domain_code": "D076",
+      "domain": "Process Analytical Technology and Digital Bioprocessing",
+      "slug": "process-analytical-technology-and-digital-bioprocessing",
+      "task_count": 100,
+      "path": "076-process-analytical-technology-and-digital-bioprocessing"
+    },
+    {
+      "domain_id": 77,
+      "domain_code": "D077",
+      "domain": "Quality by Design and Design-Space Modelling",
+      "slug": "quality-by-design-and-design-space-modelling",
+      "task_count": 100,
+      "path": "077-quality-by-design-and-design-space-modelling"
+    },
+    {
+      "domain_id": 78,
+      "domain_code": "D078",
+      "domain": "Continuous and Intensified Biomanufacturing",
+      "slug": "continuous-and-intensified-biomanufacturing",
+      "task_count": 100,
+      "path": "078-continuous-and-intensified-biomanufacturing"
+    },
+    {
+      "domain_id": 79,
+      "domain_code": "D079",
+      "domain": "Formulation, Stability, and Cold-Chain Engineering",
+      "slug": "formulation-stability-and-cold-chain-engineering",
+      "task_count": 100,
+      "path": "079-formulation-stability-and-cold-chain-engineering"
+    },
+    {
+      "domain_id": 80,
+      "domain_code": "D080",
+      "domain": "Analytical Development, Lot Release, and Comparability",
+      "slug": "analytical-development-lot-release-and-comparability",
+      "task_count": 100,
+      "path": "080-analytical-development-lot-release-and-comparability"
+    }
+  ],
+  "previous_batch": "batch-007-domains-061-070",
+  "next_domain": 81
+}

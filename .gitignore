@@ -1,0 +1,16 @@
+node_modules/
+*.tgz
+.DS_Store
+coverage/
+.tmp/
+*.log
+
+# Generated release archives
+artifacts/archives/
+artifacts/npm/
+*.zip
+*.tgz
+
+# Local dependencies and logs
+node_modules/
+npm-debug.log*

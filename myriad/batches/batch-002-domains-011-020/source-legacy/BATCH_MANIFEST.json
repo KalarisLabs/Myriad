@@ -1,0 +1,153 @@
+{
+  "initiative": "MYRIAD",
+  "phase": 2,
+  "batch": 2,
+  "domain_range": [
+    11,
+    20
+  ],
+  "domain_count": 10,
+  "tasks_per_domain": 100,
+  "task_count": 1000,
+  "generated_at_utc": "2026-08-04T03:59:10.518805+00:00",
+  "domains": [
+    {
+      "id": 11,
+      "code": "D011",
+      "name": "Bulk RNA Sequencing and Differential Expression",
+      "slug": "bulk-rna-sequencing-and-differential-expression",
+      "scope": "Quantify transcript abundance and identify condition-, treatment-, time-, or genotype-associated expression changes in bulk RNA-sequencing experiments.",
+      "task_file": "011-bulk-rna-sequencing-and-differential-expression/TASKS.md",
+      "json_file": "011-bulk-rna-sequencing-and-differential-expression/tasks.json"
+    },
+    {
+      "id": 12,
+      "code": "D012",
+      "name": "Alternative Splicing and Isoform Analysis",
+      "slug": "alternative-splicing-and-isoform-analysis",
+      "scope": "Detect transcript isoforms, splice junctions, exon usage, intron retention, fusion transcripts, and condition-specific changes in RNA processing.",
+      "task_file": "012-alternative-splicing-and-isoform-analysis/TASKS.md",
+      "json_file": "012-alternative-splicing-and-isoform-analysis/tasks.json"
+    },
+    {
+      "id": 13,
+      "code": "D013",
+      "name": "Single-Cell Transcriptomics",
+      "slug": "single-cell-transcriptomics",
+      "scope": "Process cellular barcodes, remove technical artefacts, identify cell states, infer trajectories, and compare cell populations from single-cell RNA-sequencing data.",
+      "task_file": "013-single-cell-transcriptomics/TASKS.md",
+      "json_file": "013-single-cell-transcriptomics/tasks.json"
+    },
+    {
+      "id": 14,
+      "code": "D014",
+      "name": "Spatial Transcriptomics",
+      "slug": "spatial-transcriptomics",
+      "scope": "Integrate spatially indexed transcript counts with tissue images to identify anatomical domains, cellular neighbourhoods, gradients, and localized expression programmes.",
+      "task_file": "014-spatial-transcriptomics/TASKS.md",
+      "json_file": "014-spatial-transcriptomics/tasks.json"
+    },
+    {
+      "id": 15,
+      "code": "D015",
+      "name": "Epigenomic Profiling",
+      "slug": "epigenomic-profiling",
+      "scope": "Analyse chromatin accessibility, protein-DNA occupancy, histone modifications, nucleosome organization, and DNA methylation using bulk epigenomic assays.",
+      "task_file": "015-epigenomic-profiling/TASKS.md",
+      "json_file": "015-epigenomic-profiling/tasks.json"
+    },
+    {
+      "id": 16,
+      "code": "D016",
+      "name": "Single-Cell and Spatial Epigenomics",
+      "slug": "single-cell-and-spatial-epigenomics",
+      "scope": "Resolve chromatin accessibility, DNA methylation, histone state, and regulatory programmes across individual cells and spatially indexed tissue regions.",
+      "task_file": "016-single-cell-and-spatial-epigenomics/TASKS.md",
+      "json_file": "016-single-cell-and-spatial-epigenomics/tasks.json"
+    },
+    {
+      "id": 17,
+      "code": "D017",
+      "name": "Proteomics and Protein Quantification",
+      "slug": "proteomics-and-protein-quantification",
+      "scope": "Identify and quantify proteins from mass-spectrometry data using discovery, data-independent, targeted, label-free, or isobaric workflows.",
+      "task_file": "017-proteomics-and-protein-quantification/TASKS.md",
+      "json_file": "017-proteomics-and-protein-quantification/tasks.json"
+    },
+    {
+      "id": 18,
+      "code": "D018",
+      "name": "Post-Translational Modification Proteomics",
+      "slug": "post-translational-modification-proteomics",
+      "scope": "Map and quantify phosphorylation, glycosylation, ubiquitination, acetylation, oxidation, and other protein modifications with localization-aware confidence control.",
+      "task_file": "018-post-translational-modification-proteomics/TASKS.md",
+      "json_file": "018-post-translational-modification-proteomics/tasks.json"
+    },
+    {
+      "id": 19,
+      "code": "D019",
+      "name": "Metabolomics and Lipidomics",
+      "slug": "metabolomics-and-lipidomics",
+      "scope": "Detect, annotate, quantify, and biologically interpret metabolites and lipid species while controlling analytical drift, blanks, identification confidence, and batch effects.",
+      "task_file": "019-metabolomics-and-lipidomics/TASKS.md",
+      "json_file": "019-metabolomics-and-lipidomics/tasks.json"
+    },
+    {
+      "id": 20,
+      "code": "D020",
+      "name": "Multi-Omics Integration and Systems Biology",
+      "slug": "multi-omics-integration-and-systems-biology",
+      "scope": "Integrate heterogeneous molecular modalities into latent factors, networks, pathways, causal hypotheses, and interpretable multiscale models.",
+      "task_file": "020-multi-omics-integration-and-systems-biology/TASKS.md",
+      "json_file": "020-multi-omics-integration-and-systems-biology/tasks.json"
+    }
+  ],
+  "safety_boundary": "Computational analysis, data validation, evidence synthesis, or reporting only; no autonomous wet-lab execution or unreviewed clinical decision.",
+  "next_state": {
+    "phase_2_completed_domains": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "next_unmapped_domain": 21,
+    "phase_3_ready_domains": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  }
+}

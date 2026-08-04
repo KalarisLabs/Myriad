@@ -1,0 +1,106 @@
+{
+  "initiative": "MYRIAD",
+  "phase": 2,
+  "batch": "006",
+  "domain_range": [
+    51,
+    60
+  ],
+  "domain_count": 10,
+  "tasks_per_domain": 100,
+  "task_count": 1000,
+  "domains": [
+    {
+      "domain_id": 51,
+      "domain_code": "D051",
+      "domain": "CRISPR Guide Design and Off-Target Assessment",
+      "slug": "crispr-guide-design-and-off-target-assessment",
+      "task_count": 100,
+      "path": "051-crispr-guide-design-and-off-target-assessment"
+    },
+    {
+      "domain_id": 52,
+      "domain_code": "D052",
+      "domain": "Base-Editing System Design",
+      "slug": "base-editing-system-design",
+      "task_count": 100,
+      "path": "052-base-editing-system-design"
+    },
+    {
+      "domain_id": 53,
+      "domain_code": "D053",
+      "domain": "Prime-Editing System Design",
+      "slug": "prime-editing-system-design",
+      "task_count": 100,
+      "path": "053-prime-editing-system-design"
+    },
+    {
+      "domain_id": 54,
+      "domain_code": "D054",
+      "domain": "Gene-Therapy Vector and Payload Engineering",
+      "slug": "gene-therapy-vector-and-payload-engineering",
+      "task_count": 100,
+      "path": "054-gene-therapy-vector-and-payload-engineering"
+    },
+    {
+      "domain_id": 55,
+      "domain_code": "D055",
+      "domain": "Adeno-Associated Virus Capsid Informatics",
+      "slug": "adeno-associated-virus-capsid-informatics",
+      "task_count": 100,
+      "path": "055-adeno-associated-virus-capsid-informatics"
+    },
+    {
+      "domain_id": 56,
+      "domain_code": "D056",
+      "domain": "Messenger RNA Therapeutic Design",
+      "slug": "messenger-rna-therapeutic-design",
+      "task_count": 100,
+      "path": "056-messenger-rna-therapeutic-design"
+    },
+    {
+      "domain_id": 57,
+      "domain_code": "D057",
+      "domain": "Small-Interfering RNA Therapeutic Design",
+      "slug": "small-interfering-rna-therapeutic-design",
+      "task_count": 100,
+      "path": "057-small-interfering-rna-therapeutic-design"
+    },
+    {
+      "domain_id": 58,
+      "domain_code": "D058",
+      "domain": "Antisense Oligonucleotide Design",
+      "slug": "antisense-oligonucleotide-design",
+      "task_count": 100,
+      "path": "058-antisense-oligonucleotide-design"
+    },
+    {
+      "domain_id": 59,
+      "domain_code": "D059",
+      "domain": "RNA Editing and Programmable RNA Therapeutics",
+      "slug": "rna-editing-and-programmable-rna-therapeutics",
+      "task_count": 100,
+      "path": "059-rna-editing-and-programmable-rna-therapeutics"
+    },
+    {
+      "domain_id": 60,
+      "domain_code": "D060",
+      "domain": "Nucleic-Acid Delivery-System Engineering",
+      "slug": "nucleic-acid-delivery-system-engineering",
+      "task_count": 100,
+      "path": "060-nucleic-acid-delivery-system-engineering"
+    }
+  ],
+  "previous_batch": "batch-005-domains-041-050",
+  "next_domain": 61,
+  "validation_invariants": [
+    "exactly 10 domains",
+    "exactly 100 tasks per domain",
+    "exactly 1000 tasks",
+    "10 workstreams with 10 tasks per domain",
+    "globally unique IDs, routing names, and titles",
+    "computational and evidence-management boundary on every task",
+    "no placeholders, short samples, or generic verb-object tasks",
+    "volatile references remain versioned and external to durable task logic"
+  ]
+}

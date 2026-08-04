@@ -1,0 +1,822 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 1,
+  "domain_start": 1,
+  "domain_end": 10,
+  "domain_count": 10,
+  "task_count": 1000,
+  "domains": [
+    {
+      "domain_id": 1,
+      "domain_code": "D001",
+      "name": "De Novo Genome Assembly and Polishing",
+      "slug": "de-novo-genome-assembly-and-polishing",
+      "batch_id": 1,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Project intake and execution constraints",
+          "task_count": 10,
+          "first_task_id": "MYR-D001-T001",
+          "last_task_id": "MYR-D001-T010"
+        },
+        {
+          "index": 2,
+          "name": "Raw-read quality control",
+          "task_count": 10,
+          "first_task_id": "MYR-D001-T011",
+          "last_task_id": "MYR-D001-T020"
+        },
+        {
+          "index": 3,
+          "name": "Genome-complexity estimation",
+          "task_count": 10,
+          "first_task_id": "MYR-D001-T021",
+          "last_task_id": "MYR-D001-T030"
+        },
+        {
+          "index": 4,
+          "name": "Read preprocessing and partitioning",
+          "task_count": 10,
+          "first_task_id": "MYR-D001-T031",
+          "last_task_id": "MYR-D001-T040"
+        },
+        {
+          "index": 5,
+          "name": "Assembler selection and parameter design",
+          "task_count": 10,
+          "first_task_id": "MYR-D001-T041",
+          "last_task_id": "MYR-D001-T050"
+        },
+        {
+          "index": 6,
+          "name": "Assembly execution and integrity checks",
+          "task_count": 10,
+          "first_task_id": "MYR-D001-T051",
+          "last_task_id": "MYR-D001-T060"
+        },
+        {
+          "index": 7,
+          "name": "Consensus polishing and error correction",
+          "task_count": 10,
+          "first_task_id": "MYR-D001-T061",
+          "last_task_id": "MYR-D001-T070"
+        },
+        {
+          "index": 8,
+          "name": "Phasing, deduplication, and scaffolding",
+          "task_count": 10,
+          "first_task_id": "MYR-D001-T071",
+          "last_task_id": "MYR-D001-T080"
+        },
+        {
+          "index": 9,
+          "name": "Assembly evaluation and candidate ranking",
+          "task_count": 10,
+          "first_task_id": "MYR-D001-T081",
+          "last_task_id": "MYR-D001-T090"
+        },
+        {
+          "index": 10,
+          "name": "Release, provenance, and review gates",
+          "task_count": 10,
+          "first_task_id": "MYR-D001-T091",
+          "last_task_id": "MYR-D001-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 2,
+      "domain_code": "D002",
+      "name": "Pangenome Construction and Graph Genomics",
+      "slug": "pangenome-construction-and-graph-genomics",
+      "batch_id": 1,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Cohort and reference design",
+          "task_count": 10,
+          "first_task_id": "MYR-D002-T001",
+          "last_task_id": "MYR-D002-T010"
+        },
+        {
+          "index": 2,
+          "name": "Contributing-assembly qualification",
+          "task_count": 10,
+          "first_task_id": "MYR-D002-T011",
+          "last_task_id": "MYR-D002-T020"
+        },
+        {
+          "index": 3,
+          "name": "Sequence alignment and homology preparation",
+          "task_count": 10,
+          "first_task_id": "MYR-D002-T021",
+          "last_task_id": "MYR-D002-T030"
+        },
+        {
+          "index": 4,
+          "name": "Graph construction",
+          "task_count": 10,
+          "first_task_id": "MYR-D002-T031",
+          "last_task_id": "MYR-D002-T040"
+        },
+        {
+          "index": 5,
+          "name": "Graph normalization and structural QC",
+          "task_count": 10,
+          "first_task_id": "MYR-D002-T041",
+          "last_task_id": "MYR-D002-T050"
+        },
+        {
+          "index": 6,
+          "name": "Graph indexing and read mapping",
+          "task_count": 10,
+          "first_task_id": "MYR-D002-T051",
+          "last_task_id": "MYR-D002-T060"
+        },
+        {
+          "index": 7,
+          "name": "Graph-based variant representation and genotyping",
+          "task_count": 10,
+          "first_task_id": "MYR-D002-T061",
+          "last_task_id": "MYR-D002-T070"
+        },
+        {
+          "index": 8,
+          "name": "Annotation and coordinate projection",
+          "task_count": 10,
+          "first_task_id": "MYR-D002-T071",
+          "last_task_id": "MYR-D002-T080"
+        },
+        {
+          "index": 9,
+          "name": "Benchmarking, diversity, and bias analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D002-T081",
+          "last_task_id": "MYR-D002-T090"
+        },
+        {
+          "index": 10,
+          "name": "Release, governance, and update operations",
+          "task_count": 10,
+          "first_task_id": "MYR-D002-T091",
+          "last_task_id": "MYR-D002-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 3,
+      "domain_code": "D003",
+      "name": "Germline Small-Variant Discovery",
+      "slug": "germline-small-variant-discovery",
+      "batch_id": 1,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Study intake and sample identity",
+          "task_count": 10,
+          "first_task_id": "MYR-D003-T001",
+          "last_task_id": "MYR-D003-T010"
+        },
+        {
+          "index": 2,
+          "name": "Raw-read preprocessing",
+          "task_count": 10,
+          "first_task_id": "MYR-D003-T011",
+          "last_task_id": "MYR-D003-T020"
+        },
+        {
+          "index": 3,
+          "name": "Alignment and post-alignment processing",
+          "task_count": 10,
+          "first_task_id": "MYR-D003-T021",
+          "last_task_id": "MYR-D003-T030"
+        },
+        {
+          "index": 4,
+          "name": "Per-sample variant calling",
+          "task_count": 10,
+          "first_task_id": "MYR-D003-T031",
+          "last_task_id": "MYR-D003-T040"
+        },
+        {
+          "index": 5,
+          "name": "Joint genotyping and cohort consolidation",
+          "task_count": 10,
+          "first_task_id": "MYR-D003-T041",
+          "last_task_id": "MYR-D003-T050"
+        },
+        {
+          "index": 6,
+          "name": "Variant normalization and representation",
+          "task_count": 10,
+          "first_task_id": "MYR-D003-T051",
+          "last_task_id": "MYR-D003-T060"
+        },
+        {
+          "index": 7,
+          "name": "Variant quality modelling and filtering",
+          "task_count": 10,
+          "first_task_id": "MYR-D003-T061",
+          "last_task_id": "MYR-D003-T070"
+        },
+        {
+          "index": 8,
+          "name": "Functional and population annotation",
+          "task_count": 10,
+          "first_task_id": "MYR-D003-T071",
+          "last_task_id": "MYR-D003-T080"
+        },
+        {
+          "index": 9,
+          "name": "Sample, pedigree, and cohort quality control",
+          "task_count": 10,
+          "first_task_id": "MYR-D003-T081",
+          "last_task_id": "MYR-D003-T090"
+        },
+        {
+          "index": 10,
+          "name": "Release and reproducibility",
+          "task_count": 10,
+          "first_task_id": "MYR-D003-T091",
+          "last_task_id": "MYR-D003-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 4,
+      "domain_code": "D004",
+      "name": "Somatic Variant and Tumour Evolution Analysis",
+      "slug": "somatic-variant-and-tumour-evolution-analysis",
+      "batch_id": 1,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Case design and specimen manifest",
+          "task_count": 10,
+          "first_task_id": "MYR-D004-T001",
+          "last_task_id": "MYR-D004-T010"
+        },
+        {
+          "index": 2,
+          "name": "Alignment and specimen identity QC",
+          "task_count": 10,
+          "first_task_id": "MYR-D004-T011",
+          "last_task_id": "MYR-D004-T020"
+        },
+        {
+          "index": 3,
+          "name": "Purity, ploidy, and normal-comparator assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D004-T021",
+          "last_task_id": "MYR-D004-T030"
+        },
+        {
+          "index": 4,
+          "name": "Somatic SNV and indel calling",
+          "task_count": 10,
+          "first_task_id": "MYR-D004-T031",
+          "last_task_id": "MYR-D004-T040"
+        },
+        {
+          "index": 5,
+          "name": "Artefact and germline filtering",
+          "task_count": 10,
+          "first_task_id": "MYR-D004-T041",
+          "last_task_id": "MYR-D004-T050"
+        },
+        {
+          "index": 6,
+          "name": "Somatic copy-number and structural context",
+          "task_count": 10,
+          "first_task_id": "MYR-D004-T051",
+          "last_task_id": "MYR-D004-T060"
+        },
+        {
+          "index": 7,
+          "name": "Clonality and cancer-cell-fraction inference",
+          "task_count": 10,
+          "first_task_id": "MYR-D004-T061",
+          "last_task_id": "MYR-D004-T070"
+        },
+        {
+          "index": 8,
+          "name": "Spatial and longitudinal tumour evolution",
+          "task_count": 10,
+          "first_task_id": "MYR-D004-T071",
+          "last_task_id": "MYR-D004-T080"
+        },
+        {
+          "index": 9,
+          "name": "Biological annotation and prioritization",
+          "task_count": 10,
+          "first_task_id": "MYR-D004-T081",
+          "last_task_id": "MYR-D004-T090"
+        },
+        {
+          "index": 10,
+          "name": "Reporting, release, and governance",
+          "task_count": 10,
+          "first_task_id": "MYR-D004-T091",
+          "last_task_id": "MYR-D004-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 5,
+      "domain_code": "D005",
+      "name": "Structural Variant and Copy-Number Analysis",
+      "slug": "structural-variant-and-copy-number-analysis",
+      "batch_id": 1,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Analysis design and input qualification",
+          "task_count": 10,
+          "first_task_id": "MYR-D005-T001",
+          "last_task_id": "MYR-D005-T010"
+        },
+        {
+          "index": 2,
+          "name": "Alignment evidence and coverage modelling",
+          "task_count": 10,
+          "first_task_id": "MYR-D005-T011",
+          "last_task_id": "MYR-D005-T020"
+        },
+        {
+          "index": 3,
+          "name": "Structural-variant candidate discovery",
+          "task_count": 10,
+          "first_task_id": "MYR-D005-T021",
+          "last_task_id": "MYR-D005-T030"
+        },
+        {
+          "index": 4,
+          "name": "Copy-number segmentation and state inference",
+          "task_count": 10,
+          "first_task_id": "MYR-D005-T031",
+          "last_task_id": "MYR-D005-T040"
+        },
+        {
+          "index": 5,
+          "name": "Breakpoint refinement and sequence resolution",
+          "task_count": 10,
+          "first_task_id": "MYR-D005-T041",
+          "last_task_id": "MYR-D005-T050"
+        },
+        {
+          "index": 6,
+          "name": "Multi-caller integration and genotyping",
+          "task_count": 10,
+          "first_task_id": "MYR-D005-T051",
+          "last_task_id": "MYR-D005-T060"
+        },
+        {
+          "index": 7,
+          "name": "Quality filtering and artefact control",
+          "task_count": 10,
+          "first_task_id": "MYR-D005-T061",
+          "last_task_id": "MYR-D005-T070"
+        },
+        {
+          "index": 8,
+          "name": "Functional and clinical annotation",
+          "task_count": 10,
+          "first_task_id": "MYR-D005-T071",
+          "last_task_id": "MYR-D005-T080"
+        },
+        {
+          "index": 9,
+          "name": "Cohort and comparative analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D005-T081",
+          "last_task_id": "MYR-D005-T090"
+        },
+        {
+          "index": 10,
+          "name": "Release and reproducibility",
+          "task_count": 10,
+          "first_task_id": "MYR-D005-T091",
+          "last_task_id": "MYR-D005-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 6,
+      "domain_code": "D006",
+      "name": "Repeat Expansion and Mobile-Element Genomics",
+      "slug": "repeat-expansion-and-mobile-element-genomics",
+      "batch_id": 1,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Project intake and repeat-analysis scope",
+          "task_count": 10,
+          "first_task_id": "MYR-D006-T001",
+          "last_task_id": "MYR-D006-T010"
+        },
+        {
+          "index": 2,
+          "name": "Repeat catalogue and locus preparation",
+          "task_count": 10,
+          "first_task_id": "MYR-D006-T011",
+          "last_task_id": "MYR-D006-T020"
+        },
+        {
+          "index": 3,
+          "name": "Short-read tandem-repeat genotyping",
+          "task_count": 10,
+          "first_task_id": "MYR-D006-T021",
+          "last_task_id": "MYR-D006-T030"
+        },
+        {
+          "index": 4,
+          "name": "Long-read repeat resolution",
+          "task_count": 10,
+          "first_task_id": "MYR-D006-T031",
+          "last_task_id": "MYR-D006-T040"
+        },
+        {
+          "index": 5,
+          "name": "Repeat mosaicism and instability",
+          "task_count": 10,
+          "first_task_id": "MYR-D006-T041",
+          "last_task_id": "MYR-D006-T050"
+        },
+        {
+          "index": 6,
+          "name": "Mobile-element insertion discovery",
+          "task_count": 10,
+          "first_task_id": "MYR-D006-T051",
+          "last_task_id": "MYR-D006-T060"
+        },
+        {
+          "index": 7,
+          "name": "Transposable-element annotation and activity",
+          "task_count": 10,
+          "first_task_id": "MYR-D006-T061",
+          "last_task_id": "MYR-D006-T070"
+        },
+        {
+          "index": 8,
+          "name": "Filtering and orthogonal evidence",
+          "task_count": 10,
+          "first_task_id": "MYR-D006-T071",
+          "last_task_id": "MYR-D006-T080"
+        },
+        {
+          "index": 9,
+          "name": "Cohort and phenotype analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D006-T081",
+          "last_task_id": "MYR-D006-T090"
+        },
+        {
+          "index": 10,
+          "name": "Release and review gates",
+          "task_count": 10,
+          "first_task_id": "MYR-D006-T091",
+          "last_task_id": "MYR-D006-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 7,
+      "domain_code": "D007",
+      "name": "Genome Annotation and Functional Element Mapping",
+      "slug": "genome-annotation-and-functional-element-mapping",
+      "batch_id": 1,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Assembly and evidence intake",
+          "task_count": 10,
+          "first_task_id": "MYR-D007-T001",
+          "last_task_id": "MYR-D007-T010"
+        },
+        {
+          "index": 2,
+          "name": "Repeat discovery and masking",
+          "task_count": 10,
+          "first_task_id": "MYR-D007-T011",
+          "last_task_id": "MYR-D007-T020"
+        },
+        {
+          "index": 3,
+          "name": "Transcript and protein evidence preparation",
+          "task_count": 10,
+          "first_task_id": "MYR-D007-T021",
+          "last_task_id": "MYR-D007-T030"
+        },
+        {
+          "index": 4,
+          "name": "Ab initio gene prediction",
+          "task_count": 10,
+          "first_task_id": "MYR-D007-T031",
+          "last_task_id": "MYR-D007-T040"
+        },
+        {
+          "index": 5,
+          "name": "Gene-model integration and refinement",
+          "task_count": 10,
+          "first_task_id": "MYR-D007-T041",
+          "last_task_id": "MYR-D007-T050"
+        },
+        {
+          "index": 6,
+          "name": "Non-coding RNA annotation",
+          "task_count": 10,
+          "first_task_id": "MYR-D007-T051",
+          "last_task_id": "MYR-D007-T060"
+        },
+        {
+          "index": 7,
+          "name": "Functional annotation and orthology",
+          "task_count": 10,
+          "first_task_id": "MYR-D007-T061",
+          "last_task_id": "MYR-D007-T070"
+        },
+        {
+          "index": 8,
+          "name": "Regulatory and conserved element mapping",
+          "task_count": 10,
+          "first_task_id": "MYR-D007-T071",
+          "last_task_id": "MYR-D007-T080"
+        },
+        {
+          "index": 9,
+          "name": "Annotation quality control",
+          "task_count": 10,
+          "first_task_id": "MYR-D007-T081",
+          "last_task_id": "MYR-D007-T090"
+        },
+        {
+          "index": 10,
+          "name": "Release and lifecycle management",
+          "task_count": 10,
+          "first_task_id": "MYR-D007-T091",
+          "last_task_id": "MYR-D007-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 8,
+      "domain_code": "D008",
+      "name": "Population Genomics and Genome-Wide Association Studies",
+      "slug": "population-genomics-and-genome-wide-association-studies",
+      "batch_id": 1,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Cohort and governance intake",
+          "task_count": 10,
+          "first_task_id": "MYR-D008-T001",
+          "last_task_id": "MYR-D008-T010"
+        },
+        {
+          "index": 2,
+          "name": "Variant-level genotype quality control",
+          "task_count": 10,
+          "first_task_id": "MYR-D008-T011",
+          "last_task_id": "MYR-D008-T020"
+        },
+        {
+          "index": 3,
+          "name": "Sample-level quality and identity",
+          "task_count": 10,
+          "first_task_id": "MYR-D008-T021",
+          "last_task_id": "MYR-D008-T030"
+        },
+        {
+          "index": 4,
+          "name": "Population structure and ancestry",
+          "task_count": 10,
+          "first_task_id": "MYR-D008-T031",
+          "last_task_id": "MYR-D008-T040"
+        },
+        {
+          "index": 5,
+          "name": "Phasing and genotype imputation",
+          "task_count": 10,
+          "first_task_id": "MYR-D008-T041",
+          "last_task_id": "MYR-D008-T050"
+        },
+        {
+          "index": 6,
+          "name": "Phenotype and covariate engineering",
+          "task_count": 10,
+          "first_task_id": "MYR-D008-T051",
+          "last_task_id": "MYR-D008-T060"
+        },
+        {
+          "index": 7,
+          "name": "Association testing",
+          "task_count": 10,
+          "first_task_id": "MYR-D008-T061",
+          "last_task_id": "MYR-D008-T070"
+        },
+        {
+          "index": 8,
+          "name": "Association diagnostics and locus definition",
+          "task_count": 10,
+          "first_task_id": "MYR-D008-T071",
+          "last_task_id": "MYR-D008-T080"
+        },
+        {
+          "index": 9,
+          "name": "Fine-mapping, heritability, and polygenic models",
+          "task_count": 10,
+          "first_task_id": "MYR-D008-T081",
+          "last_task_id": "MYR-D008-T090"
+        },
+        {
+          "index": 10,
+          "name": "Release, reproducibility, and responsible reporting",
+          "task_count": 10,
+          "first_task_id": "MYR-D008-T091",
+          "last_task_id": "MYR-D008-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 9,
+      "domain_code": "D009",
+      "name": "Rare-Disease Genomic Diagnosis",
+      "slug": "rare-disease-genomic-diagnosis",
+      "batch_id": 1,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Case intake and phenotype encoding",
+          "task_count": 10,
+          "first_task_id": "MYR-D009-T001",
+          "last_task_id": "MYR-D009-T010"
+        },
+        {
+          "index": 2,
+          "name": "Pedigree and inheritance modelling",
+          "task_count": 10,
+          "first_task_id": "MYR-D009-T011",
+          "last_task_id": "MYR-D009-T020"
+        },
+        {
+          "index": 3,
+          "name": "Sequence and callset quality review",
+          "task_count": 10,
+          "first_task_id": "MYR-D009-T021",
+          "last_task_id": "MYR-D009-T030"
+        },
+        {
+          "index": 4,
+          "name": "Small-variant filtering by inheritance",
+          "task_count": 10,
+          "first_task_id": "MYR-D009-T031",
+          "last_task_id": "MYR-D009-T040"
+        },
+        {
+          "index": 5,
+          "name": "Structural, copy-number, repeat, and mitochondrial review",
+          "task_count": 10,
+          "first_task_id": "MYR-D009-T041",
+          "last_task_id": "MYR-D009-T050"
+        },
+        {
+          "index": 6,
+          "name": "Gene-disease and variant evidence collection",
+          "task_count": 10,
+          "first_task_id": "MYR-D009-T051",
+          "last_task_id": "MYR-D009-T060"
+        },
+        {
+          "index": 7,
+          "name": "Phenotype-driven prioritization",
+          "task_count": 10,
+          "first_task_id": "MYR-D009-T061",
+          "last_task_id": "MYR-D009-T070"
+        },
+        {
+          "index": 8,
+          "name": "Segregation, validation, and functional follow-up planning",
+          "task_count": 10,
+          "first_task_id": "MYR-D009-T071",
+          "last_task_id": "MYR-D009-T080"
+        },
+        {
+          "index": 9,
+          "name": "Novel disease-gene and reanalysis workflows",
+          "task_count": 10,
+          "first_task_id": "MYR-D009-T081",
+          "last_task_id": "MYR-D009-T090"
+        },
+        {
+          "index": 10,
+          "name": "Diagnostic reporting and governance",
+          "task_count": 10,
+          "first_task_id": "MYR-D009-T091",
+          "last_task_id": "MYR-D009-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 10,
+      "domain_code": "D010",
+      "name": "Clinical Variant Interpretation and Reporting",
+      "slug": "clinical-variant-interpretation-and-reporting",
+      "batch_id": 1,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Case, assay, and interpretation context",
+          "task_count": 10,
+          "first_task_id": "MYR-D010-T001",
+          "last_task_id": "MYR-D010-T010"
+        },
+        {
+          "index": 2,
+          "name": "Variant identity and nomenclature",
+          "task_count": 10,
+          "first_task_id": "MYR-D010-T011",
+          "last_task_id": "MYR-D010-T020"
+        },
+        {
+          "index": 3,
+          "name": "Gene-disease validity and mechanism",
+          "task_count": 10,
+          "first_task_id": "MYR-D010-T021",
+          "last_task_id": "MYR-D010-T030"
+        },
+        {
+          "index": 4,
+          "name": "Population evidence evaluation",
+          "task_count": 10,
+          "first_task_id": "MYR-D010-T031",
+          "last_task_id": "MYR-D010-T040"
+        },
+        {
+          "index": 5,
+          "name": "Computational, conservation, and splicing evidence",
+          "task_count": 10,
+          "first_task_id": "MYR-D010-T041",
+          "last_task_id": "MYR-D010-T050"
+        },
+        {
+          "index": 6,
+          "name": "Functional evidence evaluation",
+          "task_count": 10,
+          "first_task_id": "MYR-D010-T051",
+          "last_task_id": "MYR-D010-T060"
+        },
+        {
+          "index": 7,
+          "name": "Segregation, de novo, allelic, and phenotype evidence",
+          "task_count": 10,
+          "first_task_id": "MYR-D010-T061",
+          "last_task_id": "MYR-D010-T070"
+        },
+        {
+          "index": 8,
+          "name": "Evidence combination and classification",
+          "task_count": 10,
+          "first_task_id": "MYR-D010-T071",
+          "last_task_id": "MYR-D010-T080"
+        },
+        {
+          "index": 9,
+          "name": "Clinical report construction",
+          "task_count": 10,
+          "first_task_id": "MYR-D010-T081",
+          "last_task_id": "MYR-D010-T090"
+        },
+        {
+          "index": 10,
+          "name": "Quality assurance, approval, and reclassification",
+          "task_count": 10,
+          "first_task_id": "MYR-D010-T091",
+          "last_task_id": "MYR-D010-T100"
+        }
+      ]
+    }
+  ],
+  "release_version": "1.0.0",
+  "release_date": "2026-08-04"
+}

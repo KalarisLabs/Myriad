@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "batch_id": 6,
+  "task_count": 1000,
+  "domain_count": 10,
+  "tasks_per_domain": 100,
+  "workstreams_per_domain": 10,
+  "tasks_per_workstream": 10,
+  "unique_ids": 1000,
+  "unique_routing_names": 1000,
+  "unique_titles": 1000,
+  "placeholder_hits": 0,
+  "scientific_validation_claims_made": 0,
+  "note": "Structural and content-contract validation; not a substitute for task-by-task scientific peer review.",
+  "release_version": "1.0.0",
+  "release_date": "2026-08-04"
+}

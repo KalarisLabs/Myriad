@@ -1,0 +1,822 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 4,
+  "domain_start": 31,
+  "domain_end": 40,
+  "domain_count": 10,
+  "task_count": 1000,
+  "domains": [
+    {
+      "domain_id": 31,
+      "domain_code": "D031",
+      "name": "Therapeutic Target Identification",
+      "slug": "therapeutic-target-identification",
+      "batch_id": 4,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Disease definition and target-universe construction",
+          "task_count": 10,
+          "first_task_id": "MYR-D031-T001",
+          "last_task_id": "MYR-D031-T010"
+        },
+        {
+          "index": 2,
+          "name": "Human genetics and causal disease evidence",
+          "task_count": 10,
+          "first_task_id": "MYR-D031-T011",
+          "last_task_id": "MYR-D031-T020"
+        },
+        {
+          "index": 3,
+          "name": "Disease-state multi-omics evidence",
+          "task_count": 10,
+          "first_task_id": "MYR-D031-T021",
+          "last_task_id": "MYR-D031-T030"
+        },
+        {
+          "index": 4,
+          "name": "Pathway, network, and mechanistic context",
+          "task_count": 10,
+          "first_task_id": "MYR-D031-T031",
+          "last_task_id": "MYR-D031-T040"
+        },
+        {
+          "index": 5,
+          "name": "Tissue, cell-type, and subcellular suitability",
+          "task_count": 10,
+          "first_task_id": "MYR-D031-T041",
+          "last_task_id": "MYR-D031-T050"
+        },
+        {
+          "index": 6,
+          "name": "Tractability and therapeutic-modality assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D031-T051",
+          "last_task_id": "MYR-D031-T060"
+        },
+        {
+          "index": 7,
+          "name": "Safety, essentiality, and liability assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D031-T061",
+          "last_task_id": "MYR-D031-T070"
+        },
+        {
+          "index": 8,
+          "name": "Competitive landscape and clinical precedent",
+          "task_count": 10,
+          "first_task_id": "MYR-D031-T071",
+          "last_task_id": "MYR-D031-T080"
+        },
+        {
+          "index": 9,
+          "name": "Evidence integration and target ranking",
+          "task_count": 10,
+          "first_task_id": "MYR-D031-T081",
+          "last_task_id": "MYR-D031-T090"
+        },
+        {
+          "index": 10,
+          "name": "Provenance, review, and release governance",
+          "task_count": 10,
+          "first_task_id": "MYR-D031-T091",
+          "last_task_id": "MYR-D031-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 32,
+      "domain_code": "D032",
+      "name": "Target Validation and Causal Evidence Assessment",
+      "slug": "target-validation-and-causal-evidence-assessment",
+      "batch_id": 4,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Validation hypothesis and evidence plan",
+          "task_count": 10,
+          "first_task_id": "MYR-D032-T001",
+          "last_task_id": "MYR-D032-T010"
+        },
+        {
+          "index": 2,
+          "name": "Genetic perturbation evidence",
+          "task_count": 10,
+          "first_task_id": "MYR-D032-T011",
+          "last_task_id": "MYR-D032-T020"
+        },
+        {
+          "index": 3,
+          "name": "Pharmacological probe evidence",
+          "task_count": 10,
+          "first_task_id": "MYR-D032-T021",
+          "last_task_id": "MYR-D032-T030"
+        },
+        {
+          "index": 4,
+          "name": "Orthogonal confirmation and rescue",
+          "task_count": 10,
+          "first_task_id": "MYR-D032-T031",
+          "last_task_id": "MYR-D032-T040"
+        },
+        {
+          "index": 5,
+          "name": "Biological context and responder stratification",
+          "task_count": 10,
+          "first_task_id": "MYR-D032-T041",
+          "last_task_id": "MYR-D032-T050"
+        },
+        {
+          "index": 6,
+          "name": "Mechanism and pathway engagement",
+          "task_count": 10,
+          "first_task_id": "MYR-D032-T051",
+          "last_task_id": "MYR-D032-T060"
+        },
+        {
+          "index": 7,
+          "name": "Translational and in vivo evidence",
+          "task_count": 10,
+          "first_task_id": "MYR-D032-T061",
+          "last_task_id": "MYR-D032-T070"
+        },
+        {
+          "index": 8,
+          "name": "Safety and therapeutic-window validation",
+          "task_count": 10,
+          "first_task_id": "MYR-D032-T071",
+          "last_task_id": "MYR-D032-T080"
+        },
+        {
+          "index": 9,
+          "name": "Reproducibility and robustness assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D032-T081",
+          "last_task_id": "MYR-D032-T090"
+        },
+        {
+          "index": 10,
+          "name": "Validation decision and evidence release",
+          "task_count": 10,
+          "first_task_id": "MYR-D032-T091",
+          "last_task_id": "MYR-D032-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 33,
+      "domain_code": "D033",
+      "name": "Chemical Library Curation and Standardization",
+      "slug": "chemical-library-curation-and-standardization",
+      "batch_id": 4,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "File intake and record-level validation",
+          "task_count": 10,
+          "first_task_id": "MYR-D033-T001",
+          "last_task_id": "MYR-D033-T010"
+        },
+        {
+          "index": 2,
+          "name": "Chemical graph, valence, and stereochemistry checks",
+          "task_count": 10,
+          "first_task_id": "MYR-D033-T011",
+          "last_task_id": "MYR-D033-T020"
+        },
+        {
+          "index": 3,
+          "name": "Salt, solvate, mixture, and parent handling",
+          "task_count": 10,
+          "first_task_id": "MYR-D033-T021",
+          "last_task_id": "MYR-D033-T030"
+        },
+        {
+          "index": 4,
+          "name": "Charge, protonation, tautomer, and aromatic normalization",
+          "task_count": 10,
+          "first_task_id": "MYR-D033-T031",
+          "last_task_id": "MYR-D033-T040"
+        },
+        {
+          "index": 5,
+          "name": "Entity identity, deduplication, and hierarchy",
+          "task_count": 10,
+          "first_task_id": "MYR-D033-T041",
+          "last_task_id": "MYR-D033-T050"
+        },
+        {
+          "index": 6,
+          "name": "Descriptor and physicochemical annotation",
+          "task_count": 10,
+          "first_task_id": "MYR-D033-T051",
+          "last_task_id": "MYR-D033-T060"
+        },
+        {
+          "index": 7,
+          "name": "Interference, reactivity, and assay-liability flags",
+          "task_count": 10,
+          "first_task_id": "MYR-D033-T061",
+          "last_task_id": "MYR-D033-T070"
+        },
+        {
+          "index": 8,
+          "name": "Diversity, scaffold, and chemical-space assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D033-T071",
+          "last_task_id": "MYR-D033-T080"
+        },
+        {
+          "index": 9,
+          "name": "Inventory, provenance, and sample linkage",
+          "task_count": 10,
+          "first_task_id": "MYR-D033-T081",
+          "last_task_id": "MYR-D033-T090"
+        },
+        {
+          "index": 10,
+          "name": "Release quality control and versioning",
+          "task_count": 10,
+          "first_task_id": "MYR-D033-T091",
+          "last_task_id": "MYR-D033-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 34,
+      "domain_code": "D034",
+      "name": "Ligand-Based Virtual Screening and Similarity Search",
+      "slug": "ligand-based-virtual-screening-and-similarity-search",
+      "batch_id": 4,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Query ligand and activity-set definition",
+          "task_count": 10,
+          "first_task_id": "MYR-D034-T001",
+          "last_task_id": "MYR-D034-T010"
+        },
+        {
+          "index": 2,
+          "name": "Screening-library representation preparation",
+          "task_count": 10,
+          "first_task_id": "MYR-D034-T011",
+          "last_task_id": "MYR-D034-T020"
+        },
+        {
+          "index": 3,
+          "name": "Fingerprint and descriptor model selection",
+          "task_count": 10,
+          "first_task_id": "MYR-D034-T021",
+          "last_task_id": "MYR-D034-T030"
+        },
+        {
+          "index": 4,
+          "name": "Two-dimensional similarity searching",
+          "task_count": 10,
+          "first_task_id": "MYR-D034-T031",
+          "last_task_id": "MYR-D034-T040"
+        },
+        {
+          "index": 5,
+          "name": "Pharmacophore and three-dimensional similarity",
+          "task_count": 10,
+          "first_task_id": "MYR-D034-T041",
+          "last_task_id": "MYR-D034-T050"
+        },
+        {
+          "index": 6,
+          "name": "Learned embeddings and ligand-based prediction",
+          "task_count": 10,
+          "first_task_id": "MYR-D034-T051",
+          "last_task_id": "MYR-D034-T060"
+        },
+        {
+          "index": 7,
+          "name": "Scaffold diversity, novelty, and analogue selection",
+          "task_count": 10,
+          "first_task_id": "MYR-D034-T061",
+          "last_task_id": "MYR-D034-T070"
+        },
+        {
+          "index": 8,
+          "name": "Bias, applicability, and confounder controls",
+          "task_count": 10,
+          "first_task_id": "MYR-D034-T071",
+          "last_task_id": "MYR-D034-T080"
+        },
+        {
+          "index": 9,
+          "name": "Retrospective benchmarking and ranking integration",
+          "task_count": 10,
+          "first_task_id": "MYR-D034-T081",
+          "last_task_id": "MYR-D034-T090"
+        },
+        {
+          "index": 10,
+          "name": "Prospective release and experimental handoff",
+          "task_count": 10,
+          "first_task_id": "MYR-D034-T091",
+          "last_task_id": "MYR-D034-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 35,
+      "domain_code": "D035",
+      "name": "Protein–Ligand Docking and Pose Evaluation",
+      "slug": "protein-ligand-docking-and-pose-evaluation",
+      "batch_id": 4,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Receptor identity and biological-state definition",
+          "task_count": 10,
+          "first_task_id": "MYR-D035-T001",
+          "last_task_id": "MYR-D035-T010"
+        },
+        {
+          "index": 2,
+          "name": "Binding-site and search-space definition",
+          "task_count": 10,
+          "first_task_id": "MYR-D035-T011",
+          "last_task_id": "MYR-D035-T020"
+        },
+        {
+          "index": 3,
+          "name": "Ligand chemical-state and conformer preparation",
+          "task_count": 10,
+          "first_task_id": "MYR-D035-T021",
+          "last_task_id": "MYR-D035-T030"
+        },
+        {
+          "index": 4,
+          "name": "Receptor flexibility and ensemble construction",
+          "task_count": 10,
+          "first_task_id": "MYR-D035-T031",
+          "last_task_id": "MYR-D035-T040"
+        },
+        {
+          "index": 5,
+          "name": "Docking execution and search reproducibility",
+          "task_count": 10,
+          "first_task_id": "MYR-D035-T041",
+          "last_task_id": "MYR-D035-T050"
+        },
+        {
+          "index": 6,
+          "name": "Pose clustering and geometric evaluation",
+          "task_count": 10,
+          "first_task_id": "MYR-D035-T051",
+          "last_task_id": "MYR-D035-T060"
+        },
+        {
+          "index": 7,
+          "name": "Scoring, rescoring, and ranking",
+          "task_count": 10,
+          "first_task_id": "MYR-D035-T061",
+          "last_task_id": "MYR-D035-T070"
+        },
+        {
+          "index": 8,
+          "name": "Retrospective validation and decoy controls",
+          "task_count": 10,
+          "first_task_id": "MYR-D035-T071",
+          "last_task_id": "MYR-D035-T080"
+        },
+        {
+          "index": 9,
+          "name": "Uncertainty, artefact, and failure analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D035-T081",
+          "last_task_id": "MYR-D035-T090"
+        },
+        {
+          "index": 10,
+          "name": "Release, provenance, and expert-review gates",
+          "task_count": 10,
+          "first_task_id": "MYR-D035-T091",
+          "last_task_id": "MYR-D035-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 36,
+      "domain_code": "D036",
+      "name": "Quantitative Structure–Activity Relationship Modelling",
+      "slug": "quantitative-structure-activity-relationship-modelling",
+      "batch_id": 4,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Endpoint and assay-data definition",
+          "task_count": 10,
+          "first_task_id": "MYR-D036-T001",
+          "last_task_id": "MYR-D036-T010"
+        },
+        {
+          "index": 2,
+          "name": "Chemical standardization and entity resolution",
+          "task_count": 10,
+          "first_task_id": "MYR-D036-T011",
+          "last_task_id": "MYR-D036-T020"
+        },
+        {
+          "index": 3,
+          "name": "Dataset splitting and leakage prevention",
+          "task_count": 10,
+          "first_task_id": "MYR-D036-T021",
+          "last_task_id": "MYR-D036-T030"
+        },
+        {
+          "index": 4,
+          "name": "Descriptor and feature construction",
+          "task_count": 10,
+          "first_task_id": "MYR-D036-T031",
+          "last_task_id": "MYR-D036-T040"
+        },
+        {
+          "index": 5,
+          "name": "Model fitting and algorithm configuration",
+          "task_count": 10,
+          "first_task_id": "MYR-D036-T041",
+          "last_task_id": "MYR-D036-T050"
+        },
+        {
+          "index": 6,
+          "name": "Hyperparameter selection and model comparison",
+          "task_count": 10,
+          "first_task_id": "MYR-D036-T051",
+          "last_task_id": "MYR-D036-T060"
+        },
+        {
+          "index": 7,
+          "name": "Validation, calibration, and statistical performance",
+          "task_count": 10,
+          "first_task_id": "MYR-D036-T061",
+          "last_task_id": "MYR-D036-T070"
+        },
+        {
+          "index": 8,
+          "name": "Applicability domain and prediction uncertainty",
+          "task_count": 10,
+          "first_task_id": "MYR-D036-T071",
+          "last_task_id": "MYR-D036-T080"
+        },
+        {
+          "index": 9,
+          "name": "Interpretability and structure–activity analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D036-T081",
+          "last_task_id": "MYR-D036-T090"
+        },
+        {
+          "index": 10,
+          "name": "Deployment, monitoring, and model governance",
+          "task_count": 10,
+          "first_task_id": "MYR-D036-T091",
+          "last_task_id": "MYR-D036-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 37,
+      "domain_code": "D037",
+      "name": "Free-Energy and Binding-Affinity Prediction",
+      "slug": "free-energy-and-binding-affinity-prediction",
+      "batch_id": 4,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Scientific question and thermodynamic-state definition",
+          "task_count": 10,
+          "first_task_id": "MYR-D037-T001",
+          "last_task_id": "MYR-D037-T010"
+        },
+        {
+          "index": 2,
+          "name": "Ligand mapping and alchemical-network design",
+          "task_count": 10,
+          "first_task_id": "MYR-D037-T011",
+          "last_task_id": "MYR-D037-T020"
+        },
+        {
+          "index": 3,
+          "name": "Force-field, charge, and parameter preparation",
+          "task_count": 10,
+          "first_task_id": "MYR-D037-T021",
+          "last_task_id": "MYR-D037-T030"
+        },
+        {
+          "index": 4,
+          "name": "Complex and solvent system construction",
+          "task_count": 10,
+          "first_task_id": "MYR-D037-T031",
+          "last_task_id": "MYR-D037-T040"
+        },
+        {
+          "index": 5,
+          "name": "Equilibration and sampling execution",
+          "task_count": 10,
+          "first_task_id": "MYR-D037-T041",
+          "last_task_id": "MYR-D037-T050"
+        },
+        {
+          "index": 6,
+          "name": "Estimator, overlap, and convergence analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D037-T051",
+          "last_task_id": "MYR-D037-T060"
+        },
+        {
+          "index": 7,
+          "name": "Cycle closure and network inference",
+          "task_count": 10,
+          "first_task_id": "MYR-D037-T061",
+          "last_task_id": "MYR-D037-T070"
+        },
+        {
+          "index": 8,
+          "name": "Experimental comparison and uncertainty calibration",
+          "task_count": 10,
+          "first_task_id": "MYR-D037-T071",
+          "last_task_id": "MYR-D037-T080"
+        },
+        {
+          "index": 9,
+          "name": "Sensitivity analysis and failure remediation",
+          "task_count": 10,
+          "first_task_id": "MYR-D037-T081",
+          "last_task_id": "MYR-D037-T090"
+        },
+        {
+          "index": 10,
+          "name": "Campaign release and governance",
+          "task_count": 10,
+          "first_task_id": "MYR-D037-T091",
+          "last_task_id": "MYR-D037-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 38,
+      "domain_code": "D038",
+      "name": "High-Throughput Screening Informatics",
+      "slug": "high-throughput-screening-informatics",
+      "batch_id": 4,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Screen design and data-contract definition",
+          "task_count": 10,
+          "first_task_id": "MYR-D038-T001",
+          "last_task_id": "MYR-D038-T010"
+        },
+        {
+          "index": 2,
+          "name": "Plate map and sample-identity reconciliation",
+          "task_count": 10,
+          "first_task_id": "MYR-D038-T011",
+          "last_task_id": "MYR-D038-T020"
+        },
+        {
+          "index": 3,
+          "name": "Raw signal integrity and acquisition QC",
+          "task_count": 10,
+          "first_task_id": "MYR-D038-T021",
+          "last_task_id": "MYR-D038-T030"
+        },
+        {
+          "index": 4,
+          "name": "Normalization and response transformation",
+          "task_count": 10,
+          "first_task_id": "MYR-D038-T031",
+          "last_task_id": "MYR-D038-T040"
+        },
+        {
+          "index": 5,
+          "name": "Spatial, dispensing, and plate-artifact detection",
+          "task_count": 10,
+          "first_task_id": "MYR-D038-T041",
+          "last_task_id": "MYR-D038-T050"
+        },
+        {
+          "index": 6,
+          "name": "Assay quality and plate acceptance",
+          "task_count": 10,
+          "first_task_id": "MYR-D038-T051",
+          "last_task_id": "MYR-D038-T060"
+        },
+        {
+          "index": 7,
+          "name": "Primary hit calling and multiplicity control",
+          "task_count": 10,
+          "first_task_id": "MYR-D038-T061",
+          "last_task_id": "MYR-D038-T070"
+        },
+        {
+          "index": 8,
+          "name": "Dose-response and confirmation analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D038-T071",
+          "last_task_id": "MYR-D038-T080"
+        },
+        {
+          "index": 9,
+          "name": "Cheminformatics triage and series analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D038-T081",
+          "last_task_id": "MYR-D038-T090"
+        },
+        {
+          "index": 10,
+          "name": "Audit, release, and campaign learning",
+          "task_count": 10,
+          "first_task_id": "MYR-D038-T091",
+          "last_task_id": "MYR-D038-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 39,
+      "domain_code": "D039",
+      "name": "Phenotypic Screening and Mechanism-of-Action Inference",
+      "slug": "phenotypic-screening-and-mechanism-of-action-inference",
+      "batch_id": 4,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Phenotype and experimental-context definition",
+          "task_count": 10,
+          "first_task_id": "MYR-D039-T001",
+          "last_task_id": "MYR-D039-T010"
+        },
+        {
+          "index": 2,
+          "name": "Image, signal, and object-level quality control",
+          "task_count": 10,
+          "first_task_id": "MYR-D039-T011",
+          "last_task_id": "MYR-D039-T020"
+        },
+        {
+          "index": 3,
+          "name": "Feature extraction and profile construction",
+          "task_count": 10,
+          "first_task_id": "MYR-D039-T021",
+          "last_task_id": "MYR-D039-T030"
+        },
+        {
+          "index": 4,
+          "name": "Normalization and batch-effect correction",
+          "task_count": 10,
+          "first_task_id": "MYR-D039-T031",
+          "last_task_id": "MYR-D039-T040"
+        },
+        {
+          "index": 5,
+          "name": "Phenotype detection and hit prioritization",
+          "task_count": 10,
+          "first_task_id": "MYR-D039-T041",
+          "last_task_id": "MYR-D039-T050"
+        },
+        {
+          "index": 6,
+          "name": "Reference signature and nearest-neighbour analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D039-T051",
+          "last_task_id": "MYR-D039-T060"
+        },
+        {
+          "index": 7,
+          "name": "Genetic and chemical perturbation convergence",
+          "task_count": 10,
+          "first_task_id": "MYR-D039-T061",
+          "last_task_id": "MYR-D039-T070"
+        },
+        {
+          "index": 8,
+          "name": "Target, pathway, and mechanism inference",
+          "task_count": 10,
+          "first_task_id": "MYR-D039-T071",
+          "last_task_id": "MYR-D039-T080"
+        },
+        {
+          "index": 9,
+          "name": "Orthogonal validation and causal discrimination",
+          "task_count": 10,
+          "first_task_id": "MYR-D039-T081",
+          "last_task_id": "MYR-D039-T090"
+        },
+        {
+          "index": 10,
+          "name": "Release, uncertainty, and prospective learning",
+          "task_count": 10,
+          "first_task_id": "MYR-D039-T091",
+          "last_task_id": "MYR-D039-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 40,
+      "domain_code": "D040",
+      "name": "Fragment-Based and Covalent Drug Discovery",
+      "slug": "fragment-based-and-covalent-drug-discovery",
+      "batch_id": 4,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Fragment library quality and chemical-space design",
+          "task_count": 10,
+          "first_task_id": "MYR-D040-T001",
+          "last_task_id": "MYR-D040-T010"
+        },
+        {
+          "index": 2,
+          "name": "Biophysical fragment-screen data processing",
+          "task_count": 10,
+          "first_task_id": "MYR-D040-T011",
+          "last_task_id": "MYR-D040-T020"
+        },
+        {
+          "index": 3,
+          "name": "Crystallographic fragment-hit validation",
+          "task_count": 10,
+          "first_task_id": "MYR-D040-T021",
+          "last_task_id": "MYR-D040-T030"
+        },
+        {
+          "index": 4,
+          "name": "Binding-site mapping and ligand-efficiency analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D040-T031",
+          "last_task_id": "MYR-D040-T040"
+        },
+        {
+          "index": 5,
+          "name": "Fragment growing, merging, and linking design",
+          "task_count": 10,
+          "first_task_id": "MYR-D040-T041",
+          "last_task_id": "MYR-D040-T050"
+        },
+        {
+          "index": 6,
+          "name": "Covalent warhead and residue-compatibility assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D040-T051",
+          "last_task_id": "MYR-D040-T060"
+        },
+        {
+          "index": 7,
+          "name": "Covalent pose, mechanism, and kinetic analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D040-T061",
+          "last_task_id": "MYR-D040-T070"
+        },
+        {
+          "index": 8,
+          "name": "Selectivity and proteome-reactivity assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D040-T071",
+          "last_task_id": "MYR-D040-T080"
+        },
+        {
+          "index": 9,
+          "name": "Starting-point prioritization and chemistry feasibility",
+          "task_count": 10,
+          "first_task_id": "MYR-D040-T081",
+          "last_task_id": "MYR-D040-T090"
+        },
+        {
+          "index": 10,
+          "name": "Release, provenance, and review governance",
+          "task_count": 10,
+          "first_task_id": "MYR-D040-T091",
+          "last_task_id": "MYR-D040-T100"
+        }
+      ]
+    }
+  ],
+  "release_version": "1.0.0",
+  "release_date": "2026-08-04"
+}

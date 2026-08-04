@@ -1,0 +1,822 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 10,
+  "domain_start": 91,
+  "domain_end": 100,
+  "domain_count": 10,
+  "task_count": 1000,
+  "domains": [
+    {
+      "domain_id": 91,
+      "domain_code": "D091",
+      "name": "Clinical Trial Design and Biostatistics",
+      "slug": "clinical-trial-design-and-biostatistics",
+      "batch_id": 10,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Clinical question, estimand, and decision framework",
+          "task_count": 10,
+          "first_task_id": "MYR-D091-T001",
+          "last_task_id": "MYR-D091-T010"
+        },
+        {
+          "index": 2,
+          "name": "Endpoint strategy, measurement, and adjudication",
+          "task_count": 10,
+          "first_task_id": "MYR-D091-T011",
+          "last_task_id": "MYR-D091-T020"
+        },
+        {
+          "index": 3,
+          "name": "Trial design, controls, randomization, and masking",
+          "task_count": 10,
+          "first_task_id": "MYR-D091-T021",
+          "last_task_id": "MYR-D091-T030"
+        },
+        {
+          "index": 4,
+          "name": "Sample size, power, precision, and operating characteristics",
+          "task_count": 10,
+          "first_task_id": "MYR-D091-T031",
+          "last_task_id": "MYR-D091-T040"
+        },
+        {
+          "index": 5,
+          "name": "Interim monitoring, adaptive design, and decision simulation",
+          "task_count": 10,
+          "first_task_id": "MYR-D091-T041",
+          "last_task_id": "MYR-D091-T050"
+        },
+        {
+          "index": 6,
+          "name": "Primary analysis, covariates, and model diagnostics",
+          "task_count": 10,
+          "first_task_id": "MYR-D091-T051",
+          "last_task_id": "MYR-D091-T060"
+        },
+        {
+          "index": 7,
+          "name": "Missing data, intercurrent events, and sensitivity analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D091-T061",
+          "last_task_id": "MYR-D091-T070"
+        },
+        {
+          "index": 8,
+          "name": "Multiplicity, subgroup, and heterogeneity strategy",
+          "task_count": 10,
+          "first_task_id": "MYR-D091-T071",
+          "last_task_id": "MYR-D091-T080"
+        },
+        {
+          "index": 9,
+          "name": "Quality-by-design, operational data, and trial conduct analytics",
+          "task_count": 10,
+          "first_task_id": "MYR-D091-T081",
+          "last_task_id": "MYR-D091-T090"
+        },
+        {
+          "index": 10,
+          "name": "Statistical reporting, reproducibility, and decision interpretation",
+          "task_count": 10,
+          "first_task_id": "MYR-D091-T091",
+          "last_task_id": "MYR-D091-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 92,
+      "domain_code": "D092",
+      "name": "Clinical Data Management and Standards",
+      "slug": "clinical-data-management-and-standards",
+      "batch_id": 10,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Data-management plan, standards strategy, and governance",
+          "task_count": 10,
+          "first_task_id": "MYR-D092-T001",
+          "last_task_id": "MYR-D092-T010"
+        },
+        {
+          "index": 2,
+          "name": "CRF, eCOA, and data-collection design",
+          "task_count": 10,
+          "first_task_id": "MYR-D092-T011",
+          "last_task_id": "MYR-D092-T020"
+        },
+        {
+          "index": 3,
+          "name": "EDC build, edit checks, and user-acceptance validation",
+          "task_count": 10,
+          "first_task_id": "MYR-D092-T021",
+          "last_task_id": "MYR-D092-T030"
+        },
+        {
+          "index": 4,
+          "name": "External data transfer, ingestion, and reconciliation",
+          "task_count": 10,
+          "first_task_id": "MYR-D092-T031",
+          "last_task_id": "MYR-D092-T040"
+        },
+        {
+          "index": 5,
+          "name": "Medical coding, terminology, and controlled values",
+          "task_count": 10,
+          "first_task_id": "MYR-D092-T041",
+          "last_task_id": "MYR-D092-T050"
+        },
+        {
+          "index": 6,
+          "name": "Data cleaning, query management, and discrepancy resolution",
+          "task_count": 10,
+          "first_task_id": "MYR-D092-T051",
+          "last_task_id": "MYR-D092-T060"
+        },
+        {
+          "index": 7,
+          "name": "SDTM mapping, controlled terminology, and conformance",
+          "task_count": 10,
+          "first_task_id": "MYR-D092-T061",
+          "last_task_id": "MYR-D092-T070"
+        },
+        {
+          "index": 8,
+          "name": "ADaM derivation, analysis traceability, and reproducibility",
+          "task_count": 10,
+          "first_task_id": "MYR-D092-T071",
+          "last_task_id": "MYR-D092-T080"
+        },
+        {
+          "index": 9,
+          "name": "Define-XML, reviewer documentation, and submission validation",
+          "task_count": 10,
+          "first_task_id": "MYR-D092-T081",
+          "last_task_id": "MYR-D092-T090"
+        },
+        {
+          "index": 10,
+          "name": "Database lock, archival, inspection readiness, and lifecycle closeout",
+          "task_count": 10,
+          "first_task_id": "MYR-D092-T091",
+          "last_task_id": "MYR-D092-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 93,
+      "domain_code": "D093",
+      "name": "Real-World Evidence and Pharmacoepidemiology",
+      "slug": "real-world-evidence-and-pharmacoepidemiology",
+      "batch_id": 10,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Research question, target-trial emulation, and estimand",
+          "task_count": 10,
+          "first_task_id": "MYR-D093-T001",
+          "last_task_id": "MYR-D093-T010"
+        },
+        {
+          "index": 2,
+          "name": "Data-source fitness, provenance, and linkage assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D093-T011",
+          "last_task_id": "MYR-D093-T020"
+        },
+        {
+          "index": 3,
+          "name": "Cohort construction, eligibility, and patient-flow validation",
+          "task_count": 10,
+          "first_task_id": "MYR-D093-T021",
+          "last_task_id": "MYR-D093-T030"
+        },
+        {
+          "index": 4,
+          "name": "Phenotype, exposure, outcome, and covariate validation",
+          "task_count": 10,
+          "first_task_id": "MYR-D093-T031",
+          "last_task_id": "MYR-D093-T040"
+        },
+        {
+          "index": 5,
+          "name": "Confounding control and causal adjustment",
+          "task_count": 10,
+          "first_task_id": "MYR-D093-T041",
+          "last_task_id": "MYR-D093-T050"
+        },
+        {
+          "index": 6,
+          "name": "Longitudinal treatment, time-varying confounding, and adherence",
+          "task_count": 10,
+          "first_task_id": "MYR-D093-T051",
+          "last_task_id": "MYR-D093-T060"
+        },
+        {
+          "index": 7,
+          "name": "Outcome analysis, competing risks, and effect estimation",
+          "task_count": 10,
+          "first_task_id": "MYR-D093-T061",
+          "last_task_id": "MYR-D093-T070"
+        },
+        {
+          "index": 8,
+          "name": "Bias analysis, sensitivity, and falsification testing",
+          "task_count": 10,
+          "first_task_id": "MYR-D093-T071",
+          "last_task_id": "MYR-D093-T080"
+        },
+        {
+          "index": 9,
+          "name": "Heterogeneity, transportability, and external validity",
+          "task_count": 10,
+          "first_task_id": "MYR-D093-T081",
+          "last_task_id": "MYR-D093-T090"
+        },
+        {
+          "index": 10,
+          "name": "Governance, reproducibility, reporting, and regulatory evidence",
+          "task_count": 10,
+          "first_task_id": "MYR-D093-T091",
+          "last_task_id": "MYR-D093-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 94,
+      "domain_code": "D094",
+      "name": "Pharmacovigilance and Safety-Signal Detection",
+      "slug": "pharmacovigilance-and-safety-signal-detection",
+      "batch_id": 10,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Safety-source intake, triage, and reportability routing",
+          "task_count": 10,
+          "first_task_id": "MYR-D094-T001",
+          "last_task_id": "MYR-D094-T010"
+        },
+        {
+          "index": 2,
+          "name": "Case data extraction, narrative, and structured coding",
+          "task_count": 10,
+          "first_task_id": "MYR-D094-T011",
+          "last_task_id": "MYR-D094-T020"
+        },
+        {
+          "index": 3,
+          "name": "Seriousness, expectedness, causality, and case assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D094-T021",
+          "last_task_id": "MYR-D094-T030"
+        },
+        {
+          "index": 4,
+          "name": "Duplicate detection, follow-up, and case-version reconciliation",
+          "task_count": 10,
+          "first_task_id": "MYR-D094-T031",
+          "last_task_id": "MYR-D094-T040"
+        },
+        {
+          "index": 5,
+          "name": "Aggregate case-series and descriptive safety analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D094-T041",
+          "last_task_id": "MYR-D094-T050"
+        },
+        {
+          "index": 6,
+          "name": "Disproportionality, data mining, and emerging-pattern detection",
+          "task_count": 10,
+          "first_task_id": "MYR-D094-T051",
+          "last_task_id": "MYR-D094-T060"
+        },
+        {
+          "index": 7,
+          "name": "Signal validation, prioritization, and assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D094-T061",
+          "last_task_id": "MYR-D094-T070"
+        },
+        {
+          "index": 8,
+          "name": "Pharmacoepidemiologic signal evaluation and quantification",
+          "task_count": 10,
+          "first_task_id": "MYR-D094-T071",
+          "last_task_id": "MYR-D094-T080"
+        },
+        {
+          "index": 9,
+          "name": "Risk management, minimization, and effectiveness evaluation",
+          "task_count": 10,
+          "first_task_id": "MYR-D094-T081",
+          "last_task_id": "MYR-D094-T090"
+        },
+        {
+          "index": 10,
+          "name": "Periodic reporting, governance, automation validation, and inspection readiness",
+          "task_count": 10,
+          "first_task_id": "MYR-D094-T091",
+          "last_task_id": "MYR-D094-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 95,
+      "domain_code": "D095",
+      "name": "Regulatory Intelligence and Submission Engineering",
+      "slug": "regulatory-intelligence-and-submission-engineering",
+      "batch_id": 10,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Product classification, jurisdiction, and pathway determination",
+          "task_count": 10,
+          "first_task_id": "MYR-D095-T001",
+          "last_task_id": "MYR-D095-T010"
+        },
+        {
+          "index": 2,
+          "name": "Guidance, standard, precedent, and policy intelligence",
+          "task_count": 10,
+          "first_task_id": "MYR-D095-T011",
+          "last_task_id": "MYR-D095-T020"
+        },
+        {
+          "index": 3,
+          "name": "Development strategy, milestones, and authority interaction planning",
+          "task_count": 10,
+          "first_task_id": "MYR-D095-T021",
+          "last_task_id": "MYR-D095-T030"
+        },
+        {
+          "index": 4,
+          "name": "Evidence-gap, requirement, and traceability analysis",
+          "task_count": 10,
+          "first_task_id": "MYR-D095-T031",
+          "last_task_id": "MYR-D095-T040"
+        },
+        {
+          "index": 5,
+          "name": "CTD architecture, content planning, and authoring control",
+          "task_count": 10,
+          "first_task_id": "MYR-D095-T041",
+          "last_task_id": "MYR-D095-T050"
+        },
+        {
+          "index": 6,
+          "name": "eCTD publishing, lifecycle operations, and technical validation",
+          "task_count": 10,
+          "first_task_id": "MYR-D095-T051",
+          "last_task_id": "MYR-D095-T060"
+        },
+        {
+          "index": 7,
+          "name": "Study data, standards, and reviewer-support integration",
+          "task_count": 10,
+          "first_task_id": "MYR-D095-T061",
+          "last_task_id": "MYR-D095-T070"
+        },
+        {
+          "index": 8,
+          "name": "Labeling, claims, benefit-risk, and communications consistency",
+          "task_count": 10,
+          "first_task_id": "MYR-D095-T071",
+          "last_task_id": "MYR-D095-T080"
+        },
+        {
+          "index": 9,
+          "name": "Authority questions, commitments, deficiencies, and response management",
+          "task_count": 10,
+          "first_task_id": "MYR-D095-T081",
+          "last_task_id": "MYR-D095-T090"
+        },
+        {
+          "index": 10,
+          "name": "Post-approval changes, lifecycle maintenance, and knowledge continuity",
+          "task_count": 10,
+          "first_task_id": "MYR-D095-T091",
+          "last_task_id": "MYR-D095-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 96,
+      "domain_code": "D096",
+      "name": "GxP Compliance and Computer-System Validation",
+      "slug": "gxp-compliance-and-computer-system-validation",
+      "batch_id": 10,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Intended use, GxP impact, and risk classification",
+          "task_count": 10,
+          "first_task_id": "MYR-D096-T001",
+          "last_task_id": "MYR-D096-T010"
+        },
+        {
+          "index": 2,
+          "name": "Supplier, service, and component assessment",
+          "task_count": 10,
+          "first_task_id": "MYR-D096-T011",
+          "last_task_id": "MYR-D096-T020"
+        },
+        {
+          "index": 3,
+          "name": "Requirements, specifications, and traceability",
+          "task_count": 10,
+          "first_task_id": "MYR-D096-T021",
+          "last_task_id": "MYR-D096-T030"
+        },
+        {
+          "index": 4,
+          "name": "Data integrity, records, metadata, and audit trails",
+          "task_count": 10,
+          "first_task_id": "MYR-D096-T031",
+          "last_task_id": "MYR-D096-T040"
+        },
+        {
+          "index": 5,
+          "name": "Validation planning, testing, and assurance evidence",
+          "task_count": 10,
+          "first_task_id": "MYR-D096-T041",
+          "last_task_id": "MYR-D096-T050"
+        },
+        {
+          "index": 6,
+          "name": "Identity, access, security, infrastructure, and resilience",
+          "task_count": 10,
+          "first_task_id": "MYR-D096-T051",
+          "last_task_id": "MYR-D096-T060"
+        },
+        {
+          "index": 7,
+          "name": "Interfaces, data migration, configuration, and deployment",
+          "task_count": 10,
+          "first_task_id": "MYR-D096-T061",
+          "last_task_id": "MYR-D096-T070"
+        },
+        {
+          "index": 8,
+          "name": "Change, release, incident, problem, and CAPA control",
+          "task_count": 10,
+          "first_task_id": "MYR-D096-T071",
+          "last_task_id": "MYR-D096-T080"
+        },
+        {
+          "index": 9,
+          "name": "Periodic review, monitoring, and continued validated state",
+          "task_count": 10,
+          "first_task_id": "MYR-D096-T081",
+          "last_task_id": "MYR-D096-T090"
+        },
+        {
+          "index": 10,
+          "name": "Retirement, archival, inspection readiness, and quality governance",
+          "task_count": 10,
+          "first_task_id": "MYR-D096-T091",
+          "last_task_id": "MYR-D096-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 97,
+      "domain_code": "D097",
+      "name": "Laboratory Informatics, LIMS, and ELN Automation",
+      "slug": "laboratory-informatics-lims-and-eln-automation",
+      "batch_id": 10,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Laboratory process mapping and informatics requirements",
+          "task_count": 10,
+          "first_task_id": "MYR-D097-T001",
+          "last_task_id": "MYR-D097-T010"
+        },
+        {
+          "index": 2,
+          "name": "Sample identity, chain of custody, and lifecycle control",
+          "task_count": 10,
+          "first_task_id": "MYR-D097-T011",
+          "last_task_id": "MYR-D097-T020"
+        },
+        {
+          "index": 3,
+          "name": "Instrument integration, raw-data capture, and metadata ingestion",
+          "task_count": 10,
+          "first_task_id": "MYR-D097-T021",
+          "last_task_id": "MYR-D097-T030"
+        },
+        {
+          "index": 4,
+          "name": "Method, specification, calculation, and result management",
+          "task_count": 10,
+          "first_task_id": "MYR-D097-T031",
+          "last_task_id": "MYR-D097-T040"
+        },
+        {
+          "index": 5,
+          "name": "Inventory, reagent, standard, and equipment readiness",
+          "task_count": 10,
+          "first_task_id": "MYR-D097-T041",
+          "last_task_id": "MYR-D097-T050"
+        },
+        {
+          "index": 6,
+          "name": "Workflow orchestration, review, deviations, and OOS handling",
+          "task_count": 10,
+          "first_task_id": "MYR-D097-T051",
+          "last_task_id": "MYR-D097-T060"
+        },
+        {
+          "index": 7,
+          "name": "ELN knowledge capture, templates, and experimental provenance",
+          "task_count": 10,
+          "first_task_id": "MYR-D097-T061",
+          "last_task_id": "MYR-D097-T070"
+        },
+        {
+          "index": 8,
+          "name": "Interoperability, APIs, terminology, and master data",
+          "task_count": 10,
+          "first_task_id": "MYR-D097-T071",
+          "last_task_id": "MYR-D097-T080"
+        },
+        {
+          "index": 9,
+          "name": "Security, privacy, auditability, backup, and resilience",
+          "task_count": 10,
+          "first_task_id": "MYR-D097-T081",
+          "last_task_id": "MYR-D097-T090"
+        },
+        {
+          "index": 10,
+          "name": "Validation, analytics, lifecycle review, and system retirement",
+          "task_count": 10,
+          "first_task_id": "MYR-D097-T091",
+          "last_task_id": "MYR-D097-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 98,
+      "domain_code": "D098",
+      "name": "FAIR Biomedical Data and Ontology Engineering",
+      "slug": "fair-biomedical-data-and-ontology-engineering",
+      "batch_id": 10,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Data stewardship plan and FAIR target definition",
+          "task_count": 10,
+          "first_task_id": "MYR-D098-T001",
+          "last_task_id": "MYR-D098-T010"
+        },
+        {
+          "index": 2,
+          "name": "Persistent identifiers and entity identity",
+          "task_count": 10,
+          "first_task_id": "MYR-D098-T011",
+          "last_task_id": "MYR-D098-T020"
+        },
+        {
+          "index": 3,
+          "name": "Metadata profile, schema, and data dictionary engineering",
+          "task_count": 10,
+          "first_task_id": "MYR-D098-T021",
+          "last_task_id": "MYR-D098-T030"
+        },
+        {
+          "index": 4,
+          "name": "Ontology selection, term curation, and semantic modelling",
+          "task_count": 10,
+          "first_task_id": "MYR-D098-T031",
+          "last_task_id": "MYR-D098-T040"
+        },
+        {
+          "index": 5,
+          "name": "Semantic mapping, harmonization, and crosswalk validation",
+          "task_count": 10,
+          "first_task_id": "MYR-D098-T041",
+          "last_task_id": "MYR-D098-T050"
+        },
+        {
+          "index": 6,
+          "name": "Provenance, lineage, workflow, and computational reproducibility",
+          "task_count": 10,
+          "first_task_id": "MYR-D098-T051",
+          "last_task_id": "MYR-D098-T060"
+        },
+        {
+          "index": 7,
+          "name": "Access, authorization, privacy, consent, and licensing",
+          "task_count": 10,
+          "first_task_id": "MYR-D098-T061",
+          "last_task_id": "MYR-D098-T070"
+        },
+        {
+          "index": 8,
+          "name": "Interoperable formats, APIs, and machine-actionable services",
+          "task_count": 10,
+          "first_task_id": "MYR-D098-T071",
+          "last_task_id": "MYR-D098-T080"
+        },
+        {
+          "index": 9,
+          "name": "Data quality, validation, FAIR assessment, and remediation",
+          "task_count": 10,
+          "first_task_id": "MYR-D098-T081",
+          "last_task_id": "MYR-D098-T090"
+        },
+        {
+          "index": 10,
+          "name": "Repository deposition, citation, preservation, and lifecycle stewardship",
+          "task_count": 10,
+          "first_task_id": "MYR-D098-T091",
+          "last_task_id": "MYR-D098-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 99,
+      "domain_code": "D099",
+      "name": "Biomedical Knowledge Graphs and Evidence Synthesis",
+      "slug": "biomedical-knowledge-graphs-and-evidence-synthesis",
+      "batch_id": 10,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Use case, competency questions, and decision boundaries",
+          "task_count": 10,
+          "first_task_id": "MYR-D099-T001",
+          "last_task_id": "MYR-D099-T010"
+        },
+        {
+          "index": 2,
+          "name": "Source discovery, authority, licensing, and ingestion planning",
+          "task_count": 10,
+          "first_task_id": "MYR-D099-T011",
+          "last_task_id": "MYR-D099-T020"
+        },
+        {
+          "index": 3,
+          "name": "Ontology, schema, and evidence-model design",
+          "task_count": 10,
+          "first_task_id": "MYR-D099-T021",
+          "last_task_id": "MYR-D099-T030"
+        },
+        {
+          "index": 4,
+          "name": "Entity normalization, identity resolution, and synonym control",
+          "task_count": 10,
+          "first_task_id": "MYR-D099-T031",
+          "last_task_id": "MYR-D099-T040"
+        },
+        {
+          "index": 5,
+          "name": "Relation and claim extraction from structured and unstructured evidence",
+          "task_count": 10,
+          "first_task_id": "MYR-D099-T041",
+          "last_task_id": "MYR-D099-T050"
+        },
+        {
+          "index": 6,
+          "name": "Evidence grading, provenance, independence, and support scoring",
+          "task_count": 10,
+          "first_task_id": "MYR-D099-T051",
+          "last_task_id": "MYR-D099-T060"
+        },
+        {
+          "index": 7,
+          "name": "Contradiction, heterogeneity, temporal validity, and uncertainty modelling",
+          "task_count": 10,
+          "first_task_id": "MYR-D099-T061",
+          "last_task_id": "MYR-D099-T070"
+        },
+        {
+          "index": 8,
+          "name": "Graph construction, versioning, lineage, and update pipelines",
+          "task_count": 10,
+          "first_task_id": "MYR-D099-T071",
+          "last_task_id": "MYR-D099-T080"
+        },
+        {
+          "index": 9,
+          "name": "Querying, reasoning, inference, and decision-support services",
+          "task_count": 10,
+          "first_task_id": "MYR-D099-T081",
+          "last_task_id": "MYR-D099-T090"
+        },
+        {
+          "index": 10,
+          "name": "Benchmarking, human review, governance, and lifecycle maintenance",
+          "task_count": 10,
+          "first_task_id": "MYR-D099-T091",
+          "last_task_id": "MYR-D099-T100"
+        }
+      ]
+    },
+    {
+      "domain_id": 100,
+      "domain_code": "D100",
+      "name": "Biotech AI Validation, Governance, Biosafety, and Biosecurity",
+      "slug": "biotech-ai-validation-governance-biosafety-and-biosecurity",
+      "batch_id": 10,
+      "task_count": 100,
+      "workstream_count": 10,
+      "workstreams": [
+        {
+          "index": 1,
+          "name": "Intended use, user, decision, and risk classification",
+          "task_count": 10,
+          "first_task_id": "MYR-D100-T001",
+          "last_task_id": "MYR-D100-T010"
+        },
+        {
+          "index": 2,
+          "name": "Dataset governance, provenance, quality, privacy, and representativeness",
+          "task_count": 10,
+          "first_task_id": "MYR-D100-T011",
+          "last_task_id": "MYR-D100-T020"
+        },
+        {
+          "index": 3,
+          "name": "Model development, baseline comparison, and reproducible training",
+          "task_count": 10,
+          "first_task_id": "MYR-D100-T021",
+          "last_task_id": "MYR-D100-T030"
+        },
+        {
+          "index": 4,
+          "name": "Analytical validation, uncertainty, calibration, and applicability domain",
+          "task_count": 10,
+          "first_task_id": "MYR-D100-T031",
+          "last_task_id": "MYR-D100-T040"
+        },
+        {
+          "index": 5,
+          "name": "Robustness, drift, adversarial security, and failure testing",
+          "task_count": 10,
+          "first_task_id": "MYR-D100-T041",
+          "last_task_id": "MYR-D100-T050"
+        },
+        {
+          "index": 6,
+          "name": "Explainability, human factors, workflow integration, and oversight",
+          "task_count": 10,
+          "first_task_id": "MYR-D100-T051",
+          "last_task_id": "MYR-D100-T060"
+        },
+        {
+          "index": 7,
+          "name": "Deployment architecture, monitoring, change control, and rollback",
+          "task_count": 10,
+          "first_task_id": "MYR-D100-T061",
+          "last_task_id": "MYR-D100-T070"
+        },
+        {
+          "index": 8,
+          "name": "Biosafety, biosecurity, dual-use, and sequence or capability screening",
+          "task_count": 10,
+          "first_task_id": "MYR-D100-T071",
+          "last_task_id": "MYR-D100-T080"
+        },
+        {
+          "index": 9,
+          "name": "Regulatory, quality, audit, incident, and accountability governance",
+          "task_count": 10,
+          "first_task_id": "MYR-D100-T081",
+          "last_task_id": "MYR-D100-T090"
+        },
+        {
+          "index": 10,
+          "name": "Lifecycle reevaluation, capability change, retirement, and continuous improvement",
+          "task_count": 10,
+          "first_task_id": "MYR-D100-T091",
+          "last_task_id": "MYR-D100-T100"
+        }
+      ]
+    }
+  ],
+  "release_version": "1.0.0",
+  "release_date": "2026-08-04"
+}
