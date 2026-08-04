@@ -1,62 +1,62 @@
 {
-    "name":  "kalaris-myriad",
-    "version":  "1.0.1",
-    "description":  "CLI and data package for the MYRIAD 10,000-node biotech agent task graph.",
-    "type":  "module",
-    "bin":  {
-                "kalaris-myriad":  "bin/kalaris-myriad.js",
-                "myriad":  "bin/kalaris-myriad.js"
-            },
-    "files":  [
-                  "bin/",
-                  "lib/",
-                  "data/canonical/",
-                  "dist/sanitized/",
-                  "myriad/domains/",
-                  "skills/",
-                  "schemas/",
-                  "docs/",
-                  "README.md",
-                  "CREDITS.md",
-                  "NOTICE.md",
-                  "LICENSE.md",
-                  "CITATION.cff",
-                  "LICENSE-APACHE-2.0.txt",
-                  "LICENSE-CC-BY-4.0.txt"
-              ],
-    "scripts":  {
-                    "test":  "node --test tests/*.test.js \u0026\u0026 python scripts/validate_release.py",
-                    "validate":  "python scripts/validate_release.py",
-                    "pack:check":  "npm pack --dry-run",
-                    "cli":  "node bin/kalaris-myriad.js"
-                },
-    "engines":  {
-                    "node":  "\u003e=18"
-                },
-    "keywords":  [
-                     "biotech",
-                     "bioinformatics",
-                     "agent-skills",
-                     "genomics",
-                     "drug-discovery",
-                     "biomanufacturing",
-                     "clinical",
-                     "regulatory"
-                 ],
-    "author":  "Srihari Muralikrishnan and Kalaris Labs",
-    "contributors":  [
-                         "ChatGPT (GPT-5.6 Thinking, OpenAI)"
-                     ],
-    "license":  "SEE LICENSE IN LICENSE.md",
-    "repository":  {
-                       "type":  "git",
-                       "url":  "git+https://github.com/KalarisLabs/myriad.git"
-                   },
-    "homepage":  "https://github.com/KalarisLabs/myriad#readme",
-    "bugs":  {
-                 "url":  "https://github.com/KalarisLabs/myriad/issues"
-             },
-    "publishConfig":  {
-                          "access":  "public"
-                      }
+    "name": "kalaris-myriad",
+    "version": "1.0.2",
+    "description": "CLI and data package for the MYRIAD 10,000-node biotech agent task graph.",
+    "type": "module",
+    "bin": {
+        "kalaris-myriad": "bin/kalaris-myriad.js",
+        "myriad": "bin/kalaris-myriad.js"
+    },
+    "files": [
+        "bin/",
+        "lib/",
+        "data/canonical/",
+        "dist/sanitized/",
+        "myriad/domains/",
+        "skills/",
+        "schemas/",
+        "docs/",
+        "README.md",
+        "CREDITS.md",
+        "NOTICE.md",
+        "LICENSE.md",
+        "CITATION.cff",
+        "LICENSE-APACHE-2.0.txt",
+        "LICENSE-CC-BY-4.0.txt"
+    ],
+    "scripts": {
+        "test": "node --test tests/*.test.js && python scripts/validate_release.py",
+        "validate": "python scripts/validate_release.py",
+        "pack:check": "npm pack --dry-run",
+        "cli": "node bin/kalaris-myriad.js"
+    },
+    "engines": {
+        "node": ">=18"
+    },
+    "keywords": [
+        "biotech",
+        "bioinformatics",
+        "agent-skills",
+        "genomics",
+        "drug-discovery",
+        "biomanufacturing",
+        "clinical",
+        "regulatory"
+    ],
+    "author": "Srihari Muralikrishnan and Kalaris Labs",
+    "contributors": [
+        "ChatGPT (GPT-5.6 Thinking, OpenAI)"
+    ],
+    "license": "SEE LICENSE IN LICENSE.md",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/KalarisLabs/myriad.git"
+    },
+    "homepage": "https://github.com/KalarisLabs/myriad#readme",
+    "bugs": {
+        "url": "https://github.com/KalarisLabs/myriad/issues"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
 }
