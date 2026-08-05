@@ -156,6 +156,8 @@ Operational use still requires current primary sources, validated local procedur
 
 ### Explore in a browser
 
+**Live explorer:** https://myriad-explorer.vercel.app
+
 The dependency-free explorer reads the canonical graph directly and provides search,
 domain/workstream filtering, shareable task URLs, JSON export, task/CLI copy actions,
 and links to canonical GitHub nodes.
