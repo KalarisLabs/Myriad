@@ -6,8 +6,8 @@
 
 **100 domains / 1,000 workstreams / 10,000 atomic task nodes**
 
-[![npm version](https://img.shields.io/npm/v/kalaris-myriad?label=npm&color=CB3837&cacheSeconds=3600&refresh=102)](https://www.npmjs.com/package/kalaris-myriad)
-[![npm downloads](https://img.shields.io/npm/dm/kalaris-myriad?label=downloads&color=0B63F6&cacheSeconds=3600&refresh=102)](https://www.npmjs.com/package/kalaris-myriad)
+[![npm version](https://img.shields.io/npm/v/kalaris-myriad?label=npm&color=CB3837&cacheSeconds=300&refresh=120)](https://www.npmjs.com/package/kalaris-myriad)
+[![npm downloads](https://img.shields.io/npm/dm/kalaris-myriad?label=downloads&color=0B63F6&cacheSeconds=300&refresh=120)](https://www.npmjs.com/package/kalaris-myriad)
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D18-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
 [![CI](https://github.com/KalarisLabs/myriad/actions/workflows/ci.yml/badge.svg)](https://github.com/KalarisLabs/myriad/actions/workflows/ci.yml)
 [![GitHub](https://img.shields.io/badge/GitHub-KalarisLabs%2Fmyriad-181717?logo=github)](https://github.com/KalarisLabs/myriad)
@@ -26,7 +26,7 @@ npx kalaris-myriad stats
 ```
 
 ```text
-MYRIAD 1.0.2
+MYRIAD 1.2.0
 100 domains / 1,000 workstreams / 10,000 tasks / 10 batches
 Maturity: taxonomy-defined; full seed skills: 3
 ```
