@@ -16,6 +16,7 @@
         "skills/",
         "schemas/",
         "docs/",
+        "explorer/",
         "README.md",
         "CREDITS.md",
         "NOTICE.md",
@@ -25,10 +26,11 @@
         "LICENSE-CC-BY-4.0.txt"
     ],
     "scripts": {
-        "test": "node --test tests/*.test.js && python scripts/validate_release.py",
-        "validate": "python scripts/validate_release.py",
+        "test": "node --test tests/*.test.js && python3 scripts/validate_release.py",
+        "validate": "python3 scripts/validate_release.py",
         "pack:check": "npm pack --dry-run",
-        "cli": "node bin/kalaris-myriad.js"
+        "cli": "node bin/kalaris-myriad.js",
+        "explorer": "node explorer/server.js"
     },
     "engines": {
         "node": ">=18"

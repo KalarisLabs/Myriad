@@ -154,6 +154,19 @@ Operational use still requires current primary sources, validated local procedur
 
 ## Use MYRIAD
 
+### Explore in a browser
+
+The dependency-free explorer reads the canonical graph directly and provides search,
+domain/workstream filtering, shareable task URLs, JSON export, task/CLI copy actions,
+and links to canonical GitHub nodes.
+
+```bash
+npm run explorer
+```
+
+Then open <http://localhost:4173/explorer/>. A local server is required so the browser
+can load the canonical JSONL data.
+
 ### Run without installing
 
 ```bash
