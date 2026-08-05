@@ -1,6 +1,6 @@
 {
     "name": "kalaris-myriad",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "description": "CLI and data package for the MYRIAD 10,000-node biotech agent task graph.",
     "type": "module",
     "bin": {
