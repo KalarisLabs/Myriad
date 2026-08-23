@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const cli = path.join(root, 'bin', 'kalaris-myriad.js');
+const router = path.join(root, 'examples', 'task-router.js');
 function run(args) {
   const r = spawnSync(process.execPath, [cli, ...args], { cwd: root, encoding: 'utf8' });
   assert.equal(r.status, 0, r.stderr || r.stdout);
@@ -36,4 +37,20 @@ test('CLI validator passes', () => {
   const data = JSON.parse(run(['validate','--json']));
   assert.equal(data.status, 'PASS');
   assert.equal(data.task_count, 10000);
+});
+
+test('task router returns a bounded route without claiming completion', () => {
+  const result = spawnSync(process.execPath, [router, 'variant', 'off-target'], {
+    cwd: root,
+    encoding: 'utf8'
+  });
+  assert.equal(result.status, 0, result.stderr || result.stdout);
+  const data = JSON.parse(result.stdout);
+  assert.equal(data.status, 'routed');
+  assert.match(data.task.id, /^MYR-/);
+  assert.equal(data.task.review_boundary.mode, 'computational-advisory');
+  assert.equal(data.task.review_boundary.human_review_required, true);
+  assert.equal(data.task.review_boundary.scientific_validation_claim, 'none');
+  assert.ok(data.task.expected_evidence.length > 0);
+  assert.equal('completed' in data, false);
 });
