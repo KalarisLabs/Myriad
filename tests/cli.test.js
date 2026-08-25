@@ -54,3 +54,17 @@ test('task router returns a bounded route without claiming completion', () => {
   assert.ok(data.task.expected_evidence.length > 0);
   assert.equal('completed' in data, false);
 });
+
+test('task router emits complete JSON when no route matches', () => {
+  const request = 'zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz';
+  const result = spawnSync(process.execPath, [router, request], {
+    cwd: root,
+    encoding: 'utf8'
+  });
+  assert.equal(result.status, 0, result.stderr || result.stdout);
+  assert.deepEqual(JSON.parse(result.stdout), {
+    status: 'no-route',
+    request,
+    task: null
+  });
+});
