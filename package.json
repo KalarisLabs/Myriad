@@ -17,6 +17,7 @@
         "schemas/",
         "docs/",
         "explorer/",
+        "examples/",
         "README.md",
         "CREDITS.md",
         "NOTICE.md",

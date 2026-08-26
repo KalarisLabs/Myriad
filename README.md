@@ -43,6 +43,15 @@ Inspect a node:
 npx kalaris-myriad show MYR-D051-T041
 ```
 
+Route a natural-language request to one bounded task without claiming scientific completion:
+
+```bash
+node examples/task-router.js "variant-aware off-target assessment"
+```
+
+The example returns the selected node's objective, required evidence, and qualified-review
+boundary as structured JSON.
+
 Export a domain:
 
 ```bash
